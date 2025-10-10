@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Gebetszyklus",
+    "install": "App installieren"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Start",
+      "pause": "Pause",
+      "resume": "Fortsetzen",
+      "next": "Nächster Schritt",
+      "reset": "Zurücksetzen",
+      "completed": "Abgeschlossen",
+      "step": "Schritt",
+      "of": "von",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Gebetszyklus starten",
+        "pause_step": "Aktuellen Schritt pausieren",
+        "resume_step": "Aktuellen Schritt fortsetzen",
+        "cycle_completed": "Gebetszyklus abgeschlossen",
+        "next_step": "Zum nächsten Gebetsschritt springen",
+        "restart_cycle": "Gebetszyklus von vorne neu starten"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Gesamtfortschritt"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Sprache"
     }
   }
 }

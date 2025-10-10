@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "祈りのサイクル",
+    "install": "アプリをインストール"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "賛美",
+        "description": "主を賛美することから祈りの時を始めましょう。今心にあることについて主を賛美してください。この一週間の間に主があなたの人生において行われた特別なことについて主を賛美してください。あなたの家族に対する主の恵みについて主を賛美してください。"
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "待つ",
+        "description": "主を待ち望むことに時間を費やしましょう。静かにして、主があなたのために思いをまとめてくださるようにしましょう。"
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "告白",
+        "description": "聖霊に、あなたの人生の中で主を不快にさせる可能性のあるものを示してくださるように求めましょう。間違った態度や、まだ告白の祈りをしていない具体的な行為を指摘してくださるように求めましょう。今、主に告白して清められるようにしましょう。"
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "御言葉を読む",
+        "description": "詩篇、預言書、または新約聖書の祈りに関する箇所を読むことに時間を費やしましょう。"
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "求める",
+        "description": "あなた自身のために願い事をしましょう。"
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "執り成し",
+        "description": "他の人々のために願い事をしましょう。"
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "御言葉を祈る",
+        "description": "特定の箇所を祈りましょう。聖書の祈りや多くの詩篇はこの目的によく適しています。"
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "感謝",
+        "description": "あなたの人生のこと、あなたの家族のこと、そしてあなたの教会のことについて主に感謝しましょう。"
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "歌う",
+        "description": "賛美または礼拝の歌、または他の賛美歌や霊的な歌を歌いましょう。"
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "黙想",
+        "description": "主があなたに語りかけてくださるように求めましょう。主があなたに与えてくださる印象を記録するために、ペンと紙を用意しておきましょう。"
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "聞く",
+        "description": "あなたが読んだこと、祈ったこと、歌ったことを統合することに時間を費やし、主がそれらすべてをどのようにまとめてあなたに語りかけてくださるかを見ましょう。"
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "賛美",
+        "description": "主と過ごした時間と、主があなたに与えてくださった印象について主を賛美しましょう。主の栄光ある属性について主を賛美しましょう。"
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "開始",
+      "pause": "一時停止",
+      "resume": "再開",
+      "next": "次のステップ",
+      "reset": "リセット",
+      "completed": "完了",
+      "step": "ステップ",
+      "of": "の",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "祈りのサイクルを開始",
+        "pause_step": "現在のステップを一時停止",
+        "resume_step": "現在のステップを再開",
+        "cycle_completed": "祈りのサイクルが完了しました",
+        "next_step": "次の祈りのステップにスキップ",
+        "restart_cycle": "祈りのサイクルを最初から再開"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "全体の進捗"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "言語"
     }
   }
 }

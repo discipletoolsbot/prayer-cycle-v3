@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "प्रार्थना चक्र",
+    "install": "ऐप इंस्टॉल करें"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "शुरू करें",
+      "pause": "रोकें",
+      "resume": "फिर से शुरू करें",
+      "next": "अगला कदम",
+      "reset": "रीसेट करें",
+      "completed": "पूर्ण",
+      "step": "कदम",
+      "of": "का",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "प्रार्थना चक्र शुरू करें",
+        "pause_step": "वर्तमान कदम रोकें",
+        "resume_step": "वर्तमान कदम फिर से शुरू करें",
+        "cycle_completed": "प्रार्थना चक्र पूर्ण",
+        "next_step": "अगले प्रार्थना कदम पर जाएं",
+        "restart_cycle": "प्रार्थना चक्र शुरुआत से फिर से शुरू करें"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "कुल प्रगति"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "भाषा"
     }
   }
 }

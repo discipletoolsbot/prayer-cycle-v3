@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Ciclo di Preghiera",
+    "install": "Installa app"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Avvia",
+      "pause": "Pausa",
+      "resume": "Riprendi",
+      "next": "Passo Successivo",
+      "reset": "Ricomincia",
+      "completed": "Completato",
+      "step": "Passo",
+      "of": "di",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Avvia ciclo di preghiera",
+        "pause_step": "Metti in pausa il passo corrente",
+        "resume_step": "Riprendi il passo corrente",
+        "cycle_completed": "Ciclo di preghiera completato",
+        "next_step": "Salta al passo di preghiera successivo",
+        "restart_cycle": "Ricomincia il ciclo di preghiera dall'inizio"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Progresso Totale"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Lingua"
     }
   }
 }

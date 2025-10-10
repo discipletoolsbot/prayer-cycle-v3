@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "ஜெப சுழற்சி",
+    "install": "பயன்பாட்டை நிறுவு"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "தொடங்கு",
+      "pause": "இடைநிறுத்து",
+      "resume": "மீண்டும் தொடங்கு",
+      "next": "அடுத்த படி",
+      "reset": "மீட்டமை",
+      "completed": "முடிந்தது",
+      "step": "படி",
+      "of": "இன்",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "ஜெப சுழற்சியைத் தொடங்கு",
+        "pause_step": "தற்போதைய படியை இடைநிறுத்து",
+        "resume_step": "தற்போதைய படியை மீண்டும் தொடங்கு",
+        "cycle_completed": "ஜெப சுழற்சி முடிந்தது",
+        "next_step": "அடுத்த ஜெப படிக்குச் செல்",
+        "restart_cycle": "ஆரம்பத்திலிருந்து ஜெப சுழற்சியை மீண்டும் தொடங்கு"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "மொத்த முன்னேற்றம்"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "மொழி"
     }
   }
 }

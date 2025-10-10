@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "የጸሎት ዑደት",
+    "install": "መተግበሪያ ጫን"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "ምስጋና",
+        "description": "ጌታን በማመስገን የጸሎት ሰዓትዎን ይጀምሩ። አሁን በአእምሮዎ ላሉት ነገሮች ያመስግኑት። ባለፈው ሳምንት በህይወትዎ ውስጥ ባደረገው አንድ ልዩ ነገር ያመስግኑት። ለቤተሰብዎ ስላሳየው መልካምነት ያመስግኑት።"
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "መጠበቅ",
+        "description": "ጌታን በመጠበቅ ጊዜ ያሳልፉ። ዝም ይበሉ እና ለእርስዎ ሀሳቦችን እንዲሰበስብ ይፍቀዱለት።"
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "መናዘዝ",
+        "description": "መንፈስ ቅዱስ በህይወትዎ ውስጥ እሱን የማያስደስተው ማንኛውንም ነገር እንዲያሳይዎት ይጠይቁ። ስህተት የሆኑ አመለካከቶችን እንዲጠቁም ይጠይቁት፣ እንዲሁም እስካሁን ድረስ የመናዘዝ ጸሎት ያላደረጉባቸውን ልዩ ድርጊቶች። አሁን ለጌታ ይናዛዙ በዚህም የተጠራሩ ይሆናሉ።"
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "ቃሉን ማንበብ",
+        "description": "በዳዊት መዝሙር፣ በነቢያት፣ ወይም በአዲሱ ኪዳን ውስጥ ስለ ጸሎት ባሉ ክፍሎች በማንበብ ጊዜ ያሳልፉ።"
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "መጠየቅ",
+        "description": "ለራስዎ ምኞቶችን ያድርጉ።"
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "መካከለኛ",
+        "description": "ለሌሎች ምኞቶችን ያድርጉ።"
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "ቃሉን ጸለይ",
+        "description": "ልዩ ምንባቦችን ጸልዩ። የመጽሐፍ ቅዱስ ጸሎቶች እንዲሁም ብዙ መዝሙሮች ለዚህ አላማ በደንብ ይሰራሉ።"
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "አመስግን",
+        "description": "ለህይወትዎ ነገሮች፣ ለቤተሰብዎ እና ለቤተክርስቲያንዎ ጌታን አመስግኑ።"
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "መዝሙር",
+        "description": "የማመስገኛ ወይም የአምልኮ ዘፈኖችን ወይም ሌሎች መዝሙሮችን ወይም መንፈሳዊ ዘፈኖችን ዘምሩ።"
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "ማሰብሰብ",
+        "description": "ጌታ ከእርስዎ ጋር እንዲናገር ይጠይቁ። እሱ የሚሰጥዎትን ስሜቶች ለመመዝገብ ብዕር እና ወረቀት ዝግጁ ያድርጉ።"
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "ማዳመጥ",
+        "description": "ያነበቡትን ነገሮች፣ የጸለዩትን ነገሮች እና የዘመሩትን ነገሮች በማዋሃድ ጊዜ ያሳልፉ እና ጌታ ሁሉንም በአንድ ላይ በማሰባሰብ ከእርስዎ ጋር እንዴት እንደሚናገር ይመልከቱ።"
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "ምስጋና",
+        "description": "ከእሱ ጋር ያሳለፉትን ጊዜ እና የሰጠዎትን ስሜቶች ጌታን አመስግኑ። ለእርሱ ክቡር ባህሪያቱ ያመስግኑት።"
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "ጀምር",
+      "pause": "ቆም",
+      "resume": "ቀጥል",
+      "next": "ቀጣይ ደረጃ",
+      "reset": "እንደገና አስጀምር",
+      "completed": "ተጠናቅቋል",
+      "step": "ደረጃ",
+      "of": "ከ",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "የጸሎት ዑደት ጀምር",
+        "pause_step": "አሁኑን ደረጃ ቆም",
+        "resume_step": "አሁኑን ደረጃ ቀጥል",
+        "cycle_completed": "የጸሎት ዑደት ተጠናቅቋል",
+        "next_step": "ወደ ቀጣይ የጸሎት ደረጃ ዝለል",
+        "restart_cycle": "የጸሎት ዑደቱን ከመጀመሪያው እንደገና ጀምር"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "አጠቃላይ እድገት"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "ቋንቋ"
     }
   }
 }

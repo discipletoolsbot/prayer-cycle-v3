@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "ପ୍ରାର୍ଥନା ଚକ୍ର",
+    "install": "ଆପ୍ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "ଆରମ୍ଭ କରନ୍ତୁ",
+      "pause": "ବିରତି",
+      "resume": "ପୁନଃଆରମ୍ଭ କରନ୍ତୁ",
+      "next": "ପରବର୍ତ୍ତୀ ପଦକ୍ଷେପ",
+      "reset": "ରିସେଟ୍ କରନ୍ତୁ",
+      "completed": "ସମ୍ପୂର୍ଣ୍ଣ",
+      "step": "ପଦକ୍ଷେପ",
+      "of": "ର",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "ପ୍ରାର୍ଥନା ଚକ୍ର ଆରମ୍ଭ କରନ୍ତୁ",
+        "pause_step": "ସାମ୍ପ୍ରତିକ ପଦକ୍ଷେପ ବିରତି କରନ୍ତୁ",
+        "resume_step": "ସାମ୍ପ୍ରତିକ ପଦକ୍ଷେପ ପୁନଃଆରମ୍ଭ କରନ୍ତୁ",
+        "cycle_completed": "ପ୍ରାର୍ଥନା ଚକ୍ର ସମ୍ପୂର୍ଣ୍ଣ",
+        "next_step": "ପରବର୍ତ୍ତୀ ପ୍ରାର୍ଥନା ପଦକ୍ଷେପକୁ ଯାଆନ୍ତୁ",
+        "restart_cycle": "ଆରମ୍ଭରୁ ପ୍ରାର୍ଥନା ଚକ୍ର ପୁନଃଆରମ୍ଭ କରନ୍ତୁ"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "ମୋଟ ପ୍ରଗତି"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "ଭାଷା"
     }
   }
 }

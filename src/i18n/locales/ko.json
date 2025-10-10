@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "기도 주기",
+    "install": "앱 설치"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "찬양",
+        "description": "주님을 찬양하며 기도 시간을 시작하세요. 지금 마음에 떠오르는 것들에 대해 주님을 찬양하세요. 지난 주에 주님께서 당신의 삶에 행하신 특별한 일에 대해 찬양하세요. 당신의 가족에 대한 주님의 선하심을 찬양하세요."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "기다림",
+        "description": "주님을 기다리는 시간을 가지세요. 침묵하며 주님께서 당신을 위해 생각들을 모아주시도록 하세요."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "고백",
+        "description": "성령님께 당신의 삶에서 주님을 불쾌하게 할 수 있는 모든 것을 보여달라고 구하세요. 잘못된 태도와 아직 고백의 기도를 드리지 않은 구체적인 행동들을 지적해 달라고 구하세요. 이제 주님께 고백하여 깨끗함을 받으세요."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "말씀 읽기",
+        "description": "시편, 선지서, 또는 신약성경의 기도에 관한 구절들을 읽는 시간을 가지세요."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "구하기",
+        "description": "자신을 위해 간구하세요."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "중보기도",
+        "description": "다른 사람들을 위해 간구하세요."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "말씀 기도",
+        "description": "특정한 구절들을 기도하세요. 성경의 기도문들과 많은 시편들이 이 목적에 잘 맞습니다."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "감사",
+        "description": "당신의 삶의 일들과 가족, 그리고 교회를 위해 주님께 감사드리세요."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "찬송",
+        "description": "찬양이나 경배의 노래, 또는 다른 찬송가나 영적인 노래를 부르세요."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "묵상",
+        "description": "주님께서 당신에게 말씀하시도록 구하세요. 주님께서 주시는 감동을 기록할 수 있도록 펜과 종이를 준비하세요."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "듣기",
+        "description": "당신이 읽은 것들, 기도한 것들, 그리고 찬송한 것들을 통합하는 시간을 가지고, 주님께서 그 모든 것을 어떻게 모아 당신에게 말씀하시는지 보세요."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "찬양",
+        "description": "주님과 함께 보낸 시간과 주님께서 주신 감동들에 대해 주님을 찬양하세요. 주님의 영광스러운 속성들을 찬양하세요."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "시작",
+      "pause": "일시정지",
+      "resume": "재개",
+      "next": "다음 단계",
+      "reset": "재설정",
+      "completed": "완료됨",
+      "step": "단계",
+      "of": "의",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "기도 주기 시작",
+        "pause_step": "현재 단계 일시정지",
+        "resume_step": "현재 단계 재개",
+        "cycle_completed": "기도 주기 완료",
+        "next_step": "다음 기도 단계로 건너뛰기",
+        "restart_cycle": "처음부터 기도 주기 다시 시작"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "전체 진행률"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "언어"
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Աղոթքի Ցիկլ",
+    "install": "Տեղադրել հավելվածը"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Սկսել",
+      "pause": "Դադար",
+      "resume": "Շարունակել",
+      "next": "Հաջորդ Քայլ",
+      "reset": "Վերականգնել",
+      "completed": "Ավարտված է",
+      "step": "Քայլ",
+      "of": "-ից",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Սկսել աղոթքի ցիկլը",
+        "pause_step": "Դադարեցնել ընթացիկ քայլը",
+        "resume_step": "Շարունակել ընթացիկ քայլը",
+        "cycle_completed": "Աղոթքի ցիկլն ավարտված է",
+        "next_step": "Անցնել աղոթքի հաջորդ քայլին",
+        "restart_cycle": "Վերագործարկել աղոթքի ցիկլը սկզբից"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Ընդհանուր Առաջընթաց"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Լեզու"
     }
   }
 }

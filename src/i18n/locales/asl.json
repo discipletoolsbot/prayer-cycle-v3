@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Prayer Cycle",
+    "install": "Install app"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "PRAISE",
+        "description": "Begin your prayer time by praising the Lord. Praise Him for things on your mind right now. Praise Him for one special thing He has done in your life this past week. Praise Him for His goodness to your family."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "WAIT",
+        "description": "Spend time waiting on the Lord. Be silent and let Him gather reflections for you."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "CONFESS",
+        "description": "Ask the Holy Spirit to show you anything in your life that might be displeasing to Him. Ask Him to point out attitudes that are wrong, as well as specific acts for which you have not yet made a prayer of confession. Now confess that to the Lord so that you might be cleansed."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "READ THE WORD",
+        "description": "Spend time reading in the Psalms, in the prophets, or passages on prayer located in the New Testament."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "ASK",
+        "description": "Make requests on behalf of yourself."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "INTERCESSION",
+        "description": "Make requests on behalf of others."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "PRAY THE WORD",
+        "description": "Pray specific passages. Scriptural prayers as well as a number of Psalms lend themselves well to this purpose."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "THANK",
+        "description": "Give thanks to the Lord for the things in your life, on behalf of your family, and on behalf of your church."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "SING",
+        "description": "Sing songs of praise or worship or another hymn or spiritual song."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "MEDITATE",
+        "description": "Ask the Lord to speak to you. Have a pen and paper ready to record impressions He gives you."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "LISTEN",
+        "description": "Spend time merging the things you have read, things you have prayed and things you have sung and see how the Lord brings them all together to speak to you."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "PRAISE",
+        "description": "Praise the Lord for the time you have had to spend with Him and the impressions He has given you. Praise Him for His glorious attributes."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Start",
+      "pause": "Pause",
+      "resume": "Resume",
+      "next": "Next Step",
+      "reset": "Reset",
+      "completed": "Completed",
+      "step": "Step",
+      "of": "of",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Start prayer cycle",
+        "pause_step": "Pause current step",
+        "resume_step": "Resume current step",
+        "cycle_completed": "Prayer cycle completed",
+        "next_step": "Skip to next prayer step",
+        "restart_cycle": "Restart prayer cycle from beginning"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Total Progress"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Language"
     }
   }
 }

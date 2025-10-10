@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Ciclul de Rugăciune",
+    "install": "Instalează aplicația"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "LAUDĂ",
+        "description": "Începe ora ta de rugăciune lăudându-L pe Domnul. Laudă-L pentru lucrurile care îți sunt în minte acum. Laudă-L pentru un lucru special pe care l-a făcut în viața ta în săptămâna trecută. Laudă-L pentru bunătatea Lui față de familia ta."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "AȘTEPTARE",
+        "description": "Petrece timp așteptându-L pe Domnul. Fii tăcut și lasă-L să adune gânduri pentru tine."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "MĂRTURISIRE",
+        "description": "Cere-I Duhului Sfânt să îți arate orice din viața ta care ar putea să Îl displăsea. Roagă-L să îți arate atitudinile greșite, precum și faptele specifice pentru care nu ai făcut încă o rugăciune de mărturisire. Acum mărturisește aceasta Domnului pentru a fi curățat."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "CITEȘTE CUVÂNTUL",
+        "description": "Petrece timp citind în Psalmi, în profeți sau pasaje despre rugăciune din Noul Testament."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "CERE",
+        "description": "Fă cereri în numele tău."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "MIJLOCIRE",
+        "description": "Fă cereri în numele altora."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "ROAGĂ CUVÂNTUL",
+        "description": "Roagă pasaje specifice. Rugăciunile scripturale precum și mai mulți Psalmi se pretează bine pentru acest scop."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "MULȚUMEȘTE",
+        "description": "Mulțumește-I Domnului pentru lucrurile din viața ta, în numele familiei tale și în numele bisericii tale."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "CÂNTĂ",
+        "description": "Cântă cântări de laudă sau închinare sau un alt imn sau cântec spiritual."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "MEDITEAZĂ",
+        "description": "Cere-I Domnului să îți vorbească. Ai un pix și hârtie pregătite pentru a înregistra impresiile pe care ți le dă."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "ASCULTĂ",
+        "description": "Petrece timp îmbinând lucrurile pe care le-ai citit, lucrurile pentru care te-ai rugat și lucrurile pe care le-ai cântat și vezi cum le aduce Domnul pe toate laolaltă pentru a-ți vorbi."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "LAUDĂ",
+        "description": "Laudă-L pe Domnul pentru timpul pe care l-ai petrecut cu El și pentru impresiile pe care ți le-a dat. Laudă-L pentru atributele Lui glorioase."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Începe",
+      "pause": "Pauză",
+      "resume": "Reia",
+      "next": "Pasul Următor",
+      "reset": "Resetează",
+      "completed": "Finalizat",
+      "step": "Pasul",
+      "of": "din",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Începe ciclul de rugăciune",
+        "pause_step": "Pune în pauză pasul curent",
+        "resume_step": "Reia pasul curent",
+        "cycle_completed": "Ciclul de rugăciune finalizat",
+        "next_step": "Treci la următorul pas de rugăciune",
+        "restart_cycle": "Resetează ciclul de rugăciune de la început"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Progres Total"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Limbă"
     }
   }
 }

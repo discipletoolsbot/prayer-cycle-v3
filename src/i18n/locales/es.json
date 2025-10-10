@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Ciclo de Oración"
+    "title": "Ciclo de Oración",
+    "install": "Instalar aplicación"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Iniciar",
+      "pause": "Pausar",
+      "resume": "Reanudar",
+      "next": "Siguiente Paso",
+      "reset": "Reiniciar",
+      "completed": "Completado",
+      "step": "Paso",
+      "of": "de",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Iniciar ciclo de oración",
+        "pause_step": "Pausar paso actual",
+        "resume_step": "Reanudar paso actual",
+        "cycle_completed": "Ciclo de oración completado",
+        "next_step": "Saltar al siguiente paso de oración",
+        "restart_cycle": "Reiniciar ciclo de oración desde el principio"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Progreso Total"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Idioma"
     }
   }
 }

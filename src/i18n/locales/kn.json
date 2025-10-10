@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "ಪ್ರಾರ್ಥನೆ ಚಕ್ರ",
+    "install": "ಆ್ಯಪ್ ಅನ್ನು ಸ್ಥಾಪಿಸಿ"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "ಪ್ರಾರಂಭಿಸಿ",
+      "pause": "ವಿರಾಮಗೊಳಿಸಿ",
+      "resume": "ಮುಂದುವರಿಸಿ",
+      "next": "ಮುಂದಿನ ಹಂತ",
+      "reset": "ಮರುಹೊಂದಿಸಿ",
+      "completed": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+      "step": "ಹಂತ",
+      "of": "ನ",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "ಪ್ರಾರ್ಥನೆ ಚಕ್ರವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+        "pause_step": "ಪ್ರಸ್ತುತ ಹಂತವನ್ನು ವಿರಾಮಗೊಳಿಸಿ",
+        "resume_step": "ಪ್ರಸ್ತುತ ಹಂತವನ್ನು ಮುಂದುವರಿಸಿ",
+        "cycle_completed": "ಪ್ರಾರ್ಥನೆ ಚಕ್ರ ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "next_step": "ಮುಂದಿನ ಪ್ರಾರ್ಥನೆ ಹಂತಕ್ಕೆ ಹೋಗಿ",
+        "restart_cycle": "ಆರಂಭದಿಂದ ಪ್ರಾರ್ಥನೆ ಚಕ್ರವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "ಒಟ್ಟು ಪ್ರಗತಿ"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "ಭಾಷೆ"
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Dua Döngüsü",
+    "install": "Uygulamayı yükle"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Başlat",
+      "pause": "Duraklat",
+      "resume": "Devam et",
+      "next": "Sonraki Adım",
+      "reset": "Sıfırla",
+      "completed": "Tamamlandı",
+      "step": "Adım",
+      "of": "/",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Dua döngüsünü başlat",
+        "pause_step": "Mevcut adımı duraklat",
+        "resume_step": "Mevcut adıma devam et",
+        "cycle_completed": "Dua döngüsü tamamlandı",
+        "next_step": "Sonraki dua adımına atla",
+        "restart_cycle": "Dua döngüsünü baştan yeniden başlat"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Toplam İlerleme"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Dil"
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Цикл Молитвы",
+    "install": "Установить приложение"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Начать",
+      "pause": "Пауза",
+      "resume": "Продолжить",
+      "next": "Следующий Шаг",
+      "reset": "Сбросить",
+      "completed": "Завершено",
+      "step": "Шаг",
+      "of": "из",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Начать цикл молитвы",
+        "pause_step": "Приостановить текущий шаг",
+        "resume_step": "Продолжить текущий шаг",
+        "cycle_completed": "Цикл молитвы завершен",
+        "next_step": "Перейти к следующему шагу молитвы",
+        "restart_cycle": "Перезапустить цикл молитвы с начала"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Общий Прогресс"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Язык"
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Ciklus Molitve",
+    "install": "Instaliraj aplikaciju"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Pokreni",
+      "pause": "Pauza",
+      "resume": "Nastavi",
+      "next": "Sljedeći Korak",
+      "reset": "Resetiraj",
+      "completed": "Završeno",
+      "step": "Korak",
+      "of": "od",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Pokreni ciklus molitve",
+        "pause_step": "Pauziraj trenutni korak",
+        "resume_step": "Nastavi trenutni korak",
+        "cycle_completed": "Ciklus molitve završen",
+        "next_step": "Preskoči na sljedeći korak molitve",
+        "restart_cycle": "Resetiraj ciklus molitve od početka"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Ukupan Napredak"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Jezik"
     }
   }
 }

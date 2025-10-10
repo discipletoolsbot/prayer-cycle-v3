@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Siklus Doa",
+    "install": "Instal aplikasi"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Mulai",
+      "pause": "Jeda",
+      "resume": "Lanjutkan",
+      "next": "Langkah Berikutnya",
+      "reset": "Atur ulang",
+      "completed": "Selesai",
+      "step": "Langkah",
+      "of": "dari",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Mulai siklus doa",
+        "pause_step": "Jeda langkah saat ini",
+        "resume_step": "Lanjutkan langkah saat ini",
+        "cycle_completed": "Siklus doa selesai",
+        "next_step": "Lewati ke langkah doa berikutnya",
+        "restart_cycle": "Mulai ulang siklus doa dari awal"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Progres Total"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Bahasa"
     }
   }
 }

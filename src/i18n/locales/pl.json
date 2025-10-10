@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Cykl Modlitwy",
+    "install": "Zainstaluj aplikację"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Start",
+      "pause": "Pauza",
+      "resume": "Wznów",
+      "next": "Następny Krok",
+      "reset": "Resetuj",
+      "completed": "Ukończono",
+      "step": "Krok",
+      "of": "z",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Rozpocznij cykl modlitwy",
+        "pause_step": "Wstrzymaj bieżący krok",
+        "resume_step": "Wznów bieżący krok",
+        "cycle_completed": "Cykl modlitwy ukończony",
+        "next_step": "Przejdź do następnego kroku modlitwy",
+        "restart_cycle": "Zrestartuj cykl modlitwy od początku"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Całkowity Postęp"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Język"
     }
   }
 }

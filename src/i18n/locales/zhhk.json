@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "禱告週期",
+    "install": "安裝應用程式"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "開始",
+      "pause": "暫停",
+      "resume": "繼續",
+      "next": "下一步",
+      "reset": "重置",
+      "completed": "已完成",
+      "step": "步驟",
+      "of": "的",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "開始禱告週期",
+        "pause_step": "暫停當前步驟",
+        "resume_step": "繼續當前步驟",
+        "cycle_completed": "禱告週期已完成",
+        "next_step": "跳至下一個禱告步驟",
+        "restart_cycle": "從頭重新開始禱告週期"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "總進度"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "語言"
     }
   }
 }

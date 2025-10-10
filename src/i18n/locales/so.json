@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Wareegga Tukashada",
+    "install": "Ku rakib appka"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "Ammaan",
+        "description": "Ku bilowda saacadaha tukashadaada adiga ammaanaya Rabbiga. Isaga ku ammaan waxyaalaha hadda maanka ku haya. Isaga ku ammaan hal gaar ah oo uu noloshadaada sameeyay todobaadkii la soo dhaafay. Isaga ku ammaan wanaagsanaantiisa qoyskiinna."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "Sug",
+        "description": "Waqti ku qaato adiga sugaya Rabbiga. Aamusnow oo u oggolow inuu fikirrada idinka u soo ururiyo."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "Qir",
+        "description": "Weydii Ruuxa Quduuska ah inuu ku tuso wax kasta oo noloshadaada ku jira oo isaga ka xumayn kara. Weydii inuu u fiiro geeyo dabeecadaha qaldan iyo ficillada gaarka ah oo aadan weli tukashada qirashada u samayn. Hadda Rabbiga u qir si aad u daahirnaato."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Akhri Erayga",
+        "description": "Waqti ku qaato adiga akhriya Sabuurrada, nebiyada, ama qaybo ku saabsan tukashada ee Axdiga Cusub."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "Weydiiso",
+        "description": "Codsiyada samee adiga daraaddaa."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "Dhexdhexaadin",
+        "description": "Codsiyada samee dadka kale daraaddood."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Tukasho Erayga",
+        "description": "Tukasho qaybo gaar ah. Tukashooyinka Kitaabka Quduuska ah iyo Sabuuro badan ayaa si fiican ugu habboon ujeedadan."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "Mahad",
+        "description": "Rabbiga ugu mahad naq waxyaalaha noloshadaada ku jira, qoyskiinna daraaddood, iyo kaniisaddiinna daraaddood."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "Gabay",
+        "description": "Heeso ammaan ama cibaadate ama gabayo kale ama gabayo ruuxi ah ku heeso."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "Ka Feker",
+        "description": "Rabbiga ka codso inuu kula hadlo. Qalin iyo warqad diyaar u haysato si aad u duubto aragtiyaha uu ku siiyo."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "Dhegayso",
+        "description": "Waqti ku qaato adiga isku daraya waxyaalaha aad akhriday, waxyaalaha aad u tukashooday iyo waxyaalaha aad heeseysay oo arag sida Rabbiga u wada keeno oo uu kula hadlo."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "Ammaan",
+        "description": "Rabbiga u ammaan waqtigii aad isaga la qaadatay iyo aragtiyihii uu ku siiyay. Isaga u ammaan sifooyinkiisa ammaanta leh."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Bilow",
+      "pause": "Jooji",
+      "resume": "Sii wad",
+      "next": "Tallaabada Xigta",
+      "reset": "Dib u bilow",
+      "completed": "Dhammaystiran",
+      "step": "Tallaabo",
+      "of": "ka mid ah",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Bilow wareegga tukashada",
+        "pause_step": "Jooji tallaabada hadda",
+        "resume_step": "Sii wad tallaabada hadda",
+        "cycle_completed": "Wareegga tukashada waa dhammaystiran yahay",
+        "next_step": "U gudub tallaabada tukashada ee xigta",
+        "restart_cycle": "Dib uga bilow wareegga tukashada bilowga"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Horumarinta Guud"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Luqadda"
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": ""
+    "title": "Chu kỳ Cầu nguyện",
+    "install": "Cài đặt ứng dụng"
   },
   "prayer": {
     "steps": {
@@ -54,30 +55,30 @@
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Bắt đầu",
+      "pause": "Tạm dừng",
+      "resume": "Tiếp tục",
+      "next": "Bước tiếp theo",
+      "reset": "Đặt lại",
+      "completed": "Hoàn thành",
+      "step": "Bước",
+      "of": "của",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Bắt đầu chu kỳ cầu nguyện",
+        "pause_step": "Tạm dừng bước hiện tại",
+        "resume_step": "Tiếp tục bước hiện tại",
+        "cycle_completed": "Chu kỳ cầu nguyện hoàn thành",
+        "next_step": "Chuyển đến bước cầu nguyện tiếp theo",
+        "restart_cycle": "Khởi động lại chu kỳ cầu nguyện từ đầu"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Tiến độ tổng thể"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Ngôn ngữ"
     }
   }
 }

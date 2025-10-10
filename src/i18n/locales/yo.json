@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Iyipo Adura",
+    "install": "Fi ìṣàmúlò sí"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "Ìyìn",
+        "description": "Bẹ̀rẹ̀ àkókò àdúrà rẹ nípa yíyin Olúwa. Yìn Ú fún àwọn ohun tí ó wà ní inú ọkàn rẹ báyìí. Yìn Ú fún nǹkan pàtàkì kan tí Ó ṣe ní ìgbésí ayé rẹ ní ọ̀sẹ̀ tó kọjá. Yìn Ú fún oore Rẹ̀ sí ẹbí rẹ."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "Dúró",
+        "description": "Lo àkókò láti dúró de Olúwa. Dákẹ́ kí O sì jẹ́ kí Ó kó àwọn èrò jọ fún ọ."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "Jẹ́wọ́",
+        "description": "Béèrè lọ́wọ́ Ẹ̀mí Mímọ́ láti fihàn ọ́ ohunkóhun nínú ìgbésí ayé rẹ tí ó lè mú inú Rẹ̀ bàjẹ́. Béèrè lọ́wọ́ Rẹ̀ láti tọ́ka sí àwọn ìhùwàsí tí kò tọ́, àti àwọn iṣẹ́ pàtàkì tí o kò tíì gbàdúrà ìjẹ́wọ́ fún. Báyìí jẹ́wọ́ fún Olúwa kí o lè di mímọ́."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Ka Ọ̀rọ̀",
+        "description": "Lo àkókò láti ka nínú àwọn Saamu, àwọn Wòlíì, tàbí àwọn ìpínrọ̀ nípa àdúrà tí ó wà nínú Májẹ̀mú Tuntun."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "Béèrè",
+        "description": "Ṣe àwọn ìbéèrè lórí ara rẹ."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "Àáríyànjiyàn",
+        "description": "Ṣe àwọn ìbéèrè lórí àwọn ẹlòmíràn."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Gbàdúrà Ọ̀rọ̀",
+        "description": "Gbàdúrà àwọn ìpínrọ̀ pàtàkì. Àwọn àdúrà Mímọ́ àti ọ̀pọ̀lọpọ̀ Saamu wúlò dáadáa fún ète yìí."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "Dúpẹ́",
+        "description": "Dúpẹ́ lọ́wọ́ Olúwa fún àwọn nǹkan nínú ìgbésí ayé rẹ, lórí ẹbí rẹ, àti lórí ìjọ rẹ."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "Kọrin",
+        "description": "Kọ àwọn orin ìyìn tàbí ìsìn tàbí orin ẹ̀mí mìíràn."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "Ṣàgbéyẹ̀wò",
+        "description": "Béèrè lọ́wọ́ Olúwa láti bá ọ sọ̀rọ̀. Mú kálámù àti ìwé ṣetán láti ṣe àkọsílẹ̀ àwọn ìmọ̀lára tí Ó fún ọ."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "Fetísílẹ̀",
+        "description": "Lo àkókò láti dàpọ̀ àwọn ohun tí o ti kà, àwọn ohun tí o ti gbàdúrà àti àwọn ohun tí o ti kọrin kí o sì wo bí Olúwa ṣe ń kó gbogbo wọn jọ láti bá ọ sọ̀rọ̀."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "Ìyìn",
+        "description": "Yìn Olúwa fún àkókò tí o ti lò pẹ̀lú Rẹ̀ àti àwọn ìmọ̀lára tí Ó ti fún ọ. Yìn Ú fún àwọn àbùdá Rẹ̀ tí ó ní ògo."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Bẹrẹ",
+      "pause": "Dákẹ́",
+      "resume": "Tẹsíwájú",
+      "next": "Ìgbésẹ̀ Tókàn",
+      "reset": "Tun bẹrẹ",
+      "completed": "Ti parí",
+      "step": "Ìgbésẹ̀",
+      "of": "nínú",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Bẹrẹ iyipo adura",
+        "pause_step": "Dá ìgbésẹ̀ lọ́wọ́lọ́wọ́ dúró",
+        "resume_step": "Tẹsíwájú pẹ̀lú ìgbésẹ̀ lọ́wọ́lọ́wọ́",
+        "cycle_completed": "Iyipo adura ti parí",
+        "next_step": "Fò lọ sí ìgbésẹ̀ adura tókàn",
+        "restart_cycle": "Tun bẹrẹ iyipo adura láti ìbẹ̀rẹ̀"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Ìlọsíwájú Gbogbògbò"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Èdè"
     }
   }
 }

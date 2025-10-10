@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Zagayowar Addu'a",
+    "install": "Shigar da app"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "Yabon",
+        "description": "Fara lokacin addu'arka ta hanyar yaban Ubangiji. Ka yabe Shi don abubuwan da ke a zuciyarka a yanzu. Ka yabe Shi don wani abu na musamman da Ya yi a rayuwarka a makon da ya gabata. Ka yabe Shi don kyawuntarSa ga iyalinka।"
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "Jira",
+        "description": "Ka kashe lokaci kana jiran Ubangiji. Ka yi shiru ka bar Shi Ya tattara ra'ayoyi a gare ka."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "Ikirari",
+        "description": "Ka tambayi Ruhu Mai Tsarki Ya nuna maka duk wani abu a rayuwarka da zai iya ba Shi haushi. Ka tambayi Ya nuna halaye masu kuskure da kuma ayyuka na musamman da ba ka yi addu'ar ikirari a kansu ba tukuna. Yanzu ka yi ikirari ga Ubangiji domin ka tsarkake."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Karanta Kalma",
+        "description": "Ka kashe lokaci kana karanta Zabura, annabawa, ko sashe game da addu'a a cikin Sabon Alkawari."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "Tambaya",
+        "description": "Ka yi roƙo a madadin kanka."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "Shisshiga",
+        "description": "Ka yi roƙo a madadin wasu."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Yi Addu'ar Kalma",
+        "description": "Ka yi addu'a na takamaiman sashe. Addu'o'in Littafi Mai Tsarki da Zabura da yawa sun dace da wannan manufa."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "Godiya",
+        "description": "Ka gode wa Ubangiji don abubuwan da ke cikin rayuwarka, a madadin iyalinka, da kuma a madadin coccinka."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "Rera",
+        "description": "Ka rera waƙoƙin yabo ko sujada ko wata waƙar siffili ko waƙar ruhaniya."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "Tunani",
+        "description": "Ka tambayi Ubangiji Ya yi magana da kai. Ka shirya alkalami da takarda don rubuta abubuwan da Ya ba ka."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "Saurara",
+        "description": "Ka kashe lokaci kana haɗa abubuwan da ka karanta, abubuwan da ka yi addu'a a kansu da abubuwan da ka rera kuma ka ga yadda Ubangiji Ya haɗa su duka ya yi magana da kai."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "Yabon",
+        "description": "Ka yabi Ubangiji don lokacin da ka kashe tare da Shi da abubuwan da Ya ba ka. Ka yabe Shi don halayensa masu ɗaukaka."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Fara",
+      "pause": "Tsaya",
+      "resume": "Ci gaba",
+      "next": "Mataki na Gaba",
+      "reset": "Sake saiti",
+      "completed": "An kammala",
+      "step": "Mataki",
+      "of": "na",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Fara zagayowar addu'a",
+        "pause_step": "Tsayar da matakin yanzu",
+        "resume_step": "Ci gaba da matakin yanzu",
+        "cycle_completed": "An kammala zagayowar addu'a",
+        "next_step": "Tsallake zuwa matakin addu'a na gaba",
+        "restart_cycle": "Sake fara zagayowar addu'a daga farko"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Ci gaban Duka"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Harshe"
     }
   }
 }

@@ -1,83 +1,84 @@
 {
   "app": {
-    "title": ""
+    "title": "Mzunguko wa Sala",
+    "install": "Sakinisha programu"
   },
   "prayer": {
     "steps": {
       "praise": {
-        "name": "",
-        "description": ""
+        "name": "Sifa",
+        "description": "Anza saa yako ya maombi kwa kumsifu Bwana. Msife kwa mambo yaliyoko akilini mwako sasa. Msife kwa jambo moja maalum alilofanya katika maisha yako wiki iliyopita. Msife kwa wema wake kwa familia yako."
       },
       "wait": {
-        "name": "",
-        "description": ""
+        "name": "Ngoja",
+        "description": "Tumia muda ukimngojea Bwana. Kuwa kimya na mwache akusanyie mawazo kwako."
       },
       "confess": {
-        "name": "",
-        "description": ""
+        "name": "Ungama",
+        "description": "Mwombe Roho Mtakatifu akuonyeshe chochote katika maisha yako kinachoweza kumchukiza. Mwombe aonyeshe mielekeo mibaya, pamoja na matendo maalum ambayo bado hujafanya maombi ya kuungama. Sasa ungama kwa Bwana ili upate kutakaswa."
       },
       "read_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Soma Neno",
+        "description": "Tumia muda kusoma katika Zaburi, manabii, au sehemu juu ya maombi zilizopo katika Agano Jipya."
       },
       "ask": {
-        "name": "",
-        "description": ""
+        "name": "Omba",
+        "description": "Fanya maombi kwa ajili yako mwenyewe."
       },
       "intercession": {
-        "name": "",
-        "description": ""
+        "name": "Uombezi",
+        "description": "Fanya maombi kwa niaba ya wengine."
       },
       "pray_the_word": {
-        "name": "",
-        "description": ""
+        "name": "Omba Neno",
+        "description": "Omba sehemu maalum. Maombi ya Maandiko pamoja na Zaburi nyingi yanafaa vizuri kwa kusudi hili."
       },
       "thank": {
-        "name": "",
-        "description": ""
+        "name": "Shukuru",
+        "description": "Mshukuru Bwana kwa mambo katika maisha yako, kwa niaba ya familia yako, na kwa niaba ya kanisa lako."
       },
       "sing": {
-        "name": "",
-        "description": ""
+        "name": "Imba",
+        "description": "Imba nyimbo za sifa au ibada au wimbo mwingine wa kiroho."
       },
       "meditate": {
-        "name": "",
-        "description": ""
+        "name": "Tafakari",
+        "description": "Mwombe Bwana azungumze nawe. Kuwa tayari na kalamu na karatasi kurekodi mawazo anayokupa."
       },
       "listen": {
-        "name": "",
-        "description": ""
+        "name": "Sikiliza",
+        "description": "Tumia muda kuchanganya mambo uliyosoma, mambo uliyoomba na mambo uliyoimba na uone jinsi Bwana anavyovilete vyote pamoja kuzungumza nawe."
       },
       "praise_end": {
-        "name": "",
-        "description": ""
+        "name": "Sifa",
+        "description": "Msifi Bwana kwa wakati uliomtumikia naye na mawazo aliyokupa. Msife kwa sifa zake za utukufu."
       }
     },
     "timer": {
-      "start": "",
-      "pause": "",
-      "resume": "",
-      "next": "",
-      "reset": "",
-      "completed": "",
-      "step": "",
-      "of": "",
+      "start": "Anza",
+      "pause": "Simama",
+      "resume": "Endelea",
+      "next": "Hatua Inayofuata",
+      "reset": "Weka upya",
+      "completed": "Imekamilika",
+      "step": "Hatua",
+      "of": "ya",
       "aria": {
-        "start_cycle": "",
-        "pause_step": "",
-        "resume_step": "",
-        "cycle_completed": "",
-        "next_step": "",
-        "restart_cycle": ""
+        "start_cycle": "Anza mzunguko wa sala",
+        "pause_step": "Simamisha hatua ya sasa",
+        "resume_step": "Endelea na hatua ya sasa",
+        "cycle_completed": "Mzunguko wa sala umekamilika",
+        "next_step": "Ruka kwenda hatua inayofuata ya sala",
+        "restart_cycle": "Anzisha upya mzunguko wa sala tangu mwanzo"
       }
     },
     "progress": {
-      "total_progress": ""
+      "total_progress": "Maendeleo Jumla"
     }
   },
   "settings": {
     "language": {
-      "title": ""
+      "title": "Lugha"
     }
   }
 }
