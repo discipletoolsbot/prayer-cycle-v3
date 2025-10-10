@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "讚美",
+        "description": "以讚美主來開始你們的禱告時間，腦海裡面想到什麼讚美神的話，就針對那些來讚美祂。"
+      },
+      "wait": {
+        "name": "等候",
+        "description": "花點時間安靜下來等候神，沉澱一下思緒。"
+      },
+      "confess": {
+        "name": "認罪",
+        "description": "求聖靈光照，看看在生活上有沒有任何不討神喜悅的事，不正確的態度，也求祂指出你們還有什麼沒認的罪，就向神認罪，得主赦免潔淨。"
+      },
+      "read_the_word": {
+        "name": "讀經",
+        "description": "查考聖經中詩篇、先知書，以及新約裡面有關禱告的經節。"
+      },
+      "ask": {
+        "name": "祈求",
+        "description": "為自己向神求。"
+      },
+      "intercession": {
+        "name": "代求",
+        "description": "為他人代求。"
+      },
+      "pray_the_word": {
+        "name": "回應",
+        "description": "以神的話語來做回應禱告；如聖經中的禱詞，特別在詩篇裡有許多禱告，都非常適合。"
+      },
+      "thank": {
+        "name": "感謝",
+        "description": "為自己生活上、家人、教會事工所蒙的恩向神獻上感謝。"
+      },
+      "sing": {
+        "name": "唱詩",
+        "description": "Sing praise songs."
+      },
+      "meditate": {
+        "name": "默想",
+        "description": "Meditate on God's word."
+      },
+      "listen": {
+        "name": "聆聽",
+        "description": "Listen to God."
+      },
+      "praise_end": {
+        "name": "讚美",
+        "description": "Praise the Lord."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

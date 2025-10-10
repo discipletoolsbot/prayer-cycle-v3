@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Prayer Cycle"
+    "title": "Prayer Cycle",
+    "install": "Install app"
   },
   "prayer": {
     "steps": {
@@ -14,43 +15,43 @@
       },
       "confess": {
         "name": "CONFESS",
-        "description": "Confess your sins to the Lord. Ask Him to search your heart and reveal any unconfessed sin. Confess these sins and receive His forgiveness."
+        "description": "Ask the Holy Spirit to show you anything in your life that might be displeasing to Him. Ask Him to point out attitudes that are wrong, as well as specific acts for which you have not yet made a prayer of confession. Now confess that to the Lord so that you might be cleansed."
       },
       "read_the_word": {
         "name": "READ THE WORD",
-        "description": "Read a passage from the Bible. Let God speak to you through His Word. Read slowly and meditatively, asking the Holy Spirit to illuminate the text."
+        "description": "Spend time reading in the Psalms, in the prophets, or passages on prayer located in the New Testament."
       },
       "ask": {
         "name": "ASK",
-        "description": "Ask God for your personal needs. Present your requests to Him with thanksgiving. Ask for wisdom, strength, and guidance in your daily life."
+        "description": "Make requests on behalf of yourself."
       },
       "intercession": {
         "name": "INTERCESSION",
-        "description": "Pray for others. Intercede for your family, friends, church, community, and world leaders. Ask God to work in their lives and circumstances."
+        "description": "Make requests on behalf of others."
       },
       "pray_the_word": {
         "name": "PRAY THE WORD",
-        "description": "Take the Scripture you read earlier and pray it back to God. Use the words and promises of Scripture as the foundation for your prayers."
+        "description": "Pray specific passages. Scriptural prayers as well as a number of Psalms lend themselves well to this purpose."
       },
       "thank": {
         "name": "THANK",
-        "description": "Thank God for His blessings, answered prayers, and faithfulness. Express gratitude for both big and small things in your life."
+        "description": "Give thanks to the Lord for the things in your life, on behalf of your family, and on behalf of your church."
       },
       "sing": {
         "name": "SING",
-        "description": "Sing praises to God. This can be songs you know, hymns, or simply making a joyful noise unto the Lord. Let your heart overflow in musical worship."
+        "description": "Sing songs of praise or worship or another hymn or spiritual song."
       },
       "meditate": {
         "name": "MEDITATE",
-        "description": "Meditate on God's character, His Word, or His works. Focus your mind on who God is and what He has done. Let His truth fill your thoughts."
+        "description": "Ask the Lord to speak to you. Have a pen and paper ready to record impressions He gives you."
       },
       "listen": {
         "name": "LISTEN",
-        "description": "Be still and listen for God's voice. Wait quietly before Him, allowing the Holy Spirit to speak to your heart. Be open to His guidance and direction."
+        "description": "Spend time merging the things you have read, things you have prayed and things you have sung and see how the Lord brings them all together to speak to you."
       },
       "praise_end": {
         "name": "PRAISE",
-        "description": "End your prayer hour as you began - with praise. Thank God for this time of communion with Him and praise Him for who He is and what He has done."
+        "description": "Praise the Lord for the time you have had to spend with Him and the impressions He has given you. Praise Him for His glorious attributes."
       }
     },
     "timer": {

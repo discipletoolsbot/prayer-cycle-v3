@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "讚美",
+        "description": "以讚美主來開始你們的禱告時間，腦海中想到什麼讚美神的話，就用那些來讚美祂。"
+      },
+      "wait": {
+        "name": "等候",
+        "description": "花點時間安靜下來等候神，沉澱一下思緒。"
+      },
+      "confess": {
+        "name": "認罪",
+        "description": "求聖靈光照，看看在生活上有沒有任何不討神喜悅的事，不正確的態度..."
+      },
+      "read_the_word": {
+        "name": "讀經",
+        "description": "花點時間閱讀聖經中的詩篇、先知書，以及新約裏有關禱告的經文。"
+      },
+      "ask": {
+        "name": "懇求",
+        "description": "為自己向神懇求。"
+      },
+      "intercession": {
+        "name": "代求",
+        "description": "為別人向神代求。"
+      },
+      "pray_the_word": {
+        "name": "禱讀",
+        "description": "以神的話語來做回應禱告；如聖經中的禱文，特別在詩篇裏有許多禱告..."
+      },
+      "thank": {
+        "name": "感恩",
+        "description": "為自己生活上、家人、教會事工所蒙的恩向神獻上感謝。"
+      },
+      "sing": {
+        "name": "唱詩",
+        "description": "唱一首詩歌或聖詩去敬拜讚美神。"
+      },
+      "meditate": {
+        "name": "默想",
+        "description": "靜默禱告並求神對你們說話。準備好紙筆，把祂所給的感受寫下來。"
+      },
+      "listen": {
+        "name": "聆聽",
+        "description": "再花點時間整理所閱讀的、所禱告的、所唱的歌，看神如何融合這一切對你們說話。"
+      },
+      "praise_end": {
+        "name": "讚美",
+        "description": "為time spent with God and impressions given, praising His attributes."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

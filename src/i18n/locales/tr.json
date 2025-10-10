@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "YÜCELTİN",
+        "description": "Dua saatinize Rab'bi yücelterek başlayın. Şu an aklınızda olanlar için O'nu yüceltin. Geçtiğimiz hafta hayatınızda gerçekleştirdiği özel bir şey için O'nu yüceltin. Ailenize olan iyiliği için O'na şükredin."
+      },
+      "wait": {
+        "name": "BEKLEYİN",
+        "description": "Rab'bi bekleyerek zaman geçirin. Sessiz olun ve O'nun sizin için düşünceleri bir araya getirmesine izin verin."
+      },
+      "confess": {
+        "name": "İTİRAF EDİN",
+        "description": "Kutsal Ruh'tan yaşamınızda O'nu hoşnut etmeyen her şeyi size göstermesini isteyin. O'ndan yanlış olan tutumların yanı sıra henüz itiraf duası yapmadığınız belirli eylemleri de göstermesini isteyin. Şimdi bunu Rab'be itiraf edin ki temizlenebilesiniz."
+      },
+      "read_the_word": {
+        "name": "SÖZ'Ü OKUYUN",
+        "description": "Mezmurlar, peygamberler veya Yeni Antlaşma'da yer alan dua hakkındaki bölümleri okuyarak zaman geçirin."
+      },
+      "ask": {
+        "name": "İSTEYİN",
+        "description": "Kendiniz adına isteklerde bulunun."
+      },
+      "intercession": {
+        "name": "ARACILIK EDİN",
+        "description": "Başkaları adına isteklerde bulunun."
+      },
+      "pray_the_word": {
+        "name": "SÖZ ÜZERİNDE DUA EDİN",
+        "description": "Spesifik bölümler için dua edin. Kutsal Yazılardaki duaların yanı sıra bazı Mezmurlar da bu amaca çok uygundur."
+      },
+      "thank": {
+        "name": "ŞÜKREDİN",
+        "description": "Hayatınızdaki şeyler için, aileniz adına ve kilise adına Rab'be şükredin."
+      },
+      "sing": {
+        "name": "ŞARKI SÖYLE",
+        "description": "Övgü ve tapınma şarkıları veya başka bir ilahi veya ruhani şarkı söyleyin."
+      },
+      "meditate": {
+        "name": "MEDİTE ET",
+        "description": "Rab'den sizinle konuşmasını isteyin. Size verdiği izlenimleri kaydetmek için bir kalem ve kağıt hazır bulundurun."
+      },
+      "listen": {
+        "name": "DİNLE",
+        "description": "Okuduğunuz, dua ettiğiniz ve söylediğiniz şeyleri birleştirerek zaman geçirin ve Rab'bin size konuşmak için hepsini nasıl bir araya getirdiğini görün."
+      },
+      "praise_end": {
+        "name": "YÜCELTİN",
+        "description": "Rab'be O'nunla geçirdiğiniz zaman ve size verdiği izlenimler için şükredin. O'nu muhteşem nitelikleri için yüceltin."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

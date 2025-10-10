@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "LODE",
+        "description": "Comincia la tua ora di preghiera lodando il Signore. Lodalo per le cose che ti vengono in mente adesso. Lodalo per una cosa speciale che ha fatto nella tua vita la settimana passata. Lodalo per la sua bontà verso la tua famiglia."
+      },
+      "wait": {
+        "name": "ATTESA",
+        "description": "Trascorri del tempo aspettando il Signore. Sta' in silenzio e lascia che Lui porti delle riflessioni alla tua mente."
+      },
+      "confess": {
+        "name": "CONFESSIONE",
+        "description": "Chiedi allo Spirito Santo di mostrarti qualsiasi cosa che nella tua vita possa essere spiacevole per Lui. ChiediGli di farti notare le attitudini che sono sbagliate, e allo stesso tempo specifiche azioni per le quali non hai ancora fatto una preghiera di confessione. Adesso confessa questo al Signore affinché tu possa essere purificato."
+      },
+      "read_the_word": {
+        "name": "LEGGERE LA PAROLA",
+        "description": "Trascorri del tempo leggendo nei salmi, nei profeti e passi sulla preghiera che si trovano nel Nuovo Testamento."
+      },
+      "ask": {
+        "name": "CHIEDERE",
+        "description": "Fai delle richieste a tuo riguardo."
+      },
+      "intercession": {
+        "name": "INTERCESSIONE",
+        "description": "Fai delle richieste in favore degli altri."
+      },
+      "pray_the_word": {
+        "name": "PREGARE LA PAROLA",
+        "description": "Prega con passi ben precisi. Le preghiere scritturali come anche un numero di salmi si prestano bene a questo scopo."
+      },
+      "thank": {
+        "name": "RINGRAZIARE",
+        "description": "Ringrazia il Signore per le cose nella tua vita, a riguardo della tua famiglia e in favore della tua chiesa."
+      },
+      "sing": {
+        "name": "CANTARE",
+        "description": "Canta canzoni di lode e adorazione o altri inni o canzoni spirituali."
+      },
+      "meditate": {
+        "name": "MEDITARE",
+        "description": "Chiedi al Signore di parlarti. Tieni una penna e un foglio di carta pronti per poter annotare le impressioni che ti dà."
+      },
+      "listen": {
+        "name": "ASCOLTARE",
+        "description": "Trascorri del tempo mettendo insieme ciò che hai letto, ciò che hai pregato e ciò che hai cantato e vedi come il Signore porta tutto insieme per parlarti."
+      },
+      "praise_end": {
+        "name": "LODE",
+        "description": "Loda il Signore per il tempo che hai avuto per stare con Lui e per le impressioni che ti ha dato. Lodalo per i Suoi gloriosi attributi."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

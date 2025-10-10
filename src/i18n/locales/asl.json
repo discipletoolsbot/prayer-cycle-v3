@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "",
+        "description": ""
+      },
+      "wait": {
+        "name": "",
+        "description": ""
+      },
+      "confess": {
+        "name": "",
+        "description": ""
+      },
+      "read_the_word": {
+        "name": "",
+        "description": ""
+      },
+      "ask": {
+        "name": "",
+        "description": ""
+      },
+      "intercession": {
+        "name": "",
+        "description": ""
+      },
+      "pray_the_word": {
+        "name": "",
+        "description": ""
+      },
+      "thank": {
+        "name": "",
+        "description": ""
+      },
+      "sing": {
+        "name": "",
+        "description": ""
+      },
+      "meditate": {
+        "name": "",
+        "description": ""
+      },
+      "listen": {
+        "name": "",
+        "description": ""
+      },
+      "praise_end": {
+        "name": "",
+        "description": ""
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

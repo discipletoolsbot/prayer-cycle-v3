@@ -1,0 +1,84 @@
+{
+  "app": {
+    "title": "Cycle de Prière",
+    "install": "Installer l'application"
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "LOUANGE",
+        "description": "Commencer son heure de prière en louant le Seigneur. Le louer pour ce qu'il a fait de spécial dans notre vie au cours de la semaine dernière. Le louer pour sa bonté envers notre famille."
+      },
+      "wait": {
+        "name": "ATTENTE",
+        "description": "Passer du temps à attendre le Seigneur. Garder le silence et Le laisser rassembler des réflexions pour nous."
+      },
+      "confess": {
+        "name": "CONFESSION",
+        "description": "Demander au Saint-Esprit de nous montrer tout ce qui dans notre vie pourrait lui déplaire. Lui demander de nous signaler les attitudes qui sont mauvaises, ainsi que les actes spécifiques pour lesquels on n'a pas encore fait de prière de confession. Confesser cela maintenant au Seigneur afin d'être purifié."
+      },
+      "read_the_word": {
+        "name": "LECTURE DE LA PAROLE",
+        "description": "Passer du temps à lire des passages sortis des Psaumes, de l'Ancien Testament ou des passages sur la prière situés dans le Nouveau Testament."
+      },
+      "ask": {
+        "name": "DEMANDES",
+        "description": "Faire des demandes pour soi."
+      },
+      "intercession": {
+        "name": "INTERCESSION",
+        "description": "Faire des demandes pour les autres."
+      },
+      "pray_the_word": {
+        "name": "LA PAROLE EN PRIÈRE",
+        "description": "Prier des passages spécifiques. Les prières bibliques, ainsi qu'un certain nombre de psaumes se prêtent bien à cet objectif."
+      },
+      "thank": {
+        "name": "REMERCIEMENT",
+        "description": "Rendre grâce au Seigneur pour notre vie au quotidien. Adresser également des remerciements concernant notre famille, et notre église."
+      },
+      "sing": {
+        "name": "CHANT",
+        "description": "Chanter des chants de louange ou d'adoration, des hymnes ou des chants spontanés."
+      },
+      "meditate": {
+        "name": "MÉDITATION",
+        "description": "Demander au Seigneur de nous parler. Prendre un stylo et du papier à portée de main et être prêt à noter les impressions qu'il donne."
+      },
+      "listen": {
+        "name": "ÉCOUTE",
+        "description": "Passer du temps à fusionner ce que l'on a lu, ce que l'on a prié et ce que l'on a chanté et voir comment le Seigneur réunit le tout pour nous parler."
+      },
+      "praise_end": {
+        "name": "LOUANGE",
+        "description": "Louer le Seigneur pour le temps passé avec Lui et pour les impressions qu'il nous a données. Le louer pour ses attributs glorieux."
+      }
+    },
+    "timer": {
+      "start": "Commencer",
+      "pause": "Pause",
+      "resume": "Reprendre",
+      "next": "Étape Suivante",
+      "reset": "Recommencer",
+      "completed": "Terminé",
+      "step": "Étape",
+      "of": "de",
+      "aria": {
+        "start_cycle": "Démarrer le cycle de prière",
+        "pause_step": "Mettre en pause l'étape actuelle",
+        "resume_step": "Reprendre l'étape actuelle",
+        "cycle_completed": "Cycle de prière terminé",
+        "next_step": "Passer à l'étape de prière suivante",
+        "restart_cycle": "Redémarrer le cycle de prière depuis le début"
+      }
+    },
+    "progress": {
+      "total_progress": "Progrès Total"
+    }
+  },
+  "settings": {
+    "language": {
+      "title": "Langue"
+    }
+  }
+}

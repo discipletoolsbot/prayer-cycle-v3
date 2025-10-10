@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "LOBE",
+        "description": "Beginne deine Gebetsstunde damit, dass du den Herrn lobst. Lobe ihn für die Dinge, die dir gerade jetzt durch den Kopf gehen. Lobe ihn für eine besondere Sache, die er in der vergangenen Woche in deinem Leben getan hat. Lobe ihn für seine Güte gegenüber deiner Familie."
+      },
+      "wait": {
+        "name": "WARTE",
+        "description": "Verbringe Zeit damit, auf den Herrn zu warten. Sei still und lass ihn für dich Überlegungen anstellen."
+      },
+      "confess": {
+        "name": "BEKENNE",
+        "description": "Bitte den Heiligen Geist, dir alles in deinem Leben zu zeigen, was ihm missfallen könnte. Bitte ihn, dich auf falsche Verhaltensweisen hinzuweisen und auch auf bestimmte Taten, die du noch nicht im Gebet bekannt hast. Bekenne das jetzt dem Herrn, damit du gereinigt wirst."
+      },
+      "read_the_word": {
+        "name": "LIES DAS WORT",
+        "description": "Verbringe Zeit damit, in den Psalmen, den Propheten oder in Abschnitten über das Gebet aus dem Neuen Testament zu lesen."
+      },
+      "ask": {
+        "name": "BITTE",
+        "description": "Bringe deine eigenen Bitten vor."
+      },
+      "intercession": {
+        "name": "FÜRBITTE",
+        "description": "Bringe Bitten für andere vor."
+      },
+      "pray_the_word": {
+        "name": "BETE DAS WORT",
+        "description": "Bete bestimmte Abschnitte. Für diesen Zweck eigenen sich biblische Gebete und eine Reihe von Psalmen gut."
+      },
+      "thank": {
+        "name": "DANKE",
+        "description": "Danke dem Herrn für die Dinge in deinem Leben, im Namen deiner Familie und im Namen deiner Gemeinde."
+      },
+      "sing": {
+        "name": "SINGE",
+        "description": "Singe Lobpreis- oder Anbetungslieder oder einen anderen Choral oder ein geistliches Lied."
+      },
+      "meditate": {
+        "name": "MEDITIERE",
+        "description": "Bitte den Herrn, zu dir zu sprechen. Halte Stift und Papier bereit, um Eindrücke, die er dir gibt, festzuhalten."
+      },
+      "listen": {
+        "name": "HÖRE",
+        "description": "Verbringe Zeit damit, Dinge, die du gelesen, die du gebetet und die du gesungen hast, miteinander zu verbinden und zu sehen, wie der Herr sie alle zusammenbringt, um zu dir zu sprechen."
+      },
+      "praise_end": {
+        "name": "LOBE",
+        "description": "Lobe den Herrn für die Zeit, die du mit ihm verbringen durftest, und für die Eindrücke, die er dir gegeben hat. Lobe ihn für seine herrlichen Eigenschaften."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

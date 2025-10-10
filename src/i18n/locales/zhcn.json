@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "赞美",
+        "description": "以赞美主来开始你们的祷告时间，脑海里面想到什么赞美神的话，就针对那些来赞美祂。"
+      },
+      "wait": {
+        "name": "等候",
+        "description": "花点时间安静下来等候神，沉淀一下思绪。"
+      },
+      "confess": {
+        "name": "认罪",
+        "description": "求圣灵光照，看看在生活上有没有任何不讨神喜悦的事，不正确的态度，也求祂指出你们还有什么没认的罪，就向神认罪，得主赦免洁净。"
+      },
+      "read_the_word": {
+        "name": "读经",
+        "description": "查考圣经中诗篇、先知书，以及新约里面有关祷告的经节。"
+      },
+      "ask": {
+        "name": "祈求",
+        "description": "为自己向神求。"
+      },
+      "intercession": {
+        "name": "代求",
+        "description": "为他人代求。"
+      },
+      "pray_the_word": {
+        "name": "回应",
+        "description": "以神的话语来做回应祷告；如圣经中的祷词，特别在诗篇里有许多祷告，都非常适合。"
+      },
+      "thank": {
+        "name": "感谢",
+        "description": "为自己生活上、家人、教会事工所蒙的恩向神献上感谢。"
+      },
+      "sing": {
+        "name": "唱诗",
+        "description": "唱赞美诗、敬拜赞美神。"
+      },
+      "meditate": {
+        "name": "默想",
+        "description": "静默祷告,求神对你们说话，准备好纸笔，把祂所给的感受写下来。"
+      },
+      "listen": {
+        "name": "聆听",
+        "description": "再花一些时间整理所读到的、祷告过的、唱出来的，看神如何融合这一切对你们说话。"
+      },
+      "praise_end": {
+        "name": "赞美",
+        "description": "Praise God for time spent and impressions given."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

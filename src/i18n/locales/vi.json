@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "NGỢI KHEN",
+        "description": "Bắt đầu giờ cầu nguyện của bạn bằng cách ca ngợi Chúa. Hãy ngợi khen Ngài vì những điều bạn đang nghĩ đến ngay lúc này. Hãy ngợi khen Ngài vì một điều đặc biệt mà Ngài đã làm trong cuộc đời bạn trong tuần qua. Hãy ca ngợi Ngài vì sự tốt lành của Ngài đối với gia đình bạn."
+      },
+      "wait": {
+        "name": "CHỜ ĐỢI",
+        "description": "Dành thời gian chờ đợi Chúa. Hãy im lặng và để Ngài sắp xếp những suy ngẫm cho bạn."
+      },
+      "confess": {
+        "name": "XƯNG NHẬN",
+        "description": "Hãy cầu xin Đức Thánh Linh chỉ cho bạn thấy bất cứ điều gì trong cuộc sống của bạn có thể làm Ngài buồn lòng. Hãy cầu xin Ngài chỉ ra những thái độ sai trái, cũng như những hành động cụ thể mà bạn chưa xưng nhận. Bây giờ hãy xưng nhận đó với Chúa để bạn được sạch."
+      },
+      "read_the_word": {
+        "name": "ĐỌC LỜI CHÚA",
+        "description": "Dành thời gian đọc các Thi Thiên, các sách tiên tri hoặc các đoạn cầu nguyện trong Tân Ước."
+      },
+      "ask": {
+        "name": "THƯA XIN",
+        "description": "Hỏi Chúa về những nhu cầu của bạn."
+      },
+      "intercession": {
+        "name": "CẦU THAY",
+        "description": "Cầu thay cho những nhu cầu của người khác."
+      },
+      "pray_the_word": {
+        "name": "CẦU NGUYỆN LỜI CHÚA",
+        "description": "Cầu nguyện những đoạn cụ thể. Các lời cầu nguyện trong Kinh Thánh cũng như một số Thi Thiên rất thích hợp cho mục đích này."
+      },
+      "thank": {
+        "name": "TẠ ƠN",
+        "description": "Tạ ơn Chúa về những điều trong cuộc sống của bạn, thay mặt gia đình bạn và thay mặt hội thánh của bạn."
+      },
+      "sing": {
+        "name": "HÁT",
+        "description": "Hát các bài ca ngợi khen hoặc thờ phượng hoặc thánh ca khác hoặc bài hát thiêng liêng."
+      },
+      "meditate": {
+        "name": "SUY NGẪM",
+        "description": "Xin Chúa phán với bạn. Chuẩn bị sẵn bút và giấy để ghi lại những ấn tượng mà Ngài ban cho bạn."
+      },
+      "listen": {
+        "name": "LẮNG NGHE",
+        "description": "Dành thời gian kết hợp những điều bạn đã đọc, những điều bạn đã cầu nguyện và những điều bạn đã hát và xem Chúa đưa tất cả lại với nhau như thế nào để phán với bạn."
+      },
+      "praise_end": {
+        "name": "NGỢI KHEN",
+        "description": "Ngợi khen Chúa vì thời gian bạn đã dành để ở với Ngài và những ấn tượng mà Ngài đã ban cho bạn. Ngợi khen Ngài vì những thuộc tính vinh hiển của Ngài."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

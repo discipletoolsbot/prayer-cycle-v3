@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "HVALNICA",
+        "description": "Začni svojo molitveno uro s hvaljenjem Gospoda. Hvali ga za stvari, ki ti trenutno ležijo na duši. Hvali ga za eno posebno stvar, ki jo je v preteklem tednu storil v tvojem življenju. Hvali ga za njegovo dobroto do tvoje družine."
+      },
+      "wait": {
+        "name": "ČAKANJE",
+        "description": "Preživi čas v čakanju na Gospoda. Bodi tiho in mu dovoli, da on izbere, o čem razmišljaš."
+      },
+      "confess": {
+        "name": "PRIZNANJE",
+        "description": "Prosi Svetega Duha, naj ti pokaže, kaj v tvojem življenju mu ni po volji. Prosi ga, naj te opozori na napačne drže in na določena dejanja, za katera se še nisi spovedal v molitvi. Zdaj pa to priznaj Gospodu, da boš očiščen."
+      },
+      "read_the_word": {
+        "name": "BRANJE BESEDE",
+        "description": "Preživi čas v branju psalmov, prerokov ali odlomkov o molitvi, ki jih najdemo v Novi zavezi."
+      },
+      "ask": {
+        "name": "PROŠNJA",
+        "description": "Prosi zase."
+      },
+      "intercession": {
+        "name": "POSREDOVANJE",
+        "description": "Prosi za druge."
+      },
+      "pray_the_word": {
+        "name": "MOLI BESEDO",
+        "description": "Moli odlomke iz Svetega pisma. Za to so posebej primerne molitve iz Svetega pisma in številni psalmi."
+      },
+      "thank": {
+        "name": "ZAHVALNOST",
+        "description": "Zahvali se Gospodu za stvari v svojem življenju, v imenu svoje družine in v imenu svoje cerkve."
+      },
+      "sing": {
+        "name": "PETJE",
+        "description": "Poj slavilne pesmi Bogu ali kakšno himno ali duhovno pesem."
+      },
+      "meditate": {
+        "name": "MEDITACIJA",
+        "description": "Prosi Gospoda, naj ti spregovori. Pripravi si papir in pisalo, da si lahko zapišeš, kar ti pove oz. pokaže."
+      },
+      "listen": {
+        "name": "POSLUŠANJE",
+        "description": "Preživi čas v razmišljanju o tem, kar si prebral, kar si molil, in kar si pel in poglej, kako Gospod vse to poveže, da bi ti govoril."
+      },
+      "praise_end": {
+        "name": "HVALNICA",
+        "description": "Hvali Gospoda za čas, ki si ga preživel z njim, in za vtise, ki ti jih je dal. Hvali ga za njegove veličastne lastnosti."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

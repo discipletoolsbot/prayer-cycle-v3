@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "LOUVAR",
+        "description": "Comece sua hora de oração louvando ao Senhor. Louve-o pelo que está na sua mente agora. Exalte-o por algo especial que Ele fez na sua vida, na semana anterior. Louve-o por sua bondade com sua família."
+      },
+      "wait": {
+        "name": "ESPERAR",
+        "description": "Passe algum tempo esperando no Senhor. Fique em silêncio e deixe que Ele traga reflexões para você."
+      },
+      "confess": {
+        "name": "CONFESSAR",
+        "description": "Peça ao Espírito Santo que mostre a você qualquer circustância em sua vida que possa ser desagradável a Ele. Peça a Ele que indique atitudes erradas e atos específicos pelos quais você ainda não fez uma oração de confissão. Confesse ao Senhor para que você seja purificado."
+      },
+      "read_the_word": {
+        "name": "LER A PALAVRA",
+        "description": "Passe algum tempo em leitura e oração de Salmos, os profetas ou as passagens bíblicas do Novo Testamento."
+      },
+      "ask": {
+        "name": "PEDIR",
+        "description": "Faça pedidos em seu favor."
+      },
+      "intercession": {
+        "name": "INTERCEDER",
+        "description": "Faça pedidos em favor de outras pessoas."
+      },
+      "pray_the_word": {
+        "name": "ORAR A PALAVRA",
+        "description": "Ore passagens bíblicas específicas. As orações bíblicas e vários Salmos se prestam bem a esse propósito."
+      },
+      "thank": {
+        "name": "AGRADECER",
+        "description": "Agradeça ao Senhor pelas circustâncias da sua vida, em favor da sua família e em favor da sua igreja."
+      },
+      "sing": {
+        "name": "CANTAR",
+        "description": "Cante canções de louvor ou adoração, um hino ou uma canção espiritual."
+      },
+      "meditate": {
+        "name": "MEDITAR",
+        "description": "Peça ao Senhor para falar com você. Tenha caneta e papel à mão para registrar as impressões que Ele der a você."
+      },
+      "listen": {
+        "name": "OUVIR",
+        "description": "Passe tempo meditando no que que você leu, no que você orou e no que você cantou e veja como o Senhor reúne tudo isso para falar com você."
+      },
+      "praise_end": {
+        "name": "LOUVAR",
+        "description": "Louve o Senhor pelo tempo que você teve para passar com Ele e pelas impressões que Ele lhe deu. Louve-o por Seus gloriosos atributos."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

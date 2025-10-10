@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "PUJI",
+        "description": "Mulai doa Anda dengan Memuji Allah. Memuji Dia atas apa yang ada di pikiran Anda saat ini. Memuji Dia atas hal spesial yang telah Dia lakukan di hidup Anda sepanjang minggu ini. Puji Dia atas kebaikanNya bagi keluarga Anda."
+      },
+      "wait": {
+        "name": "MENANTI",
+        "description": "Sediakan waktu untuk menantikan Allah. Berdiam dirilah dan biarkan Allah menyatakan renungan kepada Anda."
+      },
+      "confess": {
+        "name": "MENGAKU",
+        "description": "Minta Roh Suci untuk menunjukan kepada Anda apa saja yang mungkin tidak menyenangkan hatiNya. Minta kepadaNya untuk menunjukan sikap-sikap yang salah, tindakan spesifik dimana Anda belum membuat pengakuan melalui doa. Lalu akui kepada Allah sehingga Anda dapat dibersihkan."
+      },
+      "read_the_word": {
+        "name": "MEMBACA FIRMAN",
+        "description": "Sediakan waktu untuk membaca Mazmur, kitab-kitab para nabi, atau ayat-ayat doa yang ada di Perjanjian Baru."
+      },
+      "ask": {
+        "name": "MEMINTA",
+        "description": "Buat permohonan bagi diri Anda."
+      },
+      "intercession": {
+        "name": "PERANTARAAN",
+        "description": "Buatlah permohonan bagi orang lain."
+      },
+      "pray_the_word": {
+        "name": "BERDOA FIRMAN",
+        "description": "Berdoa dari ayat yang spesifik. Berdoa berdasarkan ayat-ayat, dan beberapa Mazmur sangat baik untuk tujuan ini."
+      },
+      "thank": {
+        "name": "BERSYUKUR",
+        "description": "Mengucap syukur kepada Allah atas semua hal di hidup Anda, bagi keluarga Anda, dan bagi Jemaah Allah dimana Anda berada."
+      },
+      "sing": {
+        "name": "BERNYANYI",
+        "description": "Nyanyikan lagu pujian dan penyembahan atau himne lainnya atau lagu rohani."
+      },
+      "meditate": {
+        "name": "MERENUNGKAN",
+        "description": "Minta kepada Allah untuk berbicara kepada Anda. Siapkan pena dan kertas untuk mencatat kesan yang Dia berikan kepada Anda."
+      },
+      "listen": {
+        "name": "MENDENGARKAN",
+        "description": "Luangkan waktu menggabungkan hal-hal yang telah Anda baca, hal-hal yang telah Anda doakan dan hal-hal yang telah Anda nyanyikan dan lihat bagaimana Allah menggabungkan semuanya untuk berbicara kepada Anda."
+      },
+      "praise_end": {
+        "name": "PUJI",
+        "description": "Pujilah Allah atas waktu yang telah Anda habiskan dengan-Nya dan kesan-kesan yang telah Dia berikan kepada Anda. Pujilah Dia atas sifat-sifat-Nya yang mulia."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "UWIELBIENIE",
+        "description": "Rozpocznij modlitwę od chwalenia Pana. Uwielbiaj go za to, co zaprząta teraz Twoje myśli. Uwielbij Go za jedną szczególną rzecz, której dokonał w Twoim życiu w ostatnim tygodniu. Chwal Go za Jego dobroć dla Twojej rodziny."
+      },
+      "wait": {
+        "name": "OCZEKIWANIE",
+        "description": "Poświęć ten czas na czekanie na Pana. Wycisz się i pozwól, żeby pokierował Twoimi myślami."
+      },
+      "confess": {
+        "name": "WYZNANIE",
+        "description": "Poproś Ducha Świętego, żeby pokazał Ci to, co nie podoba Mu się Twoim życiu. Módl się, żeby uświadomił Ci Twoje niewłaściwe postawy i konkretne czyny, których nie wyznałeś ani się o nie nie modliłeś. Wyznaj to wszystko Bogu, aby Cię oczyścił."
+      },
+      "read_the_word": {
+        "name": "CZYTANIE SŁOWA",
+        "description": "Przeczytaj fragment na temat modlitwy z Psalmów, ksiąg prorockich lub Nowego Testamentu."
+      },
+      "ask": {
+        "name": "PROŚBY",
+        "description": "Módl się o siebie."
+      },
+      "intercession": {
+        "name": "WSTAWIENNICTWO",
+        "description": "Módl się o innych."
+      },
+      "pray_the_word": {
+        "name": "MODLITWA SŁOWEM",
+        "description": "Módl się konkretnymi wersetami biblijnymi. Posłuż się którąś z zapisanych w Biblii modlitw lub jednym z Psalmów."
+      },
+      "thank": {
+        "name": "DZIĘKCZYNIENIE",
+        "description": "Dziękuj Bogu za to, co dzieje się w Twoim życiu, rodzinie i wspólnocie."
+      },
+      "sing": {
+        "name": "ŚPIEW",
+        "description": "Śpiewaj pieśni i hymny chwalące Boga."
+      },
+      "meditate": {
+        "name": "PRZEMYŚLENIE",
+        "description": "Poproś Boga, żeby do Ciebie mówił. Zapisz myśli, które Ci ześle."
+      },
+      "listen": {
+        "name": "SŁUCHANIE",
+        "description": "Poświęć ten czas na przemyślenie tego, co przeczytałeś oraz treści Twoich modlitw i pieśni, i zobacz, jak Bóg łączy to wszystko, by do Ciebie przemówić."
+      },
+      "praise_end": {
+        "name": "UWIELBIENIE",
+        "description": "Uwielbij Boga za czas, który mogłeś z Nim spędzić i za otrzymane od Niego myśli. Chwal Go za Jego wspaniałe przymioty."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}

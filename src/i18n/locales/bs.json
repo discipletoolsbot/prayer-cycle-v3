@@ -1,0 +1,83 @@
+{
+  "app": {
+    "title": ""
+  },
+  "prayer": {
+    "steps": {
+      "praise": {
+        "name": "HVALA",
+        "description": "Započnite svoj sat molitve slaveći Gospodina. Slavite Ga za stvari koje su vam trenutno na umu. Slavite ga za jednu posebnu stvar koju je učinio u vašem životu protekle sedmice. Hvalite ga za Njegovu dobrotu prema vašoj porodici."
+      },
+      "wait": {
+        "name": "ČEKANJE",
+        "description": "Provedite vrijeme čekajući Gospoda. Budite u tišini i dopustite Njemu da vas vodi."
+      },
+      "confess": {
+        "name": "PRIZNANJE",
+        "description": "Zamolite Svetog Duha da vam pokaže bilo šta u vašem životu s čim On nije zadovoljan. Zamolite ga da ukaže na pogrešne stavove, kao i na određene postupke za koje još se još niste pokajali. Sada to priznajte Gospodinu da biste se mogli očistiti."
+      },
+      "read_the_word": {
+        "name": "ČITANJE RIJEČI",
+        "description": "Provedite vrijeme čitajući Psalme, proroke ili odlomke iz molitvi koje se nalazi u Novom zavjetu."
+      },
+      "ask": {
+        "name": "PITANJE",
+        "description": "Podnosite zahtjeve u svoje ime."
+      },
+      "intercession": {
+        "name": "POSREDOVANJE",
+        "description": "Podnosite zahtjeve u ime drugih."
+      },
+      "pray_the_word": {
+        "name": "MOLITE RIJEČ",
+        "description": "Molite određene odlomke. Biblijske molitve, kao i brojni psalmi dobro odgovaraju ovoj svrsi."
+      },
+      "thank": {
+        "name": "ZAHVALNOST",
+        "description": "Zahvalite Gospodu za stvari u vašem životu, u ime vaše porodice i u ime vaše crkve."
+      },
+      "sing": {
+        "name": "PJEVANJE",
+        "description": "Pjevajte pjesme hvale ili obožavanja ili drugu duhovnu pjesmu."
+      },
+      "meditate": {
+        "name": "MEDITACIJA",
+        "description": "Zamolite Gospoda da vam govori. Pripremite olovku i papir za pisanje utisaka koje vam daje."
+      },
+      "listen": {
+        "name": "SLUŠANJE",
+        "description": "Provedite vrijeme povezujući ono što ste pročitali, ono što ste molili i ono što ste pjevali i pogledajte kako Gospod sve to spaja da bi vam govorio."
+      },
+      "praise_end": {
+        "name": "HVALA",
+        "description": "Hvalite Gospoda za vrijeme koje ste proveli s Njim i za utiske koje vam je dao. Hvalite Ga za Njegove slavne atribute."
+      }
+    },
+    "timer": {
+      "start": "",
+      "pause": "",
+      "resume": "",
+      "next": "",
+      "reset": "",
+      "completed": "",
+      "step": "",
+      "of": "",
+      "aria": {
+        "start_cycle": "",
+        "pause_step": "",
+        "resume_step": "",
+        "cycle_completed": "",
+        "next_step": "",
+        "restart_cycle": ""
+      }
+    },
+    "progress": {
+      "total_progress": ""
+    }
+  },
+  "settings": {
+    "language": {
+      "title": ""
+    }
+  }
+}
