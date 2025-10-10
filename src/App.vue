@@ -358,7 +358,10 @@ function handleVisibilityChange() {
 
 <template>
   <!-- Top Menu Bar - Always at top -->
-  <TopMenuBar 
+  <TopMenuBar
+    :is-installable="isInstallable"
+    :is-p-w-a="isPWA"
+    @install="installPWA"
     @toggle-language="handleToggleLanguage"
     @toggle-settings="handleToggleSettings"
   />
@@ -383,13 +386,7 @@ function handleVisibilityChange() {
       <span class="offline-icon">📱</span>
       <span class="offline-text">Offline Mode - All features available</span>
     </div>
-    
-    <!-- PWA Install Banner -->
-    <div v-if="isInstallable && !isPWA" class="install-banner">
-      <span class="install-text">Install Prayer Cycle for better experience</span>
-      <button @click="installPWA" class="install-btn">Install</button>
-    </div>
-    
+
     <!-- Mobile Timer Controls -->
     <div class="mobile-controls">
       <TimerControls
@@ -437,13 +434,7 @@ function handleVisibilityChange() {
       <span class="offline-icon">💻</span>
       <span class="offline-text">Offline Mode - All features available</span>
     </div>
-    
-    <!-- PWA Install Banner -->
-    <div v-if="isInstallable && !isPWA" class="install-banner desktop">
-      <span class="install-text">Install Prayer Cycle for better experience</span>
-      <button @click="installPWA" class="install-btn">Install</button>
-    </div>
-    
+
     <!-- Desktop Timer Controls (outside grid) -->
     <div class="desktop-controls">
       <TimerControls
@@ -580,49 +571,6 @@ function handleVisibilityChange() {
   font-weight: 500;
 }
 
-.install-banner {
-  background-color: var(--color-primary);
-  color: white;
-  padding: var(--spacing-xs) var(--spacing-sm);
-  text-align: center;
-  font-size: 0.875rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--spacing-sm);
-  position: relative;
-  z-index: 998;
-}
-
-.install-banner.desktop {
-  font-size: 1rem;
-  padding: var(--spacing-sm) var(--spacing-md);
-}
-
-.install-text {
-  font-weight: 500;
-}
-
-.install-btn {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: 4px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.install-btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.install-btn:active {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 /* Dropdown Panel Styles */
 .dropdown-panel {
   position: absolute;
@@ -693,10 +641,6 @@ function handleVisibilityChange() {
   .offline-banner {
     border: 2px solid var(--color-text);
     background-color: var(--color-background);
-  }
-  
-  .install-banner {
-    border: 2px solid white;
   }
 }
 

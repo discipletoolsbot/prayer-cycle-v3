@@ -6,19 +6,30 @@
       
       <!-- Right side icons -->
       <div class="menu-icons">
+        <!-- Download/Install Icon -->
+        <button
+          v-if="isInstallable && !isPWA"
+          class="menu-icon-btn"
+          @click="$emit('install')"
+          :title="t('app.install')"
+          aria-label="Install app"
+        >
+          <DownloadIcon />
+        </button>
+
         <!-- Language Selector Icon -->
-        <button 
-          class="menu-icon-btn" 
+        <button
+          class="menu-icon-btn"
           @click="$emit('toggleLanguage')"
           :title="t('language.selector')"
           aria-label="Language selector"
         >
           <LanguageIcon />
         </button>
-        
+
         <!-- Settings Icon -->
-        <button 
-          class="menu-icon-btn" 
+        <button
+          class="menu-icon-btn"
           @click="$emit('toggleSettings')"
           :title="t('settings.title')"
           aria-label="Settings"
@@ -32,12 +43,19 @@
 
 <script setup lang="ts">
 import { useI18n } from '../composables/useI18n'
+import DownloadIcon from './icons/DownloadIcon.vue'
 import LanguageIcon from './icons/LanguageIcon.vue'
 import SettingsIcon from './icons/SettingsIcon.vue'
 
 const { t } = useI18n()
 
+defineProps<{
+  isInstallable: boolean
+  isPWA: boolean
+}>()
+
 defineEmits<{
+  install: []
   toggleLanguage: []
   toggleSettings: []
 }>()
