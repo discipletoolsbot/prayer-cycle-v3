@@ -1,0 +1,3 @@
+# Redirect all routes to index.html for SPA routing
+# This ensures language paths like /es, /fr work correctly
+/*    /index.html   200

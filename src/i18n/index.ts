@@ -11,7 +11,6 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'ar_jo', name: 'Arabic (Jordanian)', nativeName: 'العربية - الأردن', enabled: true },
   { code: 'ar_tn', name: 'Arabic (Tunisian)', nativeName: ' العربية التونسية', enabled: true },
   { code: 'hy', name: 'Armenian', nativeName: 'Armenian', enabled: true },
-  { code: 'asl', name: 'American Sign Language', nativeName: 'Sign Language', enabled: true },
   { code: 'bn', name: 'Bengali (India)', nativeName: 'বাংলা', enabled: true },
   { code: 'bho', name: 'Bhojpuri', nativeName: 'भोजपुरी', enabled: true },
   { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski', enabled: true },
@@ -64,20 +63,40 @@ const DEFAULT_LANGUAGE = 'en'
 function getBrowserLanguage(): string {
   const fullLang = navigator.language.replace('-', '_') // Convert en-US to en_US
   const shortLang = navigator.language.split('-')[0]
-  
+
   // Try exact match first (e.g., en_US) - only enabled languages
   if (SUPPORTED_LANGUAGES.some(lang => lang.code === fullLang && lang.enabled)) {
     return fullLang
   }
-  
+
   // Try short language code (e.g., en -> en_US) - only enabled languages
   const matchedLang = SUPPORTED_LANGUAGES.find(lang => lang.code.startsWith(shortLang) && lang.enabled)
   return matchedLang ? matchedLang.code : DEFAULT_LANGUAGE
 }
 
+// Get language from URL path (e.g., /es, /fr)
+function getLanguageFromUrl(): string | null {
+  const path = window.location.pathname
+  // Extract the first segment of the path (e.g., /es -> es, /es/something -> es)
+  const pathSegments = path.split('/').filter(segment => segment.length > 0)
+
+  if (pathSegments.length > 0) {
+    const langCode = pathSegments[0]
+    // Validate against supported and enabled languages
+    const isSupported = SUPPORTED_LANGUAGES.some(lang => lang.code === langCode && lang.enabled)
+    if (isSupported) {
+      console.log(`Using URL path language: ${langCode}`)
+      return langCode
+    }
+  }
+
+  return null
+}
+
 // Get saved language from localStorage or browser default
 function getSavedLanguage(): string {
-  return localStorage.getItem('prayer-cycle-language') || getBrowserLanguage()
+  // Priority: URL path > localStorage > browser language > default
+  return getLanguageFromUrl() || localStorage.getItem('prayer-cycle-language') || getBrowserLanguage()
 }
 
 // Save language to localStorage
@@ -123,9 +142,54 @@ export async function setLanguage(language: string) {
 
   i18n.global.locale.value = language as any
   saveLanguage(language)
-  
+
   // Update document language attribute
   document.documentElement.lang = language
+
+  // Update URL path to reflect language change
+  updateUrlPath(language)
+}
+
+// Update URL path with language code
+function updateUrlPath(language: string): void {
+  const currentPath = window.location.pathname
+  const currentSearch = window.location.search
+  const pathSegments = currentPath.split('/').filter(segment => segment.length > 0)
+
+  // Check if first segment is a language code
+  const firstSegmentIsLang = pathSegments.length > 0 &&
+    SUPPORTED_LANGUAGES.some(lang => lang.code === pathSegments[0])
+
+  let newPath: string
+
+  if (language === DEFAULT_LANGUAGE) {
+    // For default language (English), use root path
+    if (firstSegmentIsLang) {
+      // Remove language segment
+      pathSegments.shift()
+      newPath = pathSegments.length > 0 ? `/${pathSegments.join('/')}` : '/'
+    } else {
+      newPath = currentPath
+    }
+  } else {
+    // For non-default languages, add/replace language segment
+    if (firstSegmentIsLang) {
+      // Replace existing language segment
+      pathSegments[0] = language
+      newPath = `/${pathSegments.join('/')}`
+    } else {
+      // Add language segment
+      newPath = pathSegments.length > 0 ? `/${language}/${pathSegments.join('/')}` : `/${language}`
+    }
+  }
+
+  // Preserve query parameters
+  const newUrl = newPath + currentSearch
+
+  // Only update if the path changed
+  if (newUrl !== currentPath + currentSearch) {
+    window.history.pushState({}, '', newUrl)
+  }
 }
 
 // Initialize with saved language
