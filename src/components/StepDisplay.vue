@@ -124,7 +124,8 @@ const stepDisplayClass = computed(() => ({
 /* Responsive breakpoints for mobile */
 @media (max-width: 480px) {
   .step-display--mobile {
-    padding: 1rem 0.75rem;
+    padding: 0;
+    justify-content: flex-start;
   }
   
   .step-display--mobile .step-display__name {

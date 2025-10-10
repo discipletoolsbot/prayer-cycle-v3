@@ -325,7 +325,7 @@ function handleRestart(): void {
 @media (max-width: 480px) {
   .timer-controls--mobile {
     gap: var(--spacing-sm);
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
   }
   
   .timer-controls--mobile .timer-controls__button {

@@ -310,6 +310,7 @@ function getStepIndicatorStrokeWidth(stepIndex: number): number {
 /* Mobile-specific styles */
 .progress-indicator--mobile {
   max-width: 420px;
+  padding-top: 0;
 }
 
 .progress-indicator--mobile .step-text {

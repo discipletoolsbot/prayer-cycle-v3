@@ -535,6 +535,7 @@ function handleVisibilityChange() {
   .prayer-main-mobile {
     max-width: 800px;
     margin: 0 auto;
+
   }
 }
 
@@ -648,8 +649,8 @@ function handleVisibilityChange() {
 .prayer-app-desktop-wrapper {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - var(--header-height));
-  overflow: hidden;
+  min-height: calc(100vh - var(--header-height));
+  overflow-y: auto;
 }
 
 /* Override the grid padding since it's now inside wrapper */
@@ -662,10 +663,10 @@ function handleVisibilityChange() {
 .mobile-controls {
   display: flex;
   justify-content: center;
-  padding: var(--spacing-md);
+  padding: 0;
   background: var(--color-background-soft);
   border-radius: var(--radius-lg);
-  margin: var(--spacing-md) var(--spacing-sm);
+  margin: 0;
 }
 
 .desktop-controls {
