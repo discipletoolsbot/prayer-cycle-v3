@@ -15,10 +15,10 @@
       @click.stop
     >
       <div class="settings-panel__header">
-        <h3 class="settings-panel__title">Settings</h3>
+        <h3 class="settings-panel__title">{{ t('settings.title') }}</h3>
         <button
           class="settings-panel__close"
-          aria-label="Close settings"
+          :aria-label="t('settings.close')"
           @click="closePanel"
         >
           <svg viewBox="0 0 24 24" fill="currentColor">
@@ -30,7 +30,7 @@
       <div class="settings-panel__body">
         <!-- Audio Settings -->
         <div class="settings-panel__section">
-          <h4 class="settings-panel__section-title">Audio</h4>
+          <h4 class="settings-panel__section-title">{{ t('settings.audio.title') }}</h4>
           <div class="settings-panel__option">
             <label class="settings-panel__label">
               <input
@@ -41,18 +41,18 @@
               />
               <span class="settings-panel__checkbox-custom"></span>
               <span class="settings-panel__label-text">
-                Enable audio notifications
+                {{ t('settings.audio.enable') }}
               </span>
             </label>
             <p class="settings-panel__description">
-              Play gentle sounds when transitioning between prayer steps
+              {{ t('settings.audio.description') }}
             </p>
           </div>
         </div>
 
         <!-- Wake Lock Settings -->
         <div class="settings-panel__section">
-          <h4 class="settings-panel__section-title">Screen</h4>
+          <h4 class="settings-panel__section-title">{{ t('settings.screen.title') }}</h4>
           <div class="settings-panel__option">
             <label class="settings-panel__label">
               <input
@@ -64,15 +64,15 @@
               />
               <span class="settings-panel__checkbox-custom"></span>
               <span class="settings-panel__label-text">
-                Keep screen awake during prayer
+                {{ t('settings.screen.keep_awake') }}
               </span>
             </label>
             <p class="settings-panel__description">
               <span v-if="wakeLockSupported">
-                Prevent screen from dimming or turning off during prayer sessions
+                {{ t('settings.screen.description') }}
               </span>
               <span v-else class="settings-panel__description--warning">
-                Screen wake lock is not supported in this browser
+                {{ t('settings.screen.not_supported') }}
               </span>
             </p>
           </div>
@@ -82,7 +82,7 @@
 
       <!-- Version Footer -->
       <div class="settings-panel__footer">
-        <span class="settings-panel__version">Version {{ appVersion }}</span>
+        <span class="settings-panel__version">{{ t('settings.version') }} {{ appVersion }}</span>
       </div>
     </div>
 
@@ -99,6 +99,7 @@
 import { ref, computed } from 'vue'
 import type { UserSettings } from '@/types'
 import { wakeLockService } from '@/utils/WakeLockService'
+import { useI18n } from '@/composables/useI18n'
 import packageJson from '../../package.json'
 
 interface Props {
@@ -115,6 +116,9 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 const emit = defineEmits<Emits>()
+
+// Composables
+const { t } = useI18n()
 
 // Component state
 const isOpen = ref(false)
