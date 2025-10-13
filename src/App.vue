@@ -96,22 +96,24 @@ function handleTimerTick(remaining: number) {
   store.updateTimer(remaining)
 }
 
-async function handleTimerComplete() {
-  // Play audio notification for step transition
+function handleTimerComplete() {
   if (store.settings.audioEnabled) {
-    try {
-      if (!audioService.isInitialized()) {
-        await audioService.initialize()
+    const playAudio = async () => {
+      try {
+        if (!audioService.isInitialized()) {
+          await audioService.initialize()
+        }
+        await audioService.playNotification()
+      } catch (error) {
+        console.warn('Failed to play audio notification:', error)
       }
-      await audioService.playNotification()
-    } catch (error) {
-      console.warn('Failed to play audio notification:', error)
     }
+    playAudio() // Fire and forget - don't await
   }
-  
-  // Advance to next step
+
+  // Advance to next step immediately (don't wait for audio)
   store.completeStep()
-  
+
   // Start timer for next step if not completed
   if (store.status === 'active') {
     startTimer()
