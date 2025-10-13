@@ -36,10 +36,7 @@ describe('StorageService', () => {
   describe('Settings Management', () => {
     it('should save and load settings correctly', () => {
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       storageService.saveSettings(testSettings)
       const loadedSettings = storageService.loadSettings()
@@ -51,10 +48,7 @@ describe('StorageService', () => {
       const defaultSettings = storageService.loadSettings()
 
       expect(defaultSettings).toEqual({
-        audioEnabled: true,
-        primaryColor: '#2cace2',
-        wakeLockEnabled: true
-      })
+        audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const })
     })
 
     it('should validate settings structure and merge with defaults', () => {
@@ -67,18 +61,12 @@ describe('StorageService', () => {
       const loadedSettings = storageService.loadSettings()
 
       expect(loadedSettings).toEqual({
-        audioEnabled: true,
-        primaryColor: '#2cace2',
-        wakeLockEnabled: true
-      })
+        audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const })
     })
 
     it('should create backup when saving settings', () => {
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       storageService.saveSettings(testSettings)
 
@@ -88,10 +76,7 @@ describe('StorageService', () => {
 
     it('should restore from backup when main settings are corrupted', () => {
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       // Save valid backup
       mockLocalStorage['prayer-cycle-backup'] = JSON.stringify(testSettings)
@@ -111,10 +96,7 @@ describe('StorageService', () => {
         timeRemaining: 180,
         status: 'active',
         settings: {
-          audioEnabled: true,
-          primaryColor: '#2cace2',
-          wakeLockEnabled: true
-        }
+          audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const }
       }
 
       storageService.saveSession(testState)
@@ -133,10 +115,7 @@ describe('StorageService', () => {
         timeRemaining: 120,
         status: 'paused',
         settings: {
-          audioEnabled: true,
-          primaryColor: '#2cace2',
-          wakeLockEnabled: true
-        }
+          audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const }
       }
 
       storageService.saveSession(testState)
@@ -155,10 +134,7 @@ describe('StorageService', () => {
         timeRemaining: 300,
         status: 'idle',
         settings: {
-          audioEnabled: true,
-          primaryColor: '#2cace2',
-          wakeLockEnabled: true
-        }
+          audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const }
       }
 
       const completedState: PrayerCycleState = {
@@ -166,10 +142,7 @@ describe('StorageService', () => {
         timeRemaining: 0,
         status: 'completed',
         settings: {
-          audioEnabled: true,
-          primaryColor: '#2cace2',
-          wakeLockEnabled: true
-        }
+          audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const }
       }
 
       storageService.saveSession(idleState)
@@ -251,10 +224,7 @@ describe('StorageService', () => {
       const newStorageService = new StorageService()
 
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       // Should not throw error and use memory storage
       expect(() => newStorageService.saveSettings(testSettings)).not.toThrow()
@@ -272,10 +242,7 @@ describe('StorageService', () => {
 
       const settings = storageService.loadSettings()
       expect(settings).toEqual({
-        audioEnabled: true,
-        primaryColor: '#2cace2',
-        wakeLockEnabled: true
-      })
+        audioEnabled: true, primaryColor: '#2cace2', wakeLockEnabled: true, themeMode: 'auto' as const })
     })
 
     it('should handle storage quota exceeded errors', () => {
@@ -284,10 +251,7 @@ describe('StorageService', () => {
       })
 
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       expect(() => storageService.saveSettings(testSettings)).not.toThrow()
     })
@@ -345,10 +309,7 @@ describe('StorageService', () => {
 
     it('should include current settings in recovered session', () => {
       const testSettings: UserSettings = {
-        audioEnabled: false,
-        primaryColor: '#ff0000',
-        wakeLockEnabled: false
-      }
+        audioEnabled: false, primaryColor: '#2cace2', wakeLockEnabled: false, themeMode: 'auto' as const }
 
       storageService.saveSettings(testSettings)
 

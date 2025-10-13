@@ -257,15 +257,44 @@ watch(() => store.status, (newStatus, oldStatus) => {
 // Watch for wake lock setting changes
 watch(() => store.settings.wakeLockEnabled, (enabled) => {
   wakeLockService.setEnabled(enabled)
-  
+
   // If enabling and currently active, request wake lock
   if (enabled && store.status === 'active') {
     requestWakeLock()
   }
-  
+
   // Save updated settings
   storageService.saveSettings(store.settings)
 })
+
+// Theme management
+function applyTheme(themeMode: 'auto' | 'light' | 'dark') {
+  const htmlElement = document.documentElement
+
+  if (themeMode === 'auto') {
+    // Use system preference
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    htmlElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light')
+  } else {
+    // Use user preference
+    htmlElement.setAttribute('data-theme', themeMode)
+  }
+}
+
+// Watch for theme mode changes
+watch(() => store.settings.themeMode, (themeMode) => {
+  applyTheme(themeMode)
+  storageService.saveSettings(store.settings)
+})
+
+// Listen for system theme changes when in auto mode
+const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+function handleSystemThemeChange() {
+  if (store.settings.themeMode === 'auto') {
+    applyTheme('auto')
+  }
+}
+darkModeMediaQuery.addEventListener('change', handleSystemThemeChange)
 
 // Component lifecycle hooks
 onMounted(async () => {
@@ -286,6 +315,9 @@ onMounted(async () => {
   deviceType.value = currentDetectedType
   
   store.updateSettings(savedSettings)
+
+  // Apply theme based on saved settings
+  applyTheme(savedSettings.themeMode || 'auto')
 
   // Set audio enabled flag (actual initialization happens on user interaction in handlePlay)
   audioService.setEnabled(savedSettings.audioEnabled)
@@ -318,18 +350,19 @@ onMounted(async () => {
 onUnmounted(() => {
   // Cleanup timer service
   timerService.stop()
-  
+
   // Dispose wake lock service
   wakeLockService.dispose()
-  
+
   // Remove event listeners
   window.removeEventListener('resize', handleResize)
   document.removeEventListener('visibilitychange', handleVisibilityChange)
   document.removeEventListener('click', handleClickOutside)
-  
+  darkModeMediaQuery.removeEventListener('change', handleSystemThemeChange)
+
   // Dispose audio service
   audioService.dispose()
-  
+
   // Save final session state if in progress
   if (store.status === 'active' || store.status === 'paused') {
     storageService.saveSession({

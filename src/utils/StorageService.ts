@@ -99,7 +99,8 @@ export class StorageService {
     const defaultSettings: UserSettings = {
       audioEnabled: true,
       primaryColor: '#2cace2',
-      wakeLockEnabled: true
+      wakeLockEnabled: true,
+      themeMode: 'auto'
     }
 
     try {
@@ -109,15 +110,18 @@ export class StorageService {
 
         // Validate settings structure and merge with defaults
         return {
-          audioEnabled: typeof parsedSettings.audioEnabled === 'boolean' 
-            ? parsedSettings.audioEnabled 
+          audioEnabled: typeof parsedSettings.audioEnabled === 'boolean'
+            ? parsedSettings.audioEnabled
             : defaultSettings.audioEnabled,
-          primaryColor: typeof parsedSettings.primaryColor === 'string' 
-            ? parsedSettings.primaryColor 
+          primaryColor: typeof parsedSettings.primaryColor === 'string'
+            ? parsedSettings.primaryColor
             : defaultSettings.primaryColor,
           wakeLockEnabled: typeof parsedSettings.wakeLockEnabled === 'boolean'
             ? parsedSettings.wakeLockEnabled
-            : defaultSettings.wakeLockEnabled
+            : defaultSettings.wakeLockEnabled,
+          themeMode: (parsedSettings.themeMode === 'auto' || parsedSettings.themeMode === 'light' || parsedSettings.themeMode === 'dark')
+            ? parsedSettings.themeMode
+            : defaultSettings.themeMode
         }
       }
     } catch (error) {
@@ -245,7 +249,8 @@ export class StorageService {
       typeof data === 'object' &&
       typeof data.audioEnabled === 'boolean' &&
       typeof data.primaryColor === 'string' &&
-      (data.wakeLockEnabled === undefined || typeof data.wakeLockEnabled === 'boolean')
+      (data.wakeLockEnabled === undefined || typeof data.wakeLockEnabled === 'boolean') &&
+      (data.themeMode === undefined || data.themeMode === 'auto' || data.themeMode === 'light' || data.themeMode === 'dark')
     )
   }
 

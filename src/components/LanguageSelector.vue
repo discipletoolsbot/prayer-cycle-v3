@@ -52,27 +52,27 @@ const handleLanguageChange = async () => {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: #ffffff;
-  border: 2px solid #e2e8f0;
+  background-color: var(--color-background);
+  border: 2px solid var(--color-border);
   border-radius: 8px;
   padding: 0.75rem 2.5rem 0.75rem 1rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #374151;
+  color: var(--color-text);
   cursor: pointer;
   min-width: 200px;
   transition: all 0.2s ease-in-out;
 }
 
 .language-selector__select:hover {
-  border-color: #cbd5e1;
+  border-color: var(--color-primary);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 .language-selector__select:focus {
   outline: none;
-  border-color: #2cace2;
-  box-shadow: 0 0 0 3px rgba(44, 172, 226, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
 }
 
 .language-selector__icon {
@@ -81,24 +81,7 @@ const handleLanguageChange = async () => {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  color: #6b7280;
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .language-selector__select {
-    background-color: #374151;
-    border-color: #4b5563;
-    color: #f9fafb;
-  }
-
-  .language-selector__select:hover {
-    border-color: #6b7280;
-  }
-
-  .language-selector__icon {
-    color: #9ca3af;
-  }
+  color: var(--color-text-secondary);
 }
 
 /* Mobile responsive */

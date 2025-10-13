@@ -23,10 +23,12 @@
   --pc-text-light: #ffffff;
 }
 
-/* Prayer Cycle semantic color variables */
+/* Prayer Cycle semantic color variables - Light theme */
 :root {
   --color-background: var(--pc-white);
   --color-background-soft: var(--pc-white-soft);
+  --color-background-secondary: #f0f0f0;
+  --color-border: #dee2e6;
   --color-primary: var(--pc-primary);
   --color-primary-light: var(--pc-primary-light);
   --color-primary-dark: var(--pc-primary-dark);
@@ -194,4 +196,26 @@ body {
 
 [dir="rtl"] .text-right {
   text-align: left;
+}
+
+/* ===== DARK MODE THEME ===== */
+
+/* Dark mode colors */
+[data-theme="dark"] {
+  /* Dark theme color palette */
+  --color-background: #1a1a1a;
+  --color-background-soft: #242424;
+  --color-background-secondary: #2d2d2d;
+  --color-border: #404040;
+  --color-primary: #3dbff0;
+  --color-primary-light: rgba(61, 191, 240, 0.15);
+  --color-primary-dark: #2aa4d6;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #a0a0a0;
+  --color-text-light: #ffffff;
+}
+
+/* Ensure smooth transitions when switching themes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

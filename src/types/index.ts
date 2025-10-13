@@ -9,10 +9,13 @@ export interface PrayerStep {
   duration: number; // duration in seconds (300 for 5 minutes)
 }
 
+export type ThemeMode = 'auto' | 'light' | 'dark';
+
 export interface UserSettings {
   audioEnabled: boolean;
   primaryColor: string; // #2cace2
   wakeLockEnabled: boolean;
+  themeMode: ThemeMode;
 }
 
 export interface PrayerCycleState {

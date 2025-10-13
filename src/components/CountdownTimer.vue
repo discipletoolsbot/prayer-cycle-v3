@@ -61,25 +61,20 @@ const statusLabel = computed(() => {
 
 <style scoped>
 .countdown-timer {
-  --primary-color: #2cace2;
   --active-color: #2cace2;
   --paused-color: #ffc107;
   --completed-color: #28a745;
   --idle-color: #6c757d;
   --transitioning-color: #17a2b8;
-  --text-white: #ffffff;
-  --text-dark: #333333;
-  --background: #ffffff;
-  --shadow: 0 4px 12px rgba(44, 172, 226, 0.15);
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background-color: var(--background);
+  background-color: var(--color-background);
   border-radius: 12px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 4px 12px rgba(44, 172, 226, 0.15);
   transition: all 0.3s ease-in-out;
   min-width: 200px;
 }
@@ -148,7 +143,6 @@ const statusLabel = computed(() => {
 
 .countdown-timer--paused {
   border: 3px solid var(--paused-color);
-  background-color: #fff8e1;
 }
 
 .countdown-timer--paused .countdown-timer__display {
@@ -161,7 +155,6 @@ const statusLabel = computed(() => {
 
 .countdown-timer--completed {
   border: 3px solid var(--completed-color);
-  background-color: #f1f8e9;
 }
 
 .countdown-timer--completed .countdown-timer__display {
@@ -186,7 +179,6 @@ const statusLabel = computed(() => {
 
 .countdown-timer--transitioning {
   border: 3px solid var(--transitioning-color);
-  background-color: #e0f7fa;
   animation: pulse 1s ease-in-out infinite alternate;
 }
 
@@ -202,7 +194,7 @@ const statusLabel = computed(() => {
 @keyframes pulse {
   0% {
     transform: scale(1);
-    box-shadow: var(--shadow);
+    box-shadow: 0 4px 12px rgba(44, 172, 226, 0.15);
   }
   100% {
     transform: scale(1.02);
@@ -267,13 +259,7 @@ const statusLabel = computed(() => {
   }
 }
 
-/* High contrast mode for projectors */
-@media (min-width: 1024px) {
-  .countdown-timer--desktop {
-    --text-dark: #000000; /* Pure black for maximum contrast */
-    --shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  }
-}
+/* High contrast mode for projectors - removed as we use theme variables */
 
 /* Accessibility improvements */
 @media (prefers-reduced-motion: reduce) {
@@ -290,14 +276,8 @@ const statusLabel = computed(() => {
 
 /* Focus styles for accessibility */
 .countdown-timer:focus-within {
-  outline: 2px solid var(--primary-color);
+  outline: 2px solid var(--color-primary);
   outline-offset: 4px;
-}
-
-/* Ensure readability in all states */
-.countdown-timer--active,
-.countdown-timer--idle {
-  background-color: var(--background);
 }
 
 /* Special handling for very low time (under 1 minute) */

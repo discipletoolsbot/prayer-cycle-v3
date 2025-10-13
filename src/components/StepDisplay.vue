@@ -45,17 +45,12 @@ const stepDisplayClass = computed(() => ({
 
 <style scoped>
 .step-display {
-  --primary-color: #2cace2;
-  --text-primary: #333333;
-  --text-secondary: #666666;
-  --background: #ffffff;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: var(--background);
+  background-color: var(--color-background);
   transition: all 0.3s ease-in-out;
   min-height: 200px;
 }
@@ -72,7 +67,7 @@ const stepDisplayClass = computed(() => ({
 }
 
 .step-display__name {
-  color: var(--primary-color);
+  color: var(--color-primary);
   font-weight: 700;
   margin: 0 0 1rem 0;
   line-height: 1.2;
@@ -81,7 +76,7 @@ const stepDisplayClass = computed(() => ({
 }
 
 .step-display__description {
-  color: var(--text-primary);
+  color: var(--color-text);
   line-height: 1.6;
   margin: 0;
   font-weight: 400;
@@ -176,12 +171,7 @@ const stepDisplayClass = computed(() => ({
   }
 }
 
-/* High contrast mode for projectors */
-@media (min-width: 1024px) {
-  .step-display--desktop {
-    --text-primary: #000000; /* Pure black for maximum contrast */
-  }
-}
+/* High contrast mode for projectors - removed as we use theme variables */
 
 /* Smooth transitions for step changes */
 .step-display.v-enter-active,
@@ -216,7 +206,7 @@ const stepDisplayClass = computed(() => ({
 
 /* Focus styles for accessibility */
 .step-display:focus-within {
-  outline: 2px solid var(--primary-color);
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 </style>

@@ -78,6 +78,60 @@
           </div>
         </div>
 
+        <!-- Theme Settings -->
+        <div class="settings-panel__section">
+          <h4 class="settings-panel__section-title">{{ t('settings.theme.title') }}</h4>
+          <div class="settings-panel__option">
+            <div class="settings-panel__radio-group">
+              <label class="settings-panel__radio-label">
+                <input
+                  type="radio"
+                  class="settings-panel__radio"
+                  name="theme"
+                  value="auto"
+                  :checked="settings.themeMode === 'auto'"
+                  @change="updateThemeSetting"
+                />
+                <span class="settings-panel__radio-custom"></span>
+                <span class="settings-panel__label-text">
+                  {{ t('settings.theme.auto') }}
+                </span>
+              </label>
+              <label class="settings-panel__radio-label">
+                <input
+                  type="radio"
+                  class="settings-panel__radio"
+                  name="theme"
+                  value="light"
+                  :checked="settings.themeMode === 'light'"
+                  @change="updateThemeSetting"
+                />
+                <span class="settings-panel__radio-custom"></span>
+                <span class="settings-panel__label-text">
+                  {{ t('settings.theme.light') }}
+                </span>
+              </label>
+              <label class="settings-panel__radio-label">
+                <input
+                  type="radio"
+                  class="settings-panel__radio"
+                  name="theme"
+                  value="dark"
+                  :checked="settings.themeMode === 'dark'"
+                  @change="updateThemeSetting"
+                />
+                <span class="settings-panel__radio-custom"></span>
+                <span class="settings-panel__label-text">
+                  {{ t('settings.theme.dark') }}
+                </span>
+              </label>
+            </div>
+            <p class="settings-panel__description">
+              {{ t('settings.theme.description') }}
+            </p>
+          </div>
+        </div>
+
       </div>
 
       <!-- Version Footer -->
@@ -144,6 +198,11 @@ function updateAudioSetting(event: Event): void {
 function updateWakeLockSetting(event: Event): void {
   const target = event.target as HTMLInputElement
   emit('updateSettings', { wakeLockEnabled: target.checked })
+}
+
+function updateThemeSetting(event: Event): void {
+  const target = event.target as HTMLInputElement
+  emit('updateSettings', { themeMode: target.value as 'auto' | 'light' | 'dark' })
 }
 
 
@@ -384,6 +443,58 @@ defineExpose({
 }
 
 .settings-panel__checkbox:focus-visible + .settings-panel__checkbox-custom {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Radio button styles */
+.settings-panel__radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);
+}
+
+.settings-panel__radio-label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  cursor: pointer;
+}
+
+.settings-panel__radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.settings-panel__radio-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-border);
+  border-radius: 50%;
+  background: var(--color-background);
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.settings-panel__radio:checked + .settings-panel__radio-custom {
+  border-color: var(--color-primary);
+}
+
+.settings-panel__radio:checked + .settings-panel__radio-custom::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.settings-panel__radio:focus-visible + .settings-panel__radio-custom {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }

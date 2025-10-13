@@ -73,7 +73,8 @@ export function isValidPrayerCycleState(state: Partial<PrayerCycleState>): state
     state.settings !== null &&
     typeof state.settings.audioEnabled === 'boolean' &&
     typeof state.settings.primaryColor === 'string' &&
-    typeof state.settings.wakeLockEnabled === 'boolean'
+    typeof state.settings.wakeLockEnabled === 'boolean' &&
+    (state.settings.themeMode === 'auto' || state.settings.themeMode === 'light' || state.settings.themeMode === 'dark')
   )
 }
 
@@ -88,7 +89,8 @@ export function createDefaultPrayerCycleState(): PrayerCycleState {
     settings: {
       audioEnabled: true,
       primaryColor: '#2cace2',
-      wakeLockEnabled: true
+      wakeLockEnabled: true,
+      themeMode: 'auto'
     }
   }
 }

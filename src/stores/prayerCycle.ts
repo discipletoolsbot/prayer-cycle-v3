@@ -15,7 +15,8 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
   const settings = ref<UserSettings>({
     audioEnabled: true,
     primaryColor: '#2cace2',
-    wakeLockEnabled: true
+    wakeLockEnabled: true,
+    themeMode: 'auto'
   })
 
   // Custom step duration (can be overridden by URL parameter)
