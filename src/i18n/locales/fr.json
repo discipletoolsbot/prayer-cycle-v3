@@ -7,51 +7,51 @@
     "steps": {
       "praise": {
         "name": "LOUANGE",
-        "description": "Commencer son heure de prière en louant le Seigneur. Le louer pour ce qu'il a fait de spécial dans notre vie au cours de la semaine dernière. Le louer pour sa bonté envers notre famille."
+        "description": "Commencez votre heure de prière en louant le Seigneur. Louez-le pour les choses qui vous préoccupent. Louez-le pour une chose extraordinaire qu'il a faite dans votre vie au cours de la semaine passée. Louez-le pour sa bonté envers votre famille."
       },
       "wait": {
         "name": "ATTENTE",
-        "description": "Passer du temps à attendre le Seigneur. Garder le silence et Le laisser rassembler des réflexions pour nous."
+        "description": "Passez du temps à attendre le Seigneur. Restez silencieux et laissez-le guider vos réflexions."
       },
       "confess": {
         "name": "CONFESSION",
-        "description": "Demander au Saint-Esprit de nous montrer tout ce qui dans notre vie pourrait lui déplaire. Lui demander de nous signaler les attitudes qui sont mauvaises, ainsi que les actes spécifiques pour lesquels on n'a pas encore fait de prière de confession. Confesser cela maintenant au Seigneur afin d'être purifié."
+        "description": "Demandez à l'Esprit Saint de vous montrer tout ce qui, dans votre vie, ne plaît pas au Seigneur. Demandez-lui de vous indiquer les attitudes qui sont mauvaises, ainsi que des actes spécifiques pour lesquels vous n'avez pas encore prié ou ne vous êtes pas confessé. Confessez-les au Seigneur afin d'être purifié."
       },
       "read_the_word": {
         "name": "LECTURE DE LA PAROLE",
-        "description": "Passer du temps à lire des passages sortis des Psaumes, de l'Ancien Testament ou des passages sur la prière situés dans le Nouveau Testament."
+        "description": "Passez du temps à lire les Psaumes, les prophètes ou les passages dédiés à la prière dans le Nouveau Testament."
       },
       "ask": {
-        "name": "DEMANDES",
-        "description": "Faire des demandes pour soi."
+        "name": "DEMANDE",
+        "description": "Faites des demandes pour vous-même."
       },
       "intercession": {
         "name": "INTERCESSION",
-        "description": "Faire des demandes pour les autres."
+        "description": "Formulez des demandes pour les autres."
       },
       "pray_the_word": {
-        "name": "LA PAROLE EN PRIÈRE",
-        "description": "Prier des passages spécifiques. Les prières bibliques, ainsi qu'un certain nombre de psaumes se prêtent bien à cet objectif."
+        "name": "PRIER LA PAROLE",
+        "description": "Priez selon des passages spécifiques. Les prières des Écritures ainsi qu'un certain nombre de Psaumes s'y prêtent bien."
       },
       "thank": {
         "name": "REMERCIEMENT",
-        "description": "Rendre grâce au Seigneur pour notre vie au quotidien. Adresser également des remerciements concernant notre famille, et notre église."
+        "description": "Remerciez le Seigneur pour ce qui se passe dans votre vie, au nom de votre famille et de votre église."
       },
       "sing": {
         "name": "CHANT",
-        "description": "Chanter des chants de louange ou d'adoration, des hymnes ou des chants spontanés."
+        "description": "Chantez des chants de louange ou d'adoration, ou un autre hymne ou chant spirituel."
       },
       "meditate": {
         "name": "MÉDITATION",
-        "description": "Demander au Seigneur de nous parler. Prendre un stylo et du papier à portée de main et être prêt à noter les impressions qu'il donne."
+        "description": "Demandez au Seigneur de vous parler. Ayez de quoi écrire ainsi qu'un stylo à portée de mains pour noter vos impressions sur ce qu'il vous offre."
       },
       "listen": {
         "name": "ÉCOUTE",
-        "description": "Passer du temps à fusionner ce que l'on a lu, ce que l'on a prié et ce que l'on a chanté et voir comment le Seigneur réunit le tout pour nous parler."
+        "description": "Passez du temps à intégrer les choses que vous avez lues, celles que vous avez priées et chantées, et voyez comment le Seigneur vous parle à travers elles."
       },
       "praise_end": {
         "name": "LOUANGE",
-        "description": "Louer le Seigneur pour le temps passé avec Lui et pour les impressions qu'il nous a données. Le louer pour ses attributs glorieux."
+        "description": "Louez le Seigneur pour le temps que vous avez passé avec lui et les sentiments qu'il vous a donnés. Louez-le pour ses glorieux attributs."
       }
     },
     "timer": {
