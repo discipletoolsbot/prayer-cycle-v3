@@ -10,7 +10,7 @@ export function useI18n() {
   const { t, locale, availableLocales } = useVueI18n()
 
   const currentLanguage = computed(() => locale.value)
-  
+
   const currentLanguageInfo = computed(() => 
     SUPPORTED_LANGUAGES.find(lang => lang.code === locale.value) || SUPPORTED_LANGUAGES[0]
   )

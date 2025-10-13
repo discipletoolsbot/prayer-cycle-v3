@@ -27,7 +27,7 @@ export class WakeLockService {
    */
   setEnabled(enabled: boolean): void {
     this.isEnabled = enabled
-    
+
     // If disabling and currently active, release the wake lock
     if (!enabled && this.wakeLock) {
       this.releaseWakeLock()
@@ -57,13 +57,13 @@ export class WakeLockService {
 
     try {
       this.wakeLock = await (navigator as any).wakeLock.request('screen')
-      
+
       // Listen for wake lock release (can happen automatically)
       this.wakeLock.addEventListener('release', () => {
         console.log('Screen wake lock was released')
         this.wakeLock = null
       })
-      
+
       console.log('Screen wake lock activated')
       return true
     } catch (error) {

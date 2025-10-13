@@ -17,13 +17,13 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
     primaryColor: '#2cace2',
     wakeLockEnabled: true
   })
-  
+
   // Custom step duration (can be overridden by URL parameter)
   const stepDuration = ref<number>(STEP_DURATION_SECONDS)
 
   // Computed getters
   const currentPrayerStep = computed(() => PRAYER_STEPS[currentStep.value])
-  
+
   const progressPercentage = computed(() => {
     const completedSteps = currentStep.value
     const currentStepProgress = (STEP_DURATION_SECONDS - timeRemaining.value) / STEP_DURATION_SECONDS
@@ -80,7 +80,7 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
 
   function updateTimer(remaining: number): void {
     timeRemaining.value = Math.max(0, remaining)
-    
+
     // Note: Auto-advance is handled by TimerService calling handleTimerComplete in App.vue
     // Removed duplicate nextStep() call that was causing steps to be skipped
   }
@@ -97,7 +97,7 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
   function updateSettings(newSettings: Partial<UserSettings>): void {
     settings.value = { ...settings.value, ...newSettings }
   }
-  
+
   function setStepDuration(duration: number): void {
     stepDuration.value = duration
     // Reset timeRemaining to new duration if currently idle
@@ -135,7 +135,7 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
     timeRemaining: readonly(timeRemaining),
     status: readonly(status),
     settings: readonly(settings),
-    
+
     // Getters
     currentPrayerStep,
     progressPercentage,
@@ -144,7 +144,7 @@ export const usePrayerCycleStore = defineStore('prayerCycle', () => {
     isCompleted,
     isIdle,
     stepProgress,
-    
+
     // Actions
     startCycle,
     pauseTimer,

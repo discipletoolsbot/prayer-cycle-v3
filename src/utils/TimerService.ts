@@ -11,7 +11,7 @@ export class TimerService {
   private animationFrameId: number | null = null;
   private isRunning: boolean = false;
   private isPaused: boolean = false;
-  
+
   private onTick: ((remaining: number) => void) | null = null;
   private onComplete: (() => void) | null = null;
 
@@ -37,7 +37,7 @@ export class TimerService {
     this.isRunning = true;
     this.isPaused = false;
     this.startTime = performance.now();
-    
+
     this.tick();
   }
 
@@ -57,7 +57,7 @@ export class TimerService {
 
     this.isPaused = true;
     this.pausedTime = currentTime;
-    
+
     if (this.animationFrameId !== null) {
       cancelAnimationFrame(this.animationFrameId);
       this.animationFrameId = null;
@@ -85,7 +85,7 @@ export class TimerService {
       const pausedDuration = performance.now() - this.pausedTime;
       this.startTime += pausedDuration;
     }
-    
+
     this.isPaused = false;
     this.tick();
   }
@@ -96,7 +96,7 @@ export class TimerService {
   stop(): void {
     this.isRunning = false;
     this.isPaused = false;
-    
+
     if (this.animationFrameId !== null) {
       cancelAnimationFrame(this.animationFrameId);
       this.animationFrameId = null;
@@ -140,7 +140,7 @@ export class TimerService {
 
     const currentTime = performance.now();
     const elapsed = (currentTime - this.startTime) / 1000; // Convert to seconds
-    
+
     // Calculate remaining time with drift compensation
     this.remainingTime = Math.max(0, this.duration - elapsed);
 

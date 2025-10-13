@@ -38,7 +38,7 @@ export function isValidStateTransition(from: PrayerStatus, to: PrayerStatus): bo
     transitioning: ['active', 'completed'],
     completed: ['idle']
   }
-  
+
   return validTransitions[from]?.includes(to) ?? false
 }
 
@@ -104,18 +104,18 @@ export function validateStepTransition(
   if (!isValidStepNumber(currentStep)) {
     return { isValid: false, error: 'Current step is invalid' }
   }
-  
+
   if (!isValidStepNumber(targetStep)) {
     return { isValid: false, error: 'Target step is invalid' }
   }
-  
+
   if (currentStatus === 'completed') {
     return { isValid: false, error: 'Cannot transition steps when cycle is completed' }
   }
-  
+
   if (targetStep !== currentStep + 1 && targetStep !== 0) {
     return { isValid: false, error: 'Can only advance to next step or restart to step 0' }
   }
-  
+
   return { isValid: true }
 }

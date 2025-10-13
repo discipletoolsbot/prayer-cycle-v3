@@ -34,20 +34,20 @@ export function usePWA() {
     try {
       // Show the install prompt
       deferredPrompt.value.prompt()
-      
+
       // Wait for the user to respond to the prompt
       const { outcome } = await deferredPrompt.value.userChoice
-      
+
       if (outcome === 'accepted') {
         console.log('User accepted the PWA install prompt')
       } else {
         console.log('User dismissed the PWA install prompt')
       }
-      
+
       // Clear the deferredPrompt
       deferredPrompt.value = null
       isInstallable.value = false
-      
+
       return outcome === 'accepted'
     } catch (error) {
       console.error('Error installing PWA:', error)
@@ -69,10 +69,10 @@ export function usePWA() {
     // Set up offline service callbacks
     offlineService.onOnline(handleOnline)
     offlineService.onOffline(handleOffline)
-    
+
     // Set up PWA install prompt listener
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-    
+
     // Initial online state
     isOnline.value = offlineService.isOnline
   })
@@ -81,7 +81,7 @@ export function usePWA() {
     // Clean up offline service callbacks
     offlineService.removeOnlineCallback(handleOnline)
     offlineService.removeOfflineCallback(handleOffline)
-    
+
     // Remove PWA install prompt listener
     window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
   })

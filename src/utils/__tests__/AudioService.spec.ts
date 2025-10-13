@@ -19,7 +19,7 @@ describe('AudioService', () => {
 
   beforeEach(() => {
     audioService = new AudioService();
-    
+
     // Create fresh mocks for each test
     mockAudioBuffer = {
       getChannelData: vi.fn().mockReturnValue(new Float32Array(22050))
@@ -51,13 +51,13 @@ describe('AudioService', () => {
       addEventListener: vi.fn(),
       removeEventListener: vi.fn()
     };
-    
+
     // Mock global constructors
     global.Audio = vi.fn().mockImplementation(() => mockHtmlAudio);
     global.AudioContext = vi.fn().mockImplementation(() => mockAudioContext);
     (global as any).webkitAudioContext = vi.fn().mockImplementation(() => mockAudioContext);
     global.btoa = vi.fn().mockReturnValue('mocked-base64-string');
-    
+
     // Mock fetch for loading audio files
     (global.fetch as any).mockResolvedValue({
       arrayBuffer: vi.fn().mockResolvedValue(new ArrayBuffer(8))
@@ -72,7 +72,7 @@ describe('AudioService', () => {
   describe('initialization', () => {
     it('should initialize successfully with Web Audio API', async () => {
       await audioService.initialize();
-      
+
       expect(audioService.isInitialized()).toBe(true);
       expect(AudioContext).toHaveBeenCalled();
     });
@@ -94,7 +94,7 @@ describe('AudioService', () => {
       });
 
       await audioService.initialize();
-      
+
       expect(audioService.isInitialized()).toBe(true);
       expect(Audio).toHaveBeenCalled();
     });
@@ -121,17 +121,17 @@ describe('AudioService', () => {
     it('should not reinitialize if already initialized', async () => {
       await audioService.initialize();
       const firstCallCount = (AudioContext as any).mock.calls.length;
-      
+
       await audioService.initialize();
-      
+
       expect((AudioContext as any).mock.calls.length).toBe(firstCallCount);
     });
 
     it('should resume suspended audio context', async () => {
       mockAudioContext.state = 'suspended';
-      
+
       await audioService.initialize();
-      
+
       expect(mockAudioContext.resume).toHaveBeenCalled();
     });
   });
@@ -143,7 +143,7 @@ describe('AudioService', () => {
 
     it('should play notification using Web Audio API', async () => {
       await audioService.playNotification();
-      
+
       expect(mockAudioContext.createBufferSource).toHaveBeenCalled();
       expect(mockBufferSource.connect).toHaveBeenCalledWith(mockAudioContext.destination);
       expect(mockBufferSource.start).toHaveBeenCalled();
@@ -151,17 +151,17 @@ describe('AudioService', () => {
 
     it('should not play when audio is disabled', async () => {
       audioService.setEnabled(false);
-      
+
       await audioService.playNotification();
-      
+
       expect(mockAudioContext.createBufferSource).not.toHaveBeenCalled();
     });
 
     it('should not play when not initialized', async () => {
       const uninitializedService = new AudioService();
-      
+
       await uninitializedService.playNotification();
-      
+
       expect(mockAudioContext.createBufferSource).not.toHaveBeenCalled();
     });
 
@@ -176,9 +176,9 @@ describe('AudioService', () => {
 
     it('should resume suspended context before playing', async () => {
       mockAudioContext.state = 'suspended';
-      
+
       await audioService.playNotification();
-      
+
       expect(mockAudioContext.resume).toHaveBeenCalled();
     });
   });
@@ -204,14 +204,14 @@ describe('AudioService', () => {
 
     it('should play notification using HTML5 Audio', async () => {
       await audioService.playNotification();
-      
+
       expect(mockHtmlAudio.currentTime).toBe(0);
       expect(mockHtmlAudio.play).toHaveBeenCalled();
     });
 
     it('should handle HTML5 Audio playback errors', async () => {
       mockHtmlAudio.play = vi.fn().mockRejectedValue(new Error('Play failed'));
-      
+
       // Should not throw
       await expect(audioService.playNotification()).resolves.toBeUndefined();
     });
@@ -225,7 +225,7 @@ describe('AudioService', () => {
     it('should allow enabling and disabling', () => {
       audioService.setEnabled(false);
       expect(audioService.isEnabled()).toBe(false);
-      
+
       audioService.setEnabled(true);
       expect(audioService.isEnabled()).toBe(true);
     });
@@ -238,7 +238,7 @@ describe('AudioService', () => {
         value: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)',
         configurable: true
       });
-      
+
       expect(audioService.respectsSystemSettings()).toBe(true);
     });
 
@@ -248,7 +248,7 @@ describe('AudioService', () => {
         value: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
         configurable: true
       });
-      
+
       expect(audioService.respectsSystemSettings()).toBe(true);
     });
   });
@@ -256,9 +256,9 @@ describe('AudioService', () => {
   describe('resource cleanup', () => {
     it('should dispose of Web Audio API resources', async () => {
       await audioService.initialize();
-      
+
       audioService.dispose();
-      
+
       expect(mockAudioContext.close).toHaveBeenCalled();
       expect(audioService.isInitialized()).toBe(false);
     });
@@ -279,9 +279,9 @@ describe('AudioService', () => {
       });
 
       await audioService.initialize();
-      
+
       audioService.dispose();
-      
+
       expect(mockHtmlAudio.pause).toHaveBeenCalled();
       expect(audioService.isInitialized()).toBe(false);
     });
@@ -303,7 +303,7 @@ describe('AudioService', () => {
       });
 
       await audioService.initialize();
-      
+
       expect(Audio).toHaveBeenCalledWith('mocked-audio-url');
     });
   });

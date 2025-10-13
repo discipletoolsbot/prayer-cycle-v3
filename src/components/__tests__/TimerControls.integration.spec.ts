@@ -31,7 +31,7 @@ describe('TimerControls Integration', () => {
       })
 
       expect(wrapper.find('.timer-controls').exists()).toBe(true)
-      
+
       // Initial state should be idle
       const playButton = wrapper.find('.timer-controls__button--primary')
       expect(playButton.find('.timer-controls__label').text()).toBe('Start')
@@ -50,7 +50,7 @@ describe('TimerControls Integration', () => {
 
       // Update props to active status
       await wrapper.setProps({ status: 'active' })
-      
+
       playButton = wrapper.find('.timer-controls__button--primary')
       expect(playButton.find('.timer-controls__label').text()).toBe('Pause')
       expect(playButton.classes()).toContain('timer-controls__button--active')
@@ -66,19 +66,19 @@ describe('TimerControls Integration', () => {
       // Test play event emission
       const playButton = wrapper.find('.timer-controls__button--primary')
       await playButton.trigger('click')
-      
+
       expect(wrapper.emitted('play')).toHaveLength(1)
 
       // Test next event emission
       const nextButton = wrapper.findAll('.timer-controls__button--secondary')[0]
       await nextButton.trigger('click')
-      
+
       expect(wrapper.emitted('next')).toHaveLength(1)
 
       // Test restart event emission
       const restartButton = wrapper.findAll('.timer-controls__button--secondary')[1]
       await restartButton.trigger('click')
-      
+
       expect(wrapper.emitted('restart')).toHaveLength(1)
     })
 
@@ -91,14 +91,14 @@ describe('TimerControls Integration', () => {
 
       const playButton = wrapper.find('.timer-controls__button--primary')
       const nextButton = wrapper.findAll('.timer-controls__button--secondary')[0]
-      
+
       // Buttons should be disabled
       expect(playButton.attributes('disabled')).toBeDefined()
       expect(nextButton.attributes('disabled')).toBeDefined()
-      
+
       // Label should show completed
       expect(playButton.find('.timer-controls__label').text()).toBe('Completed')
-      
+
       // Container should have disabled class
       expect(wrapper.find('.timer-controls--disabled').exists()).toBe(true)
     })

@@ -8,7 +8,7 @@ export class StorageService {
   private static readonly SETTINGS_KEY = 'prayer-cycle-settings'
   private static readonly SESSION_KEY = 'prayer-cycle-session'
   private static readonly BACKUP_KEY = 'prayer-cycle-backup'
-  
+
   private isStorageAvailable: boolean
   private memoryStorage: Map<string, string> = new Map()
 
@@ -84,7 +84,7 @@ export class StorageService {
     try {
       const settingsJson = JSON.stringify(settings)
       this.setItem(StorageService.SETTINGS_KEY, settingsJson)
-      
+
       // Create backup of settings
       this.setItem(StorageService.BACKUP_KEY, settingsJson)
     } catch (error) {
@@ -106,7 +106,7 @@ export class StorageService {
       const settingsJson = this.getItem(StorageService.SETTINGS_KEY)
       if (settingsJson) {
         const parsedSettings = JSON.parse(settingsJson)
-        
+
         // Validate settings structure and merge with defaults
         return {
           audioEnabled: typeof parsedSettings.audioEnabled === 'boolean' 
@@ -145,7 +145,7 @@ export class StorageService {
           status: state.status,
           timestamp: Date.now() // Add timestamp for session validation
         }
-        
+
         const sessionJson = JSON.stringify(sessionData)
         this.setItem(StorageService.SESSION_KEY, sessionJson)
       }
@@ -163,13 +163,13 @@ export class StorageService {
       const sessionJson = this.getItem(StorageService.SESSION_KEY)
       if (sessionJson) {
         const sessionData = JSON.parse(sessionJson)
-        
+
         // Validate session data structure
         if (this.isValidSessionData(sessionData)) {
           // Check if session is not too old (max 2 hours)
           const maxSessionAge = 2 * 60 * 60 * 1000 // 2 hours in milliseconds
           const sessionAge = Date.now() - sessionData.timestamp
-          
+
           if (sessionAge <= maxSessionAge) {
             // Return partial state for recovery (settings will be loaded separately)
             return {
@@ -207,7 +207,7 @@ export class StorageService {
       const backupJson = this.getItem(StorageService.BACKUP_KEY)
       if (backupJson) {
         const backupSettings = JSON.parse(backupJson)
-        
+
         // Validate backup settings and restore to main storage
         if (this.isValidSettingsData(backupSettings)) {
           this.setItem(StorageService.SETTINGS_KEY, backupJson)
@@ -217,7 +217,7 @@ export class StorageService {
     } catch (error) {
       console.error('Failed to restore settings from backup:', error)
     }
-    
+
     return null
   }
 

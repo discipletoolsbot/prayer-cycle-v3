@@ -16,7 +16,7 @@ const createTestI18n = () => {
         'Start your prayer hour by praising the Lord. Praise Him for things that are on your mind right now.': 'Start your prayer hour by praising the Lord. Praise Him for things that are on your mind right now.',
         'WAIT': 'WAIT',
         'Spend time waiting on the Lord.': 'Spend time waiting on the Lord.',
-        
+
         // Prayer step names and descriptions - all 12 steps
         'prayer.steps.praise.name': 'PRAISE',
         'prayer.steps.praise.description': 'Start your prayer hour by praising the Lord. Praise Him for things that are on your mind right now.',
@@ -42,7 +42,7 @@ const createTestI18n = () => {
         'prayer.steps.listen.description': 'Be still and listen for God\'s voice.',
         'prayer.steps.praise_end.name': 'PRAISE',
         'prayer.steps.praise_end.description': 'End your prayer hour with praise and thanksgiving.',
-        
+
         // Timer states
         'timer.status.idle': 'Ready to Start',
         'timer.status.active': 'Active',
@@ -54,7 +54,7 @@ const createTestI18n = () => {
         'prayer.timer.status.paused': 'Paused',
         'prayer.timer.status.completed': 'Completed',
         'prayer.timer.status.transitioning': 'Transitioning',
-        
+
         // Timer controls
         'prayer.timer.start': 'Start',
         'prayer.timer.pause': 'Pause',
@@ -62,7 +62,7 @@ const createTestI18n = () => {
         'prayer.timer.next': 'Next',
         'prayer.timer.reset': 'Restart',
         'prayer.timer.completed': 'Completed',
-        
+
         // Timer aria labels
         'prayer.timer.aria.start_cycle': 'Start prayer cycle',
         'prayer.timer.aria.pause_step': 'Pause current step',
@@ -71,30 +71,30 @@ const createTestI18n = () => {
         'prayer.timer.aria.restart_cycle': 'Restart prayer cycle',
         'prayer.timer.aria.completed': 'Prayer cycle completed',
         'prayer.timer.aria.cycle_completed': 'Prayer cycle completed',
-        
+
         // Step indicators
         'prayer.timer.step': 'Step',
         'prayer.timer.of': 'of',
-        
+
         // Controls
         'controls.start': 'Start',
         'controls.pause': 'Pause',
         'controls.resume': 'Resume',
         'controls.next': 'Next',
         'controls.restart': 'Restart',
-        
+
         // Common UI
         'common.step': 'Step',
         'common.of': 'of',
         'common.settings': 'Settings',
-        
+
         // Language
         'language.selector': 'Language',
-        
+
         // App
         'app.title': 'Prayer Hour',
         'app.description': 'A guided prayer experience',
-        
+
         // Settings
         'settings.title': 'Settings',
         'settings.language': 'Language',
@@ -110,7 +110,7 @@ const createTestI18n = () => {
 export function mountWithI18n<T>(component: T, options: ComponentMountingOptions<T> = {}) {
   const i18n = createTestI18n()
   const pinia = createPinia()
-  
+
   return mount(component, {
     global: {
       plugins: [i18n, pinia],

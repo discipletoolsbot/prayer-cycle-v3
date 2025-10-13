@@ -6,17 +6,17 @@
   --pc-black: #333333;
   --pc-gray-light: #f8f9fa;
   --pc-gray: #6c757d;
-  
+
   /* Primary color as specified in requirements */
   --pc-primary: #2cace2;
   --pc-primary-light: rgba(44, 172, 226, 0.1);
   --pc-primary-dark: #1a8bb8;
-  
+
   /* Status colors */
   --pc-success: #28a745;
   --pc-warning: #ffc107;
   --pc-danger: #dc3545;
-  
+
   /* Text colors */
   --pc-text-primary: #333333;
   --pc-text-secondary: #6c757d;
@@ -33,7 +33,7 @@
   --color-text: var(--pc-text-primary);
   --color-text-secondary: var(--pc-text-secondary);
   --color-text-light: var(--pc-text-light);
-  
+
   /* Responsive breakpoints - mobile-first approach */
   --breakpoint-xs: 320px;   /* Small phones */
   --breakpoint-sm: 480px;   /* Large phones */
@@ -41,7 +41,7 @@
   --breakpoint-lg: 1024px;  /* Desktop */
   --breakpoint-xl: 1440px;  /* Large desktop/projectors */
   --breakpoint-xxl: 1920px; /* Very large screens */
-  
+
   /* Spacing scale - mobile-first */
   --spacing-xs: 0.25rem;    /* 4px */
   --spacing-sm: 0.5rem;     /* 8px */
@@ -50,7 +50,7 @@
   --spacing-xl: 2rem;       /* 32px */
   --spacing-xxl: 3rem;      /* 48px */
   --spacing-3xl: 4rem;      /* 64px */
-  
+
   /* Typography scale - mobile-first with projector support */
   --font-size-xs: 0.75rem;     /* 12px */
   --font-size-sm: 0.875rem;    /* 14px */
@@ -64,16 +64,16 @@
   --font-size-6xl: 4rem;       /* 64px */
   --font-size-7xl: 5rem;       /* 80px */
   --font-size-8xl: 6rem;       /* 96px */
-  
+
   /* Touch target sizes */
   --touch-target-min: 44px;    /* Minimum touch target size */
   --touch-target-comfortable: 48px; /* Comfortable touch target */
-  
+
   /* Layout dimensions */
   --container-max-width: 1200px;
   --sidebar-width: 280px;
   --header-height: 60px;
-  
+
   /* Border radius scale */
   --radius-sm: 0.25rem;        /* 4px */
   --radius-md: 0.375rem;       /* 6px */
@@ -81,13 +81,13 @@
   --radius-xl: 0.75rem;        /* 12px */
   --radius-2xl: 1rem;          /* 16px */
   --radius-full: 9999px;       /* Fully rounded */
-  
+
   /* Shadow scale */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  
+
   /* Z-index scale */
   --z-dropdown: 1000;
   --z-sticky: 1020;
@@ -131,10 +131,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   /* Prevent horizontal scroll on mobile */
   overflow-x: hidden;
-  
+
   /* Improve touch scrolling on iOS */
   -webkit-overflow-scrolling: touch;
 }

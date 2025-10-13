@@ -164,7 +164,7 @@ describe('StepDisplay', () => {
 
       const stepDisplay = wrapper.find('.step-display')
       expect(stepDisplay.exists()).toBe(true)
-      
+
       // Component should have the CSS custom property defined
       // This tests that the CSS structure is correct
       expect(wrapper.html()).toContain('step-display__name')

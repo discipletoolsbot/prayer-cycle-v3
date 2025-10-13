@@ -15,7 +15,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 300 }
       })
-      
+
       expect(wrapper.find('.countdown-timer__display').text()).toBe('05:00')
     })
 
@@ -23,7 +23,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 65 }
       })
-      
+
       expect(wrapper.find('.countdown-timer__display').text()).toBe('01:05')
     })
 
@@ -31,7 +31,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 60 }
       })
-      
+
       expect(wrapper.find('.countdown-timer__display').text()).toBe('01:00')
     })
 
@@ -39,7 +39,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 0 }
       })
-      
+
       expect(wrapper.find('.countdown-timer__display').text()).toBe('00:00')
     })
 
@@ -47,7 +47,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 3661 } // 61 minutes, 1 second
       })
-      
+
       expect(wrapper.find('.countdown-timer__display').text()).toBe('61:01')
     })
   })
@@ -58,7 +58,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, status: 'active' }
       })
-      
+
       expect(wrapper.classes()).toContain('countdown-timer--active')
       expect(wrapper.find('.countdown-timer__label').text()).toBe('Active')
     })
@@ -67,7 +67,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, status: 'paused' }
       })
-      
+
       expect(wrapper.classes()).toContain('countdown-timer--paused')
       expect(wrapper.find('.countdown-timer__label').text()).toBe('Paused')
     })
@@ -76,7 +76,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, status: 'completed' }
       })
-      
+
       expect(wrapper.classes()).toContain('countdown-timer--completed')
       expect(wrapper.find('.countdown-timer__label').text()).toBe('Completed')
     })
@@ -85,7 +85,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, status: 'idle' }
       })
-      
+
       expect(wrapper.classes()).toContain('countdown-timer--idle')
       expect(wrapper.find('.countdown-timer__label').text()).toBe('Ready')
     })
@@ -94,7 +94,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, status: 'transitioning' }
       })
-      
+
       expect(wrapper.classes()).toContain('countdown-timer--transitioning')
       expect(wrapper.find('.countdown-timer__label').text()).toBe('Transitioning')
     })
@@ -103,19 +103,19 @@ describe('CountdownTimer', () => {
   describe('Component Structure', () => {
     it('renders the timer display element', () => {
       const wrapper = mount(CountdownTimer, { props: defaultProps })
-      
+
       expect(wrapper.find('.countdown-timer__display').exists()).toBe(true)
     })
 
     it('renders the status label element', () => {
       const wrapper = mount(CountdownTimer, { props: defaultProps })
-      
+
       expect(wrapper.find('.countdown-timer__label').exists()).toBe(true)
     })
 
     it('has proper ARIA structure for accessibility', () => {
       const wrapper = mount(CountdownTimer, { props: defaultProps })
-      
+
       // Timer should be readable by screen readers
       expect(wrapper.find('.countdown-timer__display').exists()).toBe(true)
       expect(wrapper.find('.countdown-timer__label').exists()).toBe(true)
@@ -126,7 +126,7 @@ describe('CountdownTimer', () => {
     it('uses monospace font family for consistent digit spacing', () => {
       const wrapper = mount(CountdownTimer, { props: defaultProps })
       const display = wrapper.find('.countdown-timer__display')
-      
+
       // Check that the element exists and would have monospace styling
       expect(display.exists()).toBe(true)
       expect(display.element.tagName).toBe('DIV')
@@ -157,7 +157,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: -10 }
       })
-      
+
       // Should display as 00:00 or handle gracefully
       expect(wrapper.find('.countdown-timer__display').text()).toMatch(/^\d{2}:\d{2}$/)
     })
@@ -166,7 +166,7 @@ describe('CountdownTimer', () => {
       const wrapper = mount(CountdownTimer, {
         props: { ...defaultProps, timeRemaining: 99999 }
       })
-      
+
       // Should still format correctly
       expect(wrapper.find('.countdown-timer__display').text()).toMatch(/^\d+:\d{2}$/)
     })
@@ -186,7 +186,7 @@ describe('CountdownTimer', () => {
         const wrapper = mount(CountdownTimer, {
           props: { ...defaultProps, status }
         })
-        
+
         expect(wrapper.find('.countdown-timer__label').text()).toBe(label)
       })
     })

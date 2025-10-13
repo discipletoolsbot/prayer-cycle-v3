@@ -9,7 +9,7 @@ describe('StorageService', () => {
   beforeEach(() => {
     // Mock localStorage
     mockLocalStorage = {}
-    
+
     Object.defineProperty(window, 'localStorage', {
       value: {
         getItem: vi.fn((key: string) => mockLocalStorage[key] || null),
@@ -181,7 +181,7 @@ describe('StorageService', () => {
 
     it('should return null for expired sessions', () => {
       const oldTimestamp = Date.now() - (3 * 60 * 60 * 1000) // 3 hours ago
-      
+
       mockLocalStorage['prayer-cycle-session'] = JSON.stringify({
         currentStep: 3,
         timeRemaining: 180,
@@ -235,7 +235,7 @@ describe('StorageService', () => {
       })
 
       const newStorageService = new StorageService()
-      
+
       expect(newStorageService.isLocalStorageAvailable()).toBe(false)
     })
 
@@ -249,7 +249,7 @@ describe('StorageService', () => {
       })
 
       const newStorageService = new StorageService()
-      
+
       const testSettings: UserSettings = {
         audioEnabled: false,
         primaryColor: '#ff0000',
@@ -258,7 +258,7 @@ describe('StorageService', () => {
 
       // Should not throw error and use memory storage
       expect(() => newStorageService.saveSettings(testSettings)).not.toThrow()
-      
+
       const loadedSettings = newStorageService.loadSettings()
       expect(loadedSettings.audioEnabled).toBe(false)
     })
@@ -269,7 +269,7 @@ describe('StorageService', () => {
       mockLocalStorage['prayer-cycle-settings'] = 'invalid json'
 
       expect(() => storageService.loadSettings()).not.toThrow()
-      
+
       const settings = storageService.loadSettings()
       expect(settings).toEqual({
         audioEnabled: true,

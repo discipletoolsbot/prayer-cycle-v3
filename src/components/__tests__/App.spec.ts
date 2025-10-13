@@ -45,13 +45,13 @@ describe('App (PrayerCycleApp)', () => {
   beforeEach(() => {
     setActivePinia(createPinia())
     vi.clearAllMocks()
-    
+
     // Reset window width to mobile for consistent testing
     Object.defineProperty(window, 'innerWidth', {
       value: 375, // Mobile width
       writable: true
     })
-    
+
     // Reset user agent to mobile
     Object.defineProperty(navigator, 'userAgent', {
       value: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)',
@@ -61,7 +61,7 @@ describe('App (PrayerCycleApp)', () => {
 
   it('should render the mobile layout by default', () => {
     const wrapper = mountWithI18n(App)
-    
+
     expect(wrapper.find('.prayer-app-mobile').exists()).toBe(true)
     expect(wrapper.find('.prayer-app-desktop').exists()).toBe(false)
   })
@@ -69,14 +69,14 @@ describe('App (PrayerCycleApp)', () => {
 
   it('should display the correct step information', () => {
     const wrapper = mountWithI18n(App)
-    
+
     // Should show step 1 of 12 initially
     expect(wrapper.text()).toContain('Step 1 of 12')
   })
 
   it('should render all required components', () => {
     const wrapper = mountWithI18n(App)
-    
+
     // Check that all child components are rendered
     expect(wrapper.findComponent({ name: 'StepDisplay' }).exists()).toBe(true)
     expect(wrapper.findComponent({ name: 'ProgressIndicator' }).exists()).toBe(true)
@@ -85,11 +85,11 @@ describe('App (PrayerCycleApp)', () => {
 
   it('should handle timer control events', async () => {
     const wrapper = mountWithI18n(App)
-    
+
     // Find the TimerControls component and emit play event
     const timerControls = wrapper.findComponent({ name: 'TimerControls' })
     await timerControls.vm.$emit('play')
-    
+
     // The store should be updated (we can't easily test the internal state changes
     // without more complex mocking, but we can verify the component doesn't crash)
     expect(wrapper.exists()).toBe(true)
@@ -100,7 +100,7 @@ describe('App (PrayerCycleApp)', () => {
     // The service initialization is already mocked at the module level
     const wrapper = mountWithI18n(App)
     expect(wrapper.exists()).toBe(true)
-    
+
     // Verify the component has the expected structure
     expect(wrapper.find('.prayer-app-mobile').exists()).toBe(true)
   })

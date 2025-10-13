@@ -51,7 +51,7 @@ export class AudioService {
   private async initializeWebAudio(): Promise<void> {
     // Create audio context
     this.audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-    
+
     // Resume context if suspended (required by some browsers)
     if (this.audioContext.state === 'suspended') {
       await this.audioContext.resume();
@@ -69,15 +69,15 @@ export class AudioService {
       // Create HTML5 Audio element with MP3 file
       this.htmlAudioElement = new Audio(notificationSoundUrl);
       this.htmlAudioElement.preload = 'auto';
-      
+
       this.htmlAudioElement.addEventListener('canplaythrough', () => {
         resolve();
       }, { once: true });
-      
+
       this.htmlAudioElement.addEventListener('error', (error) => {
         reject(error);
       }, { once: true });
-      
+
       // Trigger loading
       this.htmlAudioElement.load();
     });
@@ -95,7 +95,7 @@ export class AudioService {
       // Fetch the MP3 file
       const response = await fetch(notificationSoundUrl);
       const arrayBuffer = await response.arrayBuffer();
-      
+
       // Decode audio data
       this.audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
     } catch (error) {
@@ -176,10 +176,10 @@ export class AudioService {
     // Create and configure source
     const source = this.audioContext.createBufferSource();
     source.buffer = this.audioBuffer;
-    
+
     // Connect to destination
     source.connect(this.audioContext.destination);
-    
+
     // Start playback
     source.start();
   }
@@ -194,7 +194,7 @@ export class AudioService {
 
     // Reset to beginning
     this.htmlAudioElement.currentTime = 0;
-    
+
     // Play the sound
     await this.htmlAudioElement.play();
   }
@@ -220,13 +220,13 @@ export class AudioService {
   respectsSystemSettings(): boolean {
     // Check if we're in a mobile environment
     const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    
+
     if (isMobile) {
       // On mobile, we respect the system volume and silent mode
       // The browser will automatically handle silent mode
       return true;
     }
-    
+
     // On desktop, we respect the system volume
     return true;
   }
@@ -246,12 +246,12 @@ export class AudioService {
       this.audioContext.close();
       this.audioContext = null;
     }
-    
+
     if (this.htmlAudioElement) {
       this.htmlAudioElement.pause();
       this.htmlAudioElement = null;
     }
-    
+
     this.audioBuffer = null;
     this.initialized = false;
   }

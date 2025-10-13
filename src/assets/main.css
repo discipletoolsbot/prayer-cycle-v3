@@ -303,7 +303,7 @@
   transition: all 0.2s ease;
   min-height: var(--touch-target-min);
   min-width: var(--touch-target-min);
-  
+
   /* Prevent text selection */
   user-select: none;
   -webkit-user-select: none;
@@ -371,20 +371,20 @@
   .container {
     padding: var(--spacing-sm);
   }
-  
+
   .prayer-app-mobile {
     padding: var(--spacing-xs);
     gap: var(--spacing-sm);
   }
-  
+
   .prayer-main-mobile {
     gap: var(--spacing-sm);
   }
-  
+
   .text-projector-title {
     font-size: var(--font-size-3xl);
   }
-  
+
   .text-projector-body {
     font-size: var(--font-size-lg);
   }
@@ -395,15 +395,15 @@
   .container {
     padding: var(--spacing-md);
   }
-  
+
   .prayer-app-mobile {
     padding: var(--spacing-sm);
   }
-  
+
   .text-projector-title {
     font-size: var(--font-size-4xl);
   }
-  
+
   .text-projector-body {
     font-size: var(--font-size-xl);
   }
@@ -415,16 +415,16 @@
     max-width: 768px;
     padding: var(--spacing-lg);
   }
-  
+
   .prayer-app-mobile {
     padding: var(--spacing-md);
     gap: var(--spacing-lg);
   }
-  
+
   .prayer-main-mobile {
     gap: var(--spacing-xl);
   }
-  
+
   /* Switch to 2-column layout for larger tablets */
   .prayer-main-mobile {
     display: grid;
@@ -435,22 +435,22 @@
       "controls controls";
     gap: var(--spacing-xl);
   }
-  
+
   .prayer-step-section-mobile {
     grid-area: step;
     order: unset;
   }
-  
+
   .prayer-progress-section-mobile {
     grid-area: progress;
     order: unset;
   }
-  
+
   .prayer-timer-section-mobile {
     grid-area: timer;
     order: unset;
   }
-  
+
   .prayer-controls-section-mobile {
     grid-area: controls;
     order: unset;
@@ -463,21 +463,21 @@
     max-width: 1024px;
     padding: var(--spacing-xl);
   }
-  
+
   .prayer-app-desktop {
     grid-template-columns: 1fr 320px;
     gap: var(--spacing-xl);
     padding: var(--spacing-xl);
   }
-  
+
   .text-projector-title {
     font-size: var(--font-size-6xl);
   }
-  
+
   .text-projector-body {
     font-size: var(--font-size-2xl);
   }
-  
+
   .text-projector-large {
     font-size: var(--font-size-7xl);
   }
@@ -489,32 +489,32 @@
     max-width: var(--container-max-width);
     padding: var(--spacing-xxl);
   }
-  
+
   .prayer-app-desktop {
     grid-template-columns: 1fr 400px;
     gap: var(--spacing-xxl);
     padding: var(--spacing-xxl);
   }
-  
+
   .text-projector-title {
     font-size: var(--font-size-7xl);
   }
-  
+
   .text-projector-body {
     font-size: var(--font-size-3xl);
   }
-  
+
   .text-projector-large {
     font-size: var(--font-size-8xl);
   }
-  
+
   /* Increase button sizes for projector use */
   .btn {
     padding: var(--spacing-md) var(--spacing-lg);
     font-size: var(--font-size-lg);
     min-height: 60px;
   }
-  
+
   .btn-large {
     padding: var(--spacing-lg) var(--spacing-xl);
     font-size: var(--font-size-xl);
@@ -526,14 +526,14 @@
 @media (min-width: 1920px) {
   .prayer-app-desktop {
     grid-template-columns: 1fr 500px;
-    
+
     padding: var(--spacing-3xl);
   }
-  
+
   .text-projector-title {
     font-size: var(--font-size-8xl);
   }
-  
+
   .text-projector-body {
     font-size: var(--font-size-4xl);
   }
@@ -550,7 +550,7 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
-  
+
   .btn:hover:not(:disabled) {
     transform: none;
   }
@@ -561,11 +561,11 @@
   .btn {
     border-width: 3px;
   }
-  
+
   .btn-primary {
     border-color: var(--color-primary-dark);
   }
-  
+
   .btn-secondary {
     border-color: var(--color-text);
   }

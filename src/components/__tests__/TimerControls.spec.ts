@@ -40,7 +40,7 @@ describe('TimerControls', () => {
 
       const buttons = wrapper.findAll('.timer-controls__button')
       expect(buttons).toHaveLength(3)
-      
+
       // Check button labels
       const labels = buttons.map((btn: any) => btn.find('.timer-controls__label').text())
       expect(labels).toContain('Start')
@@ -109,7 +109,7 @@ describe('TimerControls', () => {
 
       const playButton = wrapper.find('.timer-controls__button--primary')
       const nextButton = wrapper.findAll('.timer-controls__button--secondary')[0]
-      
+
       expect(playButton.attributes('disabled')).toBeDefined()
       expect(nextButton.attributes('disabled')).toBeDefined()
       expect(wrapper.find('.timer-controls--disabled').exists()).toBe(true)
@@ -191,7 +191,7 @@ describe('TimerControls', () => {
 
       const playButton = wrapper.find('.timer-controls__button--primary')
       const nextButton = wrapper.findAll('.timer-controls__button--secondary')[0]
-      
+
       await playButton.trigger('click')
       await nextButton.trigger('click')
 

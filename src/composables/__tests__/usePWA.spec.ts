@@ -6,7 +6,7 @@ import { usePWA } from '../usePWA'
 // Mock the OfflineService
 vi.mock('@/utils/OfflineService', () => {
   let mockIsOnline = true
-  
+
   const mockOfflineService = {
     get isOnline() { return mockIsOnline },
     set isOnline(value: boolean) { mockIsOnline = value },
@@ -15,7 +15,7 @@ vi.mock('@/utils/OfflineService', () => {
     removeOnlineCallback: vi.fn(),
     removeOfflineCallback: vi.fn()
   }
-  
+
   return {
     offlineService: mockOfflineService
   }
@@ -89,30 +89,30 @@ describe('usePWA', () => {
     it('should initialize with correct online state', async () => {
       const { offlineService } = await import('@/utils/OfflineService')
       ;(offlineService as any).isOnline = true
-      
+
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isOnline).toBe(true)
     })
 
     it('should initialize with offline state when navigator.onLine is false', async () => {
       const { offlineService } = await import('@/utils/OfflineService')
       ;(offlineService as any).isOnline = false
-      
+
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isOnline).toBe(false)
     })
 
     it('should initialize installable state as false', () => {
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isInstallable).toBe(false)
     })
 
     it('should detect PWA mode correctly', () => {
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isPWA).toBe(false)
     })
   })
@@ -120,19 +120,19 @@ describe('usePWA', () => {
   describe('online/offline detection', () => {
     it('should register callbacks with offline service', async () => {
       const { offlineService } = await import('@/utils/OfflineService')
-      
+
       wrapper = mount(TestComponent)
-      
+
       expect(offlineService.onOnline).toHaveBeenCalled()
       expect(offlineService.onOffline).toHaveBeenCalled()
     })
 
     it('should clean up callbacks on unmount', async () => {
       const { offlineService } = await import('@/utils/OfflineService')
-      
+
       wrapper = mount(TestComponent)
       wrapper.unmount()
-      
+
       expect(offlineService.removeOnlineCallback).toHaveBeenCalled()
       expect(offlineService.removeOfflineCallback).toHaveBeenCalled()
     })
@@ -141,36 +141,36 @@ describe('usePWA', () => {
   describe('PWA installation', () => {
     it('should handle beforeinstallprompt event', async () => {
       wrapper = mount(TestComponent)
-      
+
       const mockEvent = {
         preventDefault: vi.fn(),
         prompt: vi.fn(),
         userChoice: Promise.resolve({ outcome: 'accepted' })
       }
-      
+
       // Simulate beforeinstallprompt event
       window.dispatchEvent(Object.assign(new Event('beforeinstallprompt'), mockEvent))
-      
+
       await wrapper.vm.$nextTick()
       expect(wrapper.vm.isInstallable).toBe(true)
     })
 
     it('should install PWA when installPWA is called', async () => {
       wrapper = mount(TestComponent)
-      
+
       const mockEvent = {
         preventDefault: vi.fn(),
         prompt: vi.fn(),
         userChoice: Promise.resolve({ outcome: 'accepted' })
       }
-      
+
       // Simulate beforeinstallprompt event
       window.dispatchEvent(Object.assign(new Event('beforeinstallprompt'), mockEvent))
       await wrapper.vm.$nextTick()
-      
+
       // Call installPWA
       const result = await wrapper.vm.installPWA()
-      
+
       expect(mockEvent.prompt).toHaveBeenCalled()
       expect(result).toBe(true)
       expect(wrapper.vm.isInstallable).toBe(false)
@@ -178,29 +178,29 @@ describe('usePWA', () => {
 
     it('should handle PWA installation rejection', async () => {
       wrapper = mount(TestComponent)
-      
+
       const mockEvent = {
         preventDefault: vi.fn(),
         prompt: vi.fn(),
         userChoice: Promise.resolve({ outcome: 'dismissed' })
       }
-      
+
       // Simulate beforeinstallprompt event
       window.dispatchEvent(Object.assign(new Event('beforeinstallprompt'), mockEvent))
       await wrapper.vm.$nextTick()
-      
+
       // Call installPWA
       const result = await wrapper.vm.installPWA()
-      
+
       expect(result).toBe(false)
       expect(wrapper.vm.isInstallable).toBe(false)
     })
 
     it('should return false when no deferred prompt is available', async () => {
       wrapper = mount(TestComponent)
-      
+
       const result = await wrapper.vm.installPWA()
-      
+
       expect(result).toBe(false)
     })
   })
@@ -217,9 +217,9 @@ describe('usePWA', () => {
         removeEventListener: vi.fn(),
         dispatchEvent: vi.fn(),
       }))
-      
+
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isPWA).toBe(true)
     })
 
@@ -228,9 +228,9 @@ describe('usePWA', () => {
         writable: true,
         value: true
       })
-      
+
       wrapper = mount(TestComponent)
-      
+
       expect(wrapper.vm.isPWA).toBe(true)
     })
   })

@@ -10,7 +10,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       expect(wrapper.find('.progress-indicator').exists()).toBe(true)
       expect(wrapper.find('.step-counter').exists()).toBe(true)
       expect(wrapper.find('.progress-circle-container').exists()).toBe(true)
@@ -25,7 +25,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepText = wrapper.find('.step-text')
       expect(stepText.text()).toBe('Step 3 of 12')
     })
@@ -39,7 +39,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const countdownTime = wrapper.find('.countdown-time')
       expect(countdownTime.text()).toBe('3:00')
     })
@@ -52,7 +52,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepText = wrapper.find('.step-text')
       expect(stepText.text()).toBe('Step 4 of 12')
     })
@@ -66,15 +66,15 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const circles = wrapper.findAll('circle')
       expect(circles.length).toBeGreaterThanOrEqual(2) // Background + progress + step indicators
-      
+
       // Check background circle
       const backgroundCircle = circles[0]
       expect(backgroundCircle.attributes('fill')).toBe('var(--color-background-soft)')
       expect(backgroundCircle.attributes('stroke')).toBe('var(--color-background-mute)')
-      
+
       // Step indicator circles are also present
       expect(circles.length).toBeGreaterThanOrEqual(12) // Background + 12 step indicators
     })
@@ -89,7 +89,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const progressPie = wrapper.find('.progress-pie')
       expect(progressPie.exists()).toBe(true)
       expect(progressPie.attributes('fill')).toBe('rgba(44, 172, 226, 0.6)')
@@ -104,7 +104,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepDots = wrapper.findAll('.step-dot')
       expect(stepDots.length).toBe(12)
     })
@@ -119,9 +119,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepDots = wrapper.findAll('.step-dot')
-      
+
       // First 3 steps should be completed (success color)
       for (let i = 0; i < 3; i++) {
         expect(stepDots[i].attributes('fill')).toBe('var(--pc-success)')
@@ -137,9 +137,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepDots = wrapper.findAll('.step-dot')
-      
+
       // 4th step (index 3) should be current (primary color)
       expect(stepDots[3].attributes('fill')).toBe('var(--color-primary)')
       expect(stepDots[3].attributes('stroke')).toBe('var(--color-primary)')
@@ -153,9 +153,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       const stepDots = wrapper.findAll('.step-dot')
-      
+
       // Steps 5-12 (indices 4-11) should be upcoming (light color)
       for (let i = 4; i < 12; i++) {
         expect(stepDots[i].attributes('fill')).toBe('var(--color-background-soft)')
@@ -173,9 +173,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       expect(wrapper.find('.step-text').text()).toBe('Step 1 of 12')
-      
+
       const stepDots = wrapper.findAll('.step-dot')
       expect(stepDots[0].attributes('fill')).toBe('var(--color-primary)') // Current
       expect(stepDots[1].attributes('fill')).toBe('var(--color-background-soft)') // Upcoming
@@ -189,9 +189,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       expect(wrapper.find('.step-text').text()).toBe('Step 12 of 12')
-      
+
       const stepDots = wrapper.findAll('.step-dot')
       expect(stepDots[11].attributes('fill')).toBe('var(--color-primary)') // Current (last)
       expect(stepDots[10].attributes('fill')).toBe('var(--pc-success)') // Completed
@@ -205,9 +205,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       expect(wrapper.find('.step-text').text()).toBe('Step 1 of 1')
-      
+
       const stepDots = wrapper.findAll('.step-dot')
       expect(stepDots.length).toBe(1)
       expect(stepDots[0].attributes('fill')).toBe('var(--color-primary)')
@@ -224,7 +224,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       // Check that all text content is accessible
       expect(wrapper.text()).toContain('Step 5 of 12')
       expect(wrapper.text()).toContain('5:00') // countdown time
@@ -236,11 +236,11 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       // Verify that color values use CSS custom properties for theming
       const progressCircle = wrapper.findAll('circle')[1]
       expect(progressCircle.attributes('stroke')).toBe('var(--color-primary)')
-      
+
       const stepText = wrapper.find('.step-text')
       expect(stepText.classes()).not.toContain('text-primary') // Uses default text color
     })
@@ -255,11 +255,11 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       // Should show circular progress visualization
       expect(wrapper.find('.progress-circle').exists()).toBe(true)
       expect(wrapper.find('.progress-pie').exists()).toBe(true)
-      
+
       // Should show current position in 12-step cycle
       const stepDots = wrapper.findAll('.step-dot')
       expect(stepDots.length).toBe(12)
@@ -273,7 +273,7 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       // Should display which step number is currently active
       expect(wrapper.find('.step-text').text()).toBe('Step 7 of 12')
     })
@@ -286,9 +286,9 @@ describe('ProgressIndicator', () => {
           deviceType: 'mobile'
         }
       })
-      
+
       // Should indicate completed, current, and upcoming steps via step dots
-      
+
       const stepDots = wrapper.findAll('.step-dot')
       // Completed steps (0-3) should have success color
       expect(stepDots[3].attributes('fill')).toBe('var(--pc-success)')
