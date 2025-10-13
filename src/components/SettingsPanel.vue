@@ -79,6 +79,11 @@
         </div>
 
       </div>
+
+      <!-- Version Footer -->
+      <div class="settings-panel__footer">
+        <span class="settings-panel__version">Version {{ appVersion }}</span>
+      </div>
     </div>
 
     <!-- Backdrop -->
@@ -94,6 +99,7 @@
 import { ref, computed } from 'vue'
 import type { UserSettings } from '@/types'
 import { wakeLockService } from '@/utils/WakeLockService'
+import packageJson from '../../package.json'
 
 interface Props {
   settings: UserSettings
@@ -115,6 +121,7 @@ const isOpen = ref(false)
 
 // Computed properties
 const wakeLockSupported = computed(() => wakeLockService.isWakeLockSupported())
+const appVersion = computed(() => packageJson.version)
 
 // Event handlers
 function togglePanel(): void {
@@ -309,6 +316,18 @@ defineExpose({
 .settings-panel__description--warning {
   color: var(--pc-warning);
   font-weight: 500;
+}
+
+.settings-panel__footer {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.settings-panel__version {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+  opacity: 0.7;
 }
 
 
