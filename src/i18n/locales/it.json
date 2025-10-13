@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Impostazioni",
+    "close": "Chiudi impostazioni",
     "language": {
       "title": "Lingua"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Abilita notifiche audio",
+      "description": "Riproduci suoni delicati durante la transizione tra le fasi di preghiera"
+    },
+    "screen": {
+      "title": "Schermo",
+      "keep_awake": "Mantieni lo schermo attivo durante la preghiera",
+      "description": "Impedisci che lo schermo si attenui o si spenga durante le sessioni di preghiera",
+      "not_supported": "Il blocco di attivazione dello schermo non è supportato in questo browser"
+    },
+    "version": "Versione"
   }
 }

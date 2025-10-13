@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Settings",
+    "close": "Close settings",
     "language": {
       "title": "Language"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Enable audio notifications",
+      "description": "Play gentle sounds when transitioning between prayer steps"
+    },
+    "screen": {
+      "title": "Screen",
+      "keep_awake": "Keep screen awake during prayer",
+      "description": "Prevent screen from dimming or turning off during prayer sessions",
+      "not_supported": "Screen wake lock is not supported in this browser"
+    },
+    "version": "Version"
   }
 }

@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Einstellungen",
+    "close": "Einstellungen schließen",
     "language": {
       "title": "Sprache"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Audiobenachrichtigungen aktivieren",
+      "description": "Sanfte Töne beim Übergang zwischen Gebetsschritten abspielen"
+    },
+    "screen": {
+      "title": "Bildschirm",
+      "keep_awake": "Bildschirm während des Gebets aktiv halten",
+      "description": "Verhindern, dass der Bildschirm während der Gebetssitzungen abdunkelt oder sich ausschaltet",
+      "not_supported": "Bildschirmsperre wird in diesem Browser nicht unterstützt"
+    },
+    "version": "Version"
   }
 }

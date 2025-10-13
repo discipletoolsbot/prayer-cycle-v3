@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Mipangilio",
+    "close": "Funga mipangilio",
     "language": {
       "title": "Lugha"
-    }
+    },
+    "audio": {
+      "title": "Sauti",
+      "enable": "Washa arifa za sauti",
+      "description": "Cheza sauti laini wakati wa kubadilisha kati ya hatua za sala"
+    },
+    "screen": {
+      "title": "Skrini",
+      "keep_awake": "Weka skrini iwake wakati wa sala",
+      "description": "Zuia skrini kutoka kufifika au kuzima wakati wa vikao vya sala",
+      "not_supported": "Kufungia skrini kuamka hakutumiki kwenye kivinjari hiki"
+    },
+    "version": "Toleo"
   }
 }

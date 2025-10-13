@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Postavke",
+    "close": "Zatvori postavke",
     "language": {
       "title": "Jezik"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Omogući audio obavijesti",
+      "description": "Pušti tihe zvukove pri prijelazu između koraka molitve"
+    },
+    "screen": {
+      "title": "Ekran",
+      "keep_awake": "Zadrži ekran budnim tokom molitve",
+      "description": "Spriječi zamračivanje ili gašenje ekrana tokom sesija molitve",
+      "not_supported": "Zaključavanje ekrana nije podržano u ovom pretraživaču"
+    },
+    "version": "Verzija"
   }
 }

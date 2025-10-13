@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Nastavitve",
+    "close": "Zapri nastavitve",
     "language": {
       "title": "Jezik"
-    }
+    },
+    "audio": {
+      "title": "Zvok",
+      "enable": "Omogoči zvočna obvestila",
+      "description": "Predvajaj nežne zvoke pri prehajanju med koraki molitve"
+    },
+    "screen": {
+      "title": "Zaslon",
+      "keep_awake": "Ohrani zaslon buden med molitvijo",
+      "description": "Prepreči zatemnitev ali izklop zaslona med molitvenimi sejami",
+      "not_supported": "Zaklepanje zaslona ni podprto v tem brskalniku"
+    },
+    "version": "Različica"
   }
 }

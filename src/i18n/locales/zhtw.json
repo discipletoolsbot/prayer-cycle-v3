@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "設定",
+    "close": "關閉設定",
     "language": {
       "title": "語言"
-    }
+    },
+    "audio": {
+      "title": "音訊",
+      "enable": "啟用音訊通知",
+      "description": "在禱告步驟之間轉換時播放柔和的聲音"
+    },
+    "screen": {
+      "title": "螢幕",
+      "keep_awake": "禱告期間保持螢幕喚醒",
+      "description": "防止螢幕在禱告會話期間變暗或關閉",
+      "not_supported": "此瀏覽器不支援螢幕喚醒鎖定"
+    },
+    "version": "版本"
   }
 }

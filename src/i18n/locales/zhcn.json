@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "设置",
+    "close": "关闭设置",
     "language": {
       "title": "语言"
-    }
+    },
+    "audio": {
+      "title": "音频",
+      "enable": "启用音频通知",
+      "description": "在祷告步骤之间转换时播放柔和的声音"
+    },
+    "screen": {
+      "title": "屏幕",
+      "keep_awake": "祷告期间保持屏幕唤醒",
+      "description": "防止屏幕在祷告会话期间变暗或关闭",
+      "not_supported": "此浏览器不支持屏幕唤醒锁定"
+    },
+    "version": "版本"
   }
 }

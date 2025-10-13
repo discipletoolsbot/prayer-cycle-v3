@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Ayarlar",
+    "close": "Ayarları kapat",
     "language": {
       "title": "Dil"
-    }
+    },
+    "audio": {
+      "title": "Ses",
+      "enable": "Ses bildirimlerini etkinleştir",
+      "description": "Dua adımları arasında geçiş yaparken yumuşak sesler çal"
+    },
+    "screen": {
+      "title": "Ekran",
+      "keep_awake": "Dua sırasında ekranı uyanık tut",
+      "description": "Dua seansları sırasında ekranın kararmasını veya kapanmasını önle",
+      "not_supported": "Ekran uyanık kilidi bu tarayıcıda desteklenmiyor"
+    },
+    "version": "Sürüm"
   }
 }

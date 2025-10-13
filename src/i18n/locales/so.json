@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Dejineyaal",
+    "close": "Xir dejineyaalka",
     "language": {
       "title": "Luqadda"
-    }
+    },
+    "audio": {
+      "title": "Codka",
+      "enable": "Fur ogeysiisyada codka",
+      "description": "Ciyaar codad jilicsan marka la wareegayo talaaboyinka salaadda"
+    },
+    "screen": {
+      "title": "Shaashadda",
+      "keep_awake": "Ilaali shaashadda oo toosan inta salaadda ah",
+      "description": "Ka hor-tag shaashadda in ay mugnaato ama damiso inta ku dhex jirta shirarka salaadda",
+      "not_supported": "Xirashada toosinta shaashadda looma taageero biraawsarkan"
+    },
+    "version": "Nooca"
   }
 }

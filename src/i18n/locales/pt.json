@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Configurações",
+    "close": "Fechar configurações",
     "language": {
       "title": "Idioma"
-    }
+    },
+    "audio": {
+      "title": "Áudio",
+      "enable": "Ativar notificações de áudio",
+      "description": "Reproduzir sons suaves ao fazer a transição entre as etapas de oração"
+    },
+    "screen": {
+      "title": "Tela",
+      "keep_awake": "Manter tela ativa durante a oração",
+      "description": "Evitar que a tela escureça ou desligue durante as sessões de oração",
+      "not_supported": "O bloqueio de ativação da tela não é suportado neste navegador"
+    },
+    "version": "Versão"
   }
 }

@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Saitunan",
+    "close": "Rufe saitunan",
     "language": {
       "title": "Harshe"
-    }
+    },
+    "audio": {
+      "title": "Sauti",
+      "enable": "Kunna sanarwar sauti",
+      "description": "Kunna sautunan laushi yayin canzawa tsakanin matakan addu'a"
+    },
+    "screen": {
+      "title": "Allo",
+      "keep_awake": "Kiyaye allo a farkare yayin addu'a",
+      "description": "Hana allo daga yin duhu ko kashe yayin lokutan addu'a",
+      "not_supported": "Kulle farkawa na allo ba a goyan baya a wannan mai bincike ba"
+    },
+    "version": "Sigar"
   }
 }

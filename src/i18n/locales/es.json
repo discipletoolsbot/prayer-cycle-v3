@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Configuración",
+    "close": "Cerrar configuración",
     "language": {
       "title": "Idioma"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Habilitar notificaciones de audio",
+      "description": "Reproducir sonidos suaves al cambiar entre pasos de oración"
+    },
+    "screen": {
+      "title": "Pantalla",
+      "keep_awake": "Mantener la pantalla activa durante la oración",
+      "description": "Evitar que la pantalla se atenúe o se apague durante las sesiones de oración",
+      "not_supported": "El bloqueo de pantalla no es compatible con este navegador"
+    },
+    "version": "Versión"
   }
 }

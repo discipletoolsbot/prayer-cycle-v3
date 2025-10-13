@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "설정",
+    "close": "설정 닫기",
     "language": {
       "title": "언어"
-    }
+    },
+    "audio": {
+      "title": "오디오",
+      "enable": "오디오 알림 활성화",
+      "description": "기도 단계 간 전환 시 부드러운 소리 재생"
+    },
+    "screen": {
+      "title": "화면",
+      "keep_awake": "기도 중 화면 깨어있기",
+      "description": "기도 세션 중 화면이 어두워지거나 꺼지지 않도록 방지",
+      "not_supported": "이 브라우저에서는 화면 깨우기 잠금이 지원되지 않습니다"
+    },
+    "version": "버전"
   }
 }

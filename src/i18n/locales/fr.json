@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Paramètres",
+    "close": "Fermer les paramètres",
     "language": {
       "title": "Langue"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Activer les notifications audio",
+      "description": "Jouer des sons doux lors des transitions entre les étapes de prière"
+    },
+    "screen": {
+      "title": "Écran",
+      "keep_awake": "Garder l'écran actif pendant la prière",
+      "description": "Empêcher l'écran de s'assombrir ou de s'éteindre pendant les sessions de prière",
+      "not_supported": "Le verrouillage d'écran n'est pas pris en charge dans ce navigateur"
+    },
+    "version": "Version"
   }
 }

@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Àwọn Ètò",
+    "close": "Ti àwọn ètò",
     "language": {
       "title": "Èdè"
-    }
+    },
+    "audio": {
+      "title": "Ohùn",
+      "enable": "Mu àwọn ìkìlọ̀ ohùn ṣiṣẹ́",
+      "description": "Ṣe àwọn ohùn pẹ̀lẹ́pẹ̀lẹ́ nígbà tí ó bá ń yí padà láàárín àwọn ìgbésẹ̀ àdúrà"
+    },
+    "screen": {
+      "title": "Ojú-ìwé",
+      "keep_awake": "Jẹ́ kí ojú-ìwé jí nígbà àdúrà",
+      "description": "Dènà ojú-ìwé láti di díndín tàbí pípa nígbà àwọn ìgbà àdúrà",
+      "not_supported": "Tití ìjí ojú-ìwé kò ṣiṣẹ́ nínú aṣàwákiri yìí"
+    },
+    "version": "Ẹ̀yà"
   }
 }

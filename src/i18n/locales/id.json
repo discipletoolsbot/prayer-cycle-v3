@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Pengaturan",
+    "close": "Tutup pengaturan",
     "language": {
       "title": "Bahasa"
-    }
+    },
+    "audio": {
+      "title": "Audio",
+      "enable": "Aktifkan notifikasi audio",
+      "description": "Putar suara lembut saat bertransisi antara langkah doa"
+    },
+    "screen": {
+      "title": "Layar",
+      "keep_awake": "Jaga layar tetap terjaga selama berdoa",
+      "description": "Cegah layar meredup atau mati selama sesi doa",
+      "not_supported": "Kunci aktif layar tidak didukung di browser ini"
+    },
+    "version": "Versi"
   }
 }

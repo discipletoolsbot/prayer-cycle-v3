@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Cài đặt",
+    "close": "Đóng cài đặt",
     "language": {
       "title": "Ngôn ngữ"
-    }
+    },
+    "audio": {
+      "title": "Âm thanh",
+      "enable": "Bật thông báo âm thanh",
+      "description": "Phát âm thanh nhẹ nhàng khi chuyển đổi giữa các bước cầu nguyện"
+    },
+    "screen": {
+      "title": "Màn hình",
+      "keep_awake": "Giữ màn hình sáng trong khi cầu nguyện",
+      "description": "Ngăn màn hình bị tối hoặc tắt trong các phiên cầu nguyện",
+      "not_supported": "Trình duyệt này không hỗ trợ khóa đánh thức màn hình"
+    },
+    "version": "Phiên bản"
   }
 }

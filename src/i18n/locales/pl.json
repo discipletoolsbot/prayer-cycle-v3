@@ -77,8 +77,22 @@
     }
   },
   "settings": {
+    "title": "Ustawienia",
+    "close": "Zamknij ustawienia",
     "language": {
       "title": "Język"
-    }
+    },
+    "audio": {
+      "title": "Dźwięk",
+      "enable": "Włącz powiadomienia dźwiękowe",
+      "description": "Odtwarzaj delikatne dźwięki podczas przechodzenia między etapami modlitwy"
+    },
+    "screen": {
+      "title": "Ekran",
+      "keep_awake": "Utrzymuj ekran aktywny podczas modlitwy",
+      "description": "Zapobiegaj przyciemnianiu lub wyłączaniu ekranu podczas sesji modlitwy",
+      "not_supported": "Blokada czuwania ekranu nie jest obsługiwana w tej przeglądarce"
+    },
+    "version": "Wersja"
   }
 }
