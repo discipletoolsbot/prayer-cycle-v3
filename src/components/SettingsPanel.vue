@@ -314,7 +314,7 @@ defineExpose({
   font-size: var(--font-size-xs);
   color: var(--color-text-secondary);
   line-height: 1.4;
-  margin-left: 26px;
+  margin-inline-start: 26px;
 }
 
 .settings-panel__description--warning {

@@ -5,56 +5,62 @@ import fr from './locales/fr.json'
 // Supported languages configuration - matching Zume training system codes
 // Only languages with enabled: true will be displayed in the UI
 export const SUPPORTED_LANGUAGES = [
-  { code: 'en', name: 'English', nativeName: 'English', enabled: true },
-  { code: 'am', name: 'Amharic', nativeName: 'አማርኛ', enabled: true },
-  { code: 'ar', name: 'Arabic', nativeName: 'العربية', enabled: true },
-  { code: 'ar_jo', name: 'Arabic (Jordanian)', nativeName: 'العربية - الأردن', enabled: true },
-  { code: 'ar_tn', name: 'Arabic (Tunisian)', nativeName: ' العربية التونسية', enabled: true },
-  { code: 'hy', name: 'Armenian', nativeName: 'Armenian', enabled: true },
-  { code: 'bn', name: 'Bengali (India)', nativeName: 'বাংলা', enabled: true },
-  { code: 'bho', name: 'Bhojpuri', nativeName: 'भोजपुरी', enabled: true },
-  { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski', enabled: true },
-  { code: 'my', name: 'Burmese', nativeName: 'မြန်မာဘာသာ', enabled: true },
-  { code: 'zhhk', name: 'Cantonese (Traditional)', nativeName: '中文（繁體,香港）', enabled: true },
-  { code: 'zhcn', name: 'Chinese (Simplified)', nativeName: '中文（简体）', enabled: true },
-  { code: 'zhtw', name: 'Chinese (Traditional)', nativeName: '中文（繁體）', enabled: true },
-  { code: 'hr', name: 'Croatian', nativeName: 'Hrvatski', enabled: true },
-  { code: 'fr', name: 'French', nativeName: 'Français', enabled: true },
-  { code: 'de', name: 'German', nativeName: 'Deutsch', enabled: true },
-  { code: 'gu', name: 'Gujarati', nativeName: 'ગુજરાતી', enabled: true },
-  { code: 'ha', name: 'Hausa', nativeName: 'Hausa', enabled: true },
-  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', enabled: true },
-  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', enabled: true },
-  { code: 'it', name: 'Italian', nativeName: 'Italiano', enabled: true },
-  { code: 'ja', name: 'Japanese', nativeName: '日本語', enabled: true },
-  { code: 'kn', name: 'Kannada', nativeName: 'ಕನ್ನಡ', enabled: true },
-  { code: 'ko', name: 'Korean', nativeName: '한국어', enabled: true },
-  { code: 'ku', name: 'Kurdish', nativeName: 'کوردی', enabled: true },
-  { code: 'lo', name: 'Lao', nativeName: 'ພາສາລາວ', enabled: true },
-  { code: 'mai', name: 'Maithili', nativeName: '𑒧𑒻𑒟𑒱𑒪𑒲', enabled: true },
-  { code: 'ml', name: 'Malayalam', nativeName: 'മലയാളം', enabled: true },
-  { code: 'mr', name: 'Marathi', nativeName: 'मराठी', enabled: true },
-  { code: 'ne', name: 'Nepali', nativeName: 'नेपाली', enabled: true },
-  { code: 'or', name: 'Odia', nativeName: 'ଓଡ଼ିଆ', enabled: true },
-  { code: 'fa', name: 'Persian/Farsi', nativeName: 'فارسی', enabled: true },
-  { code: 'pl', name: 'Polish', nativeName: 'Polski', enabled: true },
-  { code: 'pt', name: 'Portuguese', nativeName: 'Português', enabled: true },
-  { code: 'pa', name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ', enabled: true },
-  { code: 'pa_pk', name: 'Punjabi (Western)', nativeName: 'ਪੰਜਾਬੀ (ਪੱਛਮੀ)', enabled: true },
-  { code: 'ru', name: 'Russian', nativeName: 'Русский', enabled: true },
-  { code: 'ro', name: 'Romanian', nativeName: 'Română', enabled: true },
-  { code: 'sl', name: 'Slovenian', nativeName: 'Slovenščina', enabled: true },
-  { code: 'so', name: 'Somali', nativeName: 'Soomaali', enabled: true },
-  { code: 'es', name: 'Spanish', nativeName: 'Español', enabled: true },
-  { code: 'swa', name: 'Swahili', nativeName: 'Kiswahili', enabled: true },
-  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', enabled: true },
-  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', enabled: true },
-  { code: 'th', name: 'Thai', nativeName: 'ไทย', enabled: true },
-  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', enabled: true },
-  { code: 'ur', name: 'Urdu', nativeName: 'اردو', enabled: true },
-  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', enabled: true },
-  { code: 'yo', name: 'Yoruba', nativeName: 'Yorùbá', enabled: true }
+  { code: 'en', name: 'English', nativeName: 'English', enabled: true, rtl: false },
+  { code: 'am', name: 'Amharic', nativeName: 'አማርኛ', enabled: true, rtl: false },
+  { code: 'ar', name: 'Arabic', nativeName: 'العربية', enabled: true, rtl: true },
+  { code: 'ar_jo', name: 'Arabic (Jordanian)', nativeName: 'العربية - الأردن', enabled: true, rtl: true },
+  { code: 'ar_tn', name: 'Arabic (Tunisian)', nativeName: ' العربية التونسية', enabled: true, rtl: true },
+  { code: 'hy', name: 'Armenian', nativeName: 'Armenian', enabled: true, rtl: false },
+  { code: 'bn', name: 'Bengali (India)', nativeName: 'বাংলা', enabled: true, rtl: false },
+  { code: 'bho', name: 'Bhojpuri', nativeName: 'भोजपुरी', enabled: true, rtl: false },
+  { code: 'bs', name: 'Bosnian', nativeName: 'Bosanski', enabled: true, rtl: false },
+  { code: 'my', name: 'Burmese', nativeName: 'မြန်မာဘာသာ', enabled: true, rtl: false },
+  { code: 'zhhk', name: 'Cantonese (Traditional)', nativeName: '中文（繁體,香港）', enabled: true, rtl: false },
+  { code: 'zhcn', name: 'Chinese (Simplified)', nativeName: '中文（简体）', enabled: true, rtl: false },
+  { code: 'zhtw', name: 'Chinese (Traditional)', nativeName: '中文（繁體）', enabled: true, rtl: false },
+  { code: 'hr', name: 'Croatian', nativeName: 'Hrvatski', enabled: true, rtl: false },
+  { code: 'fr', name: 'French', nativeName: 'Français', enabled: true, rtl: false },
+  { code: 'de', name: 'German', nativeName: 'Deutsch', enabled: true, rtl: false },
+  { code: 'gu', name: 'Gujarati', nativeName: 'ગુજરાતી', enabled: true, rtl: false },
+  { code: 'ha', name: 'Hausa', nativeName: 'Hausa', enabled: true, rtl: false },
+  { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', enabled: true, rtl: false },
+  { code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', enabled: true, rtl: false },
+  { code: 'it', name: 'Italian', nativeName: 'Italiano', enabled: true, rtl: false },
+  { code: 'ja', name: 'Japanese', nativeName: '日本語', enabled: true, rtl: false },
+  { code: 'kn', name: 'Kannada', nativeName: 'ಕನ್ನಡ', enabled: true, rtl: false },
+  { code: 'ko', name: 'Korean', nativeName: '한국어', enabled: true, rtl: false },
+  { code: 'ku', name: 'Kurdish', nativeName: 'کوردی', enabled: true, rtl: true },
+  { code: 'lo', name: 'Lao', nativeName: 'ພາສາລາວ', enabled: true, rtl: false },
+  { code: 'mai', name: 'Maithili', nativeName: '𑒧𑒻𑒟𑒱𑒪𑒲', enabled: true, rtl: false },
+  { code: 'ml', name: 'Malayalam', nativeName: 'മലയാളം', enabled: true, rtl: false },
+  { code: 'mr', name: 'Marathi', nativeName: 'मराठी', enabled: true, rtl: false },
+  { code: 'ne', name: 'Nepali', nativeName: 'नेपाली', enabled: true, rtl: false },
+  { code: 'or', name: 'Odia', nativeName: 'ଓଡ଼ିଆ', enabled: true, rtl: false },
+  { code: 'fa', name: 'Persian/Farsi', nativeName: 'فارسی', enabled: true, rtl: true },
+  { code: 'pl', name: 'Polish', nativeName: 'Polski', enabled: true, rtl: false },
+  { code: 'pt', name: 'Portuguese', nativeName: 'Português', enabled: true, rtl: false },
+  { code: 'pa', name: 'Punjabi', nativeName: 'ਪੰਜਾਬੀ', enabled: true, rtl: false },
+  { code: 'pa_pk', name: 'Punjabi (Western)', nativeName: 'ਪੰਜਾਬੀ (ਪੱਛਮੀ)', enabled: true, rtl: true },
+  { code: 'ru', name: 'Russian', nativeName: 'Русский', enabled: true, rtl: false },
+  { code: 'ro', name: 'Romanian', nativeName: 'Română', enabled: true, rtl: false },
+  { code: 'sl', name: 'Slovenian', nativeName: 'Slovenščina', enabled: true, rtl: false },
+  { code: 'so', name: 'Somali', nativeName: 'Soomaali', enabled: true, rtl: false },
+  { code: 'es', name: 'Spanish', nativeName: 'Español', enabled: true, rtl: false },
+  { code: 'swa', name: 'Swahili', nativeName: 'Kiswahili', enabled: true, rtl: false },
+  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', enabled: true, rtl: false },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', enabled: true, rtl: false },
+  { code: 'th', name: 'Thai', nativeName: 'ไทย', enabled: true, rtl: false },
+  { code: 'tr', name: 'Turkish', nativeName: 'Türkçe', enabled: true, rtl: false },
+  { code: 'ur', name: 'Urdu', nativeName: 'اردو', enabled: true, rtl: true },
+  { code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', enabled: true, rtl: false },
+  { code: 'yo', name: 'Yoruba', nativeName: 'Yorùbá', enabled: true, rtl: false }
 ] as const
+
+// Helper function to check if a language is RTL
+export function isRTL(language: string): boolean {
+  const lang = SUPPORTED_LANGUAGES.find(l => l.code === language)
+  return lang ? lang.rtl : false
+}
 
 // Default language
 const DEFAULT_LANGUAGE = 'en'
@@ -146,6 +152,9 @@ export async function setLanguage(language: string) {
   // Update document language attribute
   document.documentElement.lang = language
 
+  // Update document direction for RTL languages
+  document.documentElement.dir = isRTL(language) ? 'rtl' : 'ltr'
+
   // Update URL path to reflect language change
   updateUrlPath(language)
 }
@@ -194,6 +203,10 @@ function updateUrlPath(language: string): void {
 
 // Initialize with saved language
 const savedLanguage = getSavedLanguage()
+
+// Set initial direction attribute
+document.documentElement.dir = isRTL(savedLanguage) ? 'rtl' : 'ltr'
+
 if (savedLanguage !== DEFAULT_LANGUAGE) {
   setLanguage(savedLanguage)
 }

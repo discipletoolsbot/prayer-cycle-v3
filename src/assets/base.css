@@ -157,3 +157,41 @@ body {
     font-size: var(--font-size-xl);
   }
 }
+
+/* ===== RTL (Right-to-Left) SUPPORT ===== */
+
+/* RTL text direction and alignment */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* RTL body adjustments */
+[dir="rtl"] body {
+  direction: rtl;
+}
+
+/* Logical properties for better RTL support */
+/* These properties automatically flip for RTL */
+:root {
+  /* Use logical properties where possible */
+  --border-start: border-inline-start;
+  --border-end: border-inline-end;
+  --padding-start: padding-inline-start;
+  --padding-end: padding-inline-end;
+  --margin-start: margin-inline-start;
+  --margin-end: margin-inline-end;
+}
+
+/* RTL flex adjustments - ensure proper direction */
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* RTL text alignment overrides */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}

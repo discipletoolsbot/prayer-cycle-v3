@@ -87,7 +87,7 @@ const handleLanguageSelect = async (languageCode: string) => {
   border: none;
   background: transparent;
   color: var(--color-text);
-  text-align: left;
+  text-align: start;
   cursor: pointer;
   border-radius: var(--radius-md);
   transition: all 0.2s ease;
@@ -109,7 +109,7 @@ const handleLanguageSelect = async (languageCode: string) => {
 
 .language-dropdown__native {
   font-weight: 500;
-  margin-right: var(--spacing-sm);
+  margin-inline-end: var(--spacing-sm);
 }
 
 .language-dropdown__english {
@@ -120,7 +120,7 @@ const handleLanguageSelect = async (languageCode: string) => {
 
 .language-dropdown__check {
   color: var(--color-primary);
-  margin-left: var(--spacing-sm);
+  margin-inline-start: var(--spacing-sm);
   flex-shrink: 0;
 }
 
@@ -171,14 +171,26 @@ const handleLanguageSelect = async (languageCode: string) => {
     min-width: 260px;
     max-width: 90vw;
   }
-  
+
   .language-dropdown__item {
     padding: var(--spacing-md);
   }
-  
+
   .language-dropdown__native,
   .language-dropdown__english {
     font-size: var(--font-size-sm);
   }
+}
+
+/* RTL (Right-to-Left) Support */
+[dir="rtl"] .language-dropdown {
+  /* Ensure proper width in RTL */
+  min-width: 280px;
+  max-width: 320px;
+}
+
+[dir="rtl"] .language-dropdown__item {
+  /* Ensure items stay within bounds */
+  width: 100%;
 }
 </style>

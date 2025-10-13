@@ -592,6 +592,13 @@ function handleVisibilityChange() {
   padding: var(--spacing-md);
   min-width: 250px;
   max-width: 90vw;
+  overflow: hidden;
+}
+
+/* RTL support for dropdown panel */
+[dir="rtl"] .dropdown-panel {
+  right: auto;
+  left: var(--spacing-lg);
 }
 
 

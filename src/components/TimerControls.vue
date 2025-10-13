@@ -430,4 +430,16 @@ function handleRestart(): void {
   outline: 3px solid var(--color-primary);
   outline-offset: 2px;
 }
+
+/* RTL (Right-to-Left) Support */
+
+/* RTL button content (icon and text) */
+[dir="rtl"] .timer-controls__button {
+  flex-direction: row-reverse;
+}
+
+/* RTL icon flipping - mirror directional icons */
+[dir="rtl"] .timer-controls__icon {
+  transform: scaleX(-1);
+}
 </style>

@@ -611,3 +611,20 @@
 .shadow-md { box-shadow: var(--shadow-md); }
 .shadow-lg { box-shadow: var(--shadow-lg); }
 .shadow-xl { box-shadow: var(--shadow-xl); }
+
+/* ===== RTL (Right-to-Left) LAYOUT SUPPORT ===== */
+
+/* RTL Button alignment - icons and text */
+[dir="rtl"] .btn {
+  flex-direction: row-reverse;
+}
+
+/* RTL Grid layouts - maintain proper flow */
+[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+/* RTL Flexbox adjustments for app layouts */
+[dir="rtl"] .flex {
+  direction: rtl;
+}
