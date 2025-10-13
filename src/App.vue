@@ -131,7 +131,20 @@ function startTimer() {
 }
 
 // Timer control handlers
-function handlePlay() {
+async function handlePlay() {
+  // Initialize audio on user interaction to satisfy Safari's autoplay policy
+  if (store.settings.audioEnabled) {
+    try {
+      if (!audioService.isInitialized()) {
+        await audioService.initialize()
+      }
+      // Ensure audio context is unlocked/resumed on Safari
+      await audioService.unlockAudio()
+    } catch (error) {
+      console.warn('Audio initialization on play failed:', error)
+    }
+  }
+
   if (store.isIdle) {
     store.startCycle()
     startTimer()
@@ -141,7 +154,7 @@ function handlePlay() {
     timerService.resume(store.timeRemaining)
     requestWakeLock()
   }
-  
+
   // Save session state
   storageService.saveSession({
     currentStep: store.currentStep,
@@ -273,17 +286,10 @@ onMounted(async () => {
   deviceType.value = currentDetectedType
   
   store.updateSettings(savedSettings)
-  
-  // Initialize audio service
-  try {
-    await audioService.initialize()
-    audioService.setEnabled(savedSettings.audioEnabled)
-  } catch (error) {
-    console.warn('Audio service initialization failed:', error)
-    // Update settings to reflect audio unavailability
-    store.updateSettings({ audioEnabled: false })
-  }
-  
+
+  // Set audio enabled flag (actual initialization happens on user interaction in handlePlay)
+  audioService.setEnabled(savedSettings.audioEnabled)
+
   // Initialize wake lock service
   wakeLockService.setEnabled(savedSettings.wakeLockEnabled)
   

@@ -105,6 +105,43 @@ export class AudioService {
 
 
   /**
+   * Unlock audio for Safari - must be called during user interaction
+   * This ensures the audio context is in a "running" state
+   */
+  async unlockAudio(): Promise<void> {
+    if (!this.initialized) {
+      return;
+    }
+
+    try {
+      if (this.useWebAudio && this.audioContext) {
+        // Resume audio context if suspended (Safari requirement)
+        if (this.audioContext.state === 'suspended') {
+          await this.audioContext.resume();
+        }
+      } else if (this.htmlAudioElement) {
+        // For HTML5 Audio, play a silent sound to unlock on Safari
+        // Store original volume
+        const originalVolume = this.htmlAudioElement.volume;
+        // Set to silent
+        this.htmlAudioElement.volume = 0;
+        // Attempt to play
+        try {
+          await this.htmlAudioElement.play();
+          this.htmlAudioElement.pause();
+          this.htmlAudioElement.currentTime = 0;
+        } catch (e) {
+          // Ignore errors during unlock
+        }
+        // Restore volume
+        this.htmlAudioElement.volume = originalVolume;
+      }
+    } catch (error) {
+      console.warn('Failed to unlock audio:', error);
+    }
+  }
+
+  /**
    * Play notification sound
    */
   async playNotification(): Promise<void> {
