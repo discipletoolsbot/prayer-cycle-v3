@@ -12,8 +12,28 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'logo.png'],
+      // Check for updates every hour
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,mp3}'],
+        // Force the service worker to skip waiting and claim clients immediately
+        skipWaiting: true,
+        clientsClaim: true,
+        runtimeCaching: [
+          {
+            urlPattern: /\.(?:mp3|wav|ogg)$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'audio-cache',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+              }
+            }
+          }
+        ]
+      },
       manifest: {
         name: 'Prayer Cycle - Biblical Prayer Guide',
         short_name: 'Prayer Cycle',
@@ -50,22 +70,6 @@ export default defineConfig({
             src: 'apple-touch-icon.png',
             sizes: '180x180',
             type: 'image/png'
-          }
-        ]
-      },
-      workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2,mp3}'],
-        runtimeCaching: [
-          {
-            urlPattern: /\.(?:mp3|wav|ogg)$/,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'audio-cache',
-              expiration: {
-                maxEntries: 10,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
-              }
-            }
           }
         ]
       }

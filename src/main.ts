@@ -12,32 +12,36 @@ app.use(i18n)
 
 app.mount('#app')
 
-// Register service worker for PWA functionality
+// Register service worker for PWA functionality with automatic updates
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', async () => {
-    try {
-      const registration = await navigator.serviceWorker.register('/sw.js', {
-        scope: '/'
-      })
-      
-      console.log('Service Worker registered successfully:', registration)
-      
-      // Handle service worker updates
-      registration.addEventListener('updatefound', () => {
-        const newWorker = registration.installing
-        if (newWorker) {
-          newWorker.addEventListener('statechange', () => {
-            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              // New content is available, refresh to update
-              if (confirm('A new version of Prayer Cycle is available. Refresh to update?')) {
-                window.location.reload()
-              }
-            }
-          })
+  // Import the PWA registration from vite-plugin-pwa
+  import('virtual:pwa-register').then(({ registerSW }) => {
+    const updateSW = registerSW({
+      immediate: true,
+      onNeedRefresh() {
+        // New content available, prompt user to reload
+        if (confirm('A new version of Prayer Cycle is available. Reload to update?')) {
+          updateSW(true) // Pass true to reload the page
         }
-      })
-    } catch (error) {
-      console.error('Service Worker registration failed:', error)
-    }
+      },
+      onOfflineReady() {
+        console.log('App ready to work offline')
+      },
+      onRegistered(registration) {
+        console.log('Service Worker registered successfully')
+
+        // Check for updates every hour
+        if (registration) {
+          setInterval(() => {
+            registration.update().catch(err => {
+              console.error('Failed to check for updates:', err)
+            })
+          }, 60 * 60 * 1000) // Check every hour
+        }
+      },
+      onRegisterError(error) {
+        console.error('Service Worker registration failed:', error)
+      }
+    })
   })
 }
