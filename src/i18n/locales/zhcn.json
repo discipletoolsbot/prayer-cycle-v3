@@ -7,7 +7,7 @@
     "steps": {
       "praise": {
         "name": "赞美",
-        "description": "以赞美主来开始你们的祷告时间，脑海里面想到什么赞美神的话，就针对那些来赞美祂。"
+        "description": "以赞美主来开始你们的祷告时间，脑海里面想到什么赞美神的话，就针对那些来赞美祂。想想在过去的一个星期神在你们生命中所做的哪件事应当赞美祂；或者赞美祂向你们家人所赐的厚恩。"
       },
       "wait": {
         "name": "等候",
@@ -51,7 +51,7 @@
       },
       "praise_end": {
         "name": "赞美",
-        "description": "为与神共度的时光和祂所赐的感动赞美神。为祂荣耀的属性赞美祂。"
+        "description": "为有这段与祂亲近共处的美好时光赞美神，也为祂当得的荣耀赞美祂。"
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "防止屏幕在祷告会话期间变暗或关闭",
       "not_supported": "此浏览器不支持屏幕唤醒锁定"
     },
-    "version": "版本"
+    "version": "版本",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

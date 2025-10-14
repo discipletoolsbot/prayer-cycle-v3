@@ -35,23 +35,23 @@
       },
       "thank": {
         "name": "ŞÜKREDİN",
-        "description": "Hayatınızdaki şeyler için, aileniz adına ve kilise adına Rab'be şükredin."
+        "description": "Hayatınızda olanlar, aileniz ve kiliseniz adına Rab'be şükredin."
       },
       "sing": {
-        "name": "ŞARKI SÖYLE",
-        "description": "Övgü ve tapınma şarkıları veya başka bir ilahi veya ruhani şarkı söyleyin."
+        "name": "EZGİ SÖYLEYİN",
+        "description": "Tapınma ezgileri veya ilahiler söyleyin."
       },
       "meditate": {
-        "name": "MEDİTE ET",
-        "description": "Rab'den sizinle konuşmasını isteyin. Size verdiği izlenimleri kaydetmek için bir kalem ve kağıt hazır bulundurun."
+        "name": "MEDİTASYON YAPIN",
+        "description": "Rab'den size konuşmasını isteyin. Size verdiği düşünceleri yazmak için bir kalem ve kağıt hazır bulundurun."
       },
       "listen": {
-        "name": "DİNLE",
-        "description": "Okuduğunuz, dua ettiğiniz ve söylediğiniz şeyleri birleştirerek zaman geçirin ve Rab'bin size konuşmak için hepsini nasıl bir araya getirdiğini görün."
+        "name": "DİNLEYİN",
+        "description": "Okuduklarınızı, dua ettiklerinizi ve söylediklerinizi birleştirmek için zaman harcayın ve Rab'bin sizinle konuşmak için bunları nasıl bir araya getirdiğini görün."
       },
       "praise_end": {
         "name": "YÜCELTİN",
-        "description": "Rab'be O'nunla geçirdiğiniz zaman ve size verdiği izlenimler için şükredin. O'nu muhteşem nitelikleri için yüceltin."
+        "description": "Rab'be O'nunla geçirdiğiniz zaman ve size verdiği düşünceler için şükredin. Görkemli özellikleri için O'na şükredin."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Dua seansları sırasında ekranın kararmasını veya kapanmasını önle",
       "not_supported": "Ekran uyanık kilidi bu tarayıcıda desteklenmiyor"
     },
-    "version": "Sürüm"
+    "version": "Sürüm",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

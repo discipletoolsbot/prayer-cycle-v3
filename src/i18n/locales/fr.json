@@ -93,6 +93,13 @@
       "description": "Empêcher l'écran de s'assombrir ou de s'éteindre pendant les sessions de prière",
       "not_supported": "Le verrouillage d'écran n'est pas pris en charge dans ce navigateur"
     },
-    "version": "Version"
+    "version": "Version",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

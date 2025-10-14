@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "Yabon",
-        "description": "Fara lokacin addu'arka ta hanyar yaban Ubangiji. Ka yabe Shi don abubuwan da ke a zuciyarka a yanzu. Ka yabe Shi don wani abu na musamman da Ya yi a rayuwarka a makon da ya gabata. Ka yabe Shi don kyawuntarSa ga iyalinka।"
+        "name": "YABO",
+        "description": "Ka fara sa'ar addu'arka ta wurin yabon Ubangiji. Ku yabe shi saboda abubuwan da ke zuciyar ku a yanzu. Ku yabe shi don wani abu na musamman da ya yi a rayuwar ku a cikin makon da ya gabata. Ku yabe shi saboda alherinsa ga iyalan ku."
       },
       "wait": {
-        "name": "Jira",
-        "description": "Ka kashe lokaci kana jiran Ubangiji. Ka yi shiru ka bar Shi Ya tattara ra'ayoyi a gare ka."
+        "name": "JIRA",
+        "description": "Ku ciyar da lokaci don jiran Ubangiji. Yi shiru kuma ku bar shi ya tattara muku tunani."
       },
       "confess": {
-        "name": "Ikirari",
-        "description": "Ka tambayi Ruhu Mai Tsarki Ya nuna maka duk wani abu a rayuwarka da zai iya ba Shi haushi. Ka tambayi Ya nuna halaye masu kuskure da kuma ayyuka na musamman da ba ka yi addu'ar ikirari a kansu ba tukuna. Yanzu ka yi ikirari ga Ubangiji domin ka tsarkake."
+        "name": "YARDA",
+        "description": "Ka roki Ruhu Mai Tsarki ya nuna maka wani abu a rayuwarka wanda zai yi rashin jin daɗi a gare shi. Ka roƙe shi ya nuna halayen da ba daidai ba, da takamaiman ayyuka waɗanda har yanzu ba ka yi addu'ar ikirari da su ba. Yanzu ku shaida wa Ubangiji don a tsarkake ku."
       },
       "read_the_word": {
-        "name": "Karanta Kalma",
-        "description": "Ka kashe lokaci kana karanta Zabura, annabawa, ko sashe game da addu'a a cikin Sabon Alkawari."
+        "name": "KARANTA KALMAR",
+        "description": "Ku ɓata lokaci don karanta Zabura, a cikin annabawa, ko kuma ayoyin addu'a da ke cikin Sabon Alkawari."
       },
       "ask": {
-        "name": "Tambaya",
-        "description": "Ka yi roƙo a madadin kanka."
+        "name": "TAMBAYA",
+        "description": "Yi buƙatu a madadin kanku."
       },
       "intercession": {
-        "name": "Shisshiga",
-        "description": "Ka yi roƙo a madadin wasu."
+        "name": "CIGABA",
+        "description": "Yi buƙatu a madadin wasu."
       },
       "pray_the_word": {
-        "name": "Yi Addu'ar Kalma",
-        "description": "Ka yi addu'a na takamaiman sashe. Addu'o'in Littafi Mai Tsarki da Zabura da yawa sun dace da wannan manufa."
+        "name": "ADDU'A MAGANAR",
+        "description": "Ka yi addu'a takamaiman wurare. Addu'o'in Nassi da kuma Zabura da yawa sun ba da kansu ga wannan dalilin."
       },
       "thank": {
-        "name": "Godiya",
-        "description": "Ka gode wa Ubangiji don abubuwan da ke cikin rayuwarka, a madadin iyalinka, da kuma a madadin coccinka."
+        "name": "Na gode",
+        "description": "Ku gode wa Ubangiji saboda abubuwan da ke cikin rayuwar ku, a madadin dangin ku, da kuma madadin cocin ku."
       },
       "sing": {
-        "name": "Rera",
-        "description": "Ka rera waƙoƙin yabo ko sujada ko wata waƙar siffili ko waƙar ruhaniya."
+        "name": "YIN KYAUTA",
+        "description": "ku raira waƙoƙin yabo ko sujada ko wata waƙa ko waƙa ta ruhaniya."
       },
       "meditate": {
-        "name": "Tunani",
-        "description": "Ka tambayi Ubangiji Ya yi magana da kai. Ka shirya alkalami da takarda don rubuta abubuwan da Ya ba ka."
+        "name": "NAZARI",
+        "description": "Ka tambayi Ubangiji ya yi magana da kai. Yi alkalami da takarda a shirye don yin rikodin abubuwan da Ya ba ku."
       },
       "listen": {
-        "name": "Saurara",
-        "description": "Ka kashe lokaci kana haɗa abubuwan da ka karanta, abubuwan da ka yi addu'a a kansu da abubuwan da ka rera kuma ka ga yadda Ubangiji Ya haɗa su duka ya yi magana da kai."
+        "name": "KA SAURARA",
+        "description": "Ka ɓata lokaci ka haɗa abubuwan da ka karanta, abubuwan da ka yi addu'a da abubuwan da ka rera ka ga yadda Ubangiji ya tattara su duka su yi maka magana."
       },
       "praise_end": {
-        "name": "Yabon",
-        "description": "Ka yabi Ubangiji don lokacin da ka kashe tare da Shi da abubuwan da Ya ba ka. Ka yabe Shi don halayensa masu ɗaukaka."
+        "name": "YABO KA",
+        "description": "yabi Ubangiji saboda lokacin da ka yi tare da shi da kuma abubuwan da ya ba ka. Ku yabe shi saboda sifofinsa madaukaka."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Hana allo daga yin duhu ko kashe yayin lokutan addu'a",
       "not_supported": "Kulle farkawa na allo ba a goyan baya a wannan mai bincike ba"
     },
-    "version": "Sigar"
+    "version": "Sigar",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

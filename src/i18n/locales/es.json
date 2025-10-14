@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "ALABANZA",
-        "description": "Comienza tu hora de alabanza, alabándolo al Señor. Alábalo por cosas que están en tu mente en este momento. Alábalo por algo especial que Él hizo en tu vida la semana que pasó. Alábalo por su bondad hacia tu familia."
+        "name": "ALABA",
+        "description": "Comienza tu tiempo de oración alabando al Señor. Alábalo por las cosas que están en tu mente en este momento. Alábalo por algo especial que ha hecho en tu vida en la última semana y por su bondad hacia tu familia."
       },
       "wait": {
         "name": "ESPERA",
-        "description": "Pasa tiempo esperando al Señor. En silencio deja que Él atraiga tus pensamientos."
+        "description": "Pasa tiempo esperando en el Señor. Guarda silencio y deja que sea él quien ponga los pensamientos en ti."
       },
       "confess": {
-        "name": "CONFESIÓN",
-        "description": "Pídele al Espíritu Santo que te muestre cualquier cosa en tu vida que pueda ser desagradable a Él. Pídele que te muestre malas actitudes, así como actos por los cuales no has orado y confesado. Ahora confiesa al Señor para que puedas ser limpio."
+        "name": "CONFIESA",
+        "description": "Pídele al Espíritu Santo que te muestre cualquier cosa en tu vida que pueda desagradarle. Pídele que te señale aquellas actitudes que están mal, así como las acciones específicas que aún no has confesado. Ahora confiésalas al Señor para que quedes limpio."
       },
       "read_the_word": {
-        "name": "LECTURA DE LA PALABRA",
-        "description": "Pasa tiempo leyendo los Salmos, los profetas y pasajes en oración en el Nuevo Testamento."
+        "name": "LEE LA PALABRA",
+        "description": "Pasa tiempo leyendo los Salmos, los profetas o algunos pasajes sobre la oración en el Nuevo Testamento."
       },
       "ask": {
-        "name": "PETICIÓN",
-        "description": "Realiza solicitudes en tu nombre."
+        "name": "PIDE",
+        "description": "Haz peticiones a favor tuyo."
       },
       "intercession": {
-        "name": "INTERCESIÓN",
-        "description": "Realiza solicitudes en nombre de otros."
+        "name": "INTERCEDE",
+        "description": "Haz peticiones a favor de otros."
       },
       "pray_the_word": {
-        "name": "ORACIÓN DE LA PALABRA",
-        "description": "Ora pasajes específicos. Oraciones de las Escrituras, así como un número de salmos, se prestan para este propósito."
+        "name": "ORA LA PALABRA",
+        "description": "Ora pasajes específicos. Las oraciones de las Escrituras, al igual que muchos salmos, son muy adecuados para este fin."
       },
       "thank": {
-        "name": "AGRADECIMIENTO",
-        "description": "Agradece al Señor por las cosas en tu vida, en nombre de tu familia y en nombre de tu iglesia."
+        "name": "AGRADECE",
+        "description": "Da gracias al Señor, en nombre de tu familia y de tu iglesia, por lo que tienes en la vida."
       },
       "sing": {
-        "name": "CANTO",
-        "description": "Canta canciones de alabanza y adoración u otro himno o canción espiritual."
+        "name": "CANTA",
+        "description": "Entona canciones de alabanza o adoración, u otro himno o cántico espiritual."
       },
       "meditate": {
-        "name": "MEDITACIÓN",
-        "description": "Pide al Señor que te hable. Ten bolígrafo y papel listo para apuntar ideas que Él te dé."
+        "name": "MEDITA",
+        "description": "Pídele al Señor que te hable. Ten a la mano lápiz y papel para anotar lo que te diga."
       },
       "listen": {
-        "name": "ESCUCHAR",
-        "description": "Dedica tiempo para asociar las cosas que has leído, cosas por las que has orado y cantado, ve como el Señor las junta para comunicarse contigo."
+        "name": "ESCUCHA",
+        "description": "Dedica tiempo a unificar las cosas que has leído, las que has orado y las que has cantado, y observa cómo el Señor las combina para hablarte."
       },
       "praise_end": {
-        "name": "ALABANZA",
-        "description": "Alaba al Señor por el tiempo que pudiste pasar con Él y las ideas que te ha dado. Alábalo por Sus gloriosos atributos."
+        "name": "ALABA",
+        "description": "Alaba al Señor por el tiempo que has pasado con él y por las cosas que te ha dicho. Alábale por sus gloriosos atributos."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Evitar que la pantalla se atenúe o se apague durante las sesiones de oración",
       "not_supported": "El bloqueo de pantalla no es compatible con este navegador"
     },
-    "version": "Versión"
+    "version": "Versión",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

@@ -7,7 +7,7 @@
     "steps": {
       "praise": {
         "name": "UWIELBIENIE",
-        "description": "Rozpocznij modlitwę od chwalenia Pana. Uwielbiaj go za to, co zaprząta teraz Twoje myśli. Uwielbij Go za jedną szczególną rzecz, której dokonał w Twoim życiu w ostatnim tygodniu. Chwal Go za Jego dobroć dla Twojej rodziny."
+        "description": "Rozpocznij modlitwę od chwalenia Pana. Uwielbiaj go za to, co zaprząta Twoje myśli. Uwielbij Go za jedną szczególną rzecz, której dokonał w Twoim życiu w ostatnim tygodniu. Chwal Go za Jego dobroć dla Twojej rodziny."
       },
       "wait": {
         "name": "OCZEKIWANIE",
@@ -23,14 +23,14 @@
       },
       "ask": {
         "name": "PROŚBY",
-        "description": "Módl się o siebie."
+        "description": "Przedstaw Bogu swoje prośby."
       },
       "intercession": {
         "name": "WSTAWIENNICTWO",
-        "description": "Módl się o innych."
+        "description": "Przedstaw Bogu prośby innych."
       },
       "pray_the_word": {
-        "name": "MODLITWA SŁOWEM",
+        "name": "MODLITWA SŁOWA",
         "description": "Módl się konkretnymi wersetami biblijnymi. Posłuż się którąś z zapisanych w Biblii modlitw lub jednym z Psalmów."
       },
       "thank": {
@@ -42,16 +42,16 @@
         "description": "Śpiewaj pieśni i hymny chwalące Boga."
       },
       "meditate": {
-        "name": "PRZEMYŚLENIE",
+        "name": "ROZWAŻANIE",
         "description": "Poproś Boga, żeby do Ciebie mówił. Zapisz myśli, które Ci ześle."
       },
       "listen": {
         "name": "SŁUCHANIE",
-        "description": "Poświęć ten czas na przemyślenie tego, co przeczytałeś oraz treści Twoich modlitw i pieśni, i zobacz, jak Bóg łączy to wszystko, by do Ciebie przemówić."
+        "description": "Poświęć ten czas na przemyślenie tego, co przeczytałeś oraz treści Twoich modlitw i pieśni. Zastanów się, jak Bóg przemawia do Ciebie poprzez to wszystko."
       },
       "praise_end": {
         "name": "UWIELBIENIE",
-        "description": "Uwielbij Boga za czas, który mogłeś z Nim spędzić i za otrzymane od Niego myśli. Chwal Go za Jego wspaniałe przymioty."
+        "description": "Uwielbij Boga za czas, który mogłeś z Nim spędzić i za otrzymane od Niego myśli. Chwal Go za Jego wspaniałe atrybuty."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Zapobiegaj przyciemnianiu lub wyłączaniu ekranu podczas sesji modlitwy",
       "not_supported": "Blokada czuwania ekranu nie jest obsługiwana w tej przeglądarce"
     },
-    "version": "Wersja"
+    "version": "Wersja",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

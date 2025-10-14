@@ -6,8 +6,8 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "HVALA",
-        "description": "Započnite svoj sat molitve slaveći Gospodina. Hvalite Ga za stvari koje su vam trenutno na umu. Hvalite Ga za jednu posebnu stvar koju je učinio u vašem životu u proteklih tjedan dana. Hvalite ga za Njegovu dobrotu prema vašoj obitelji."
+        "name": "SLAVLJENJE",
+        "description": "Započnite svoj molitveni sat slavljenjem Gospodina. Hvalite ga za stvari koje su vam trenutno na umu. Hvalite ga za jednu posebnu stvar koju je učinio u vašem životu u proteklom tjednu. Hvalite ga za njegovu dobrotu prema vašoj obitelji."
       },
       "wait": {
         "name": "ČEKANJE",
@@ -18,24 +18,24 @@
         "description": "Zamolite Duha Svetoga da vam pokaže bilo što u vašem životu s čime On nije zadovoljan. Zamolite ga da ukaže na pogrešne stavove, kao i na konkretne postupke za koje se još niste pokajali. Sada to priznajte Gospodinu da biste se mogli očistiti."
       },
       "read_the_word": {
-        "name": "ČITANJE RIJEČI",
-        "description": "Provedite vrijeme čitajući Psalme, proroke ili odlomke iz molitvi koje se nalaze u Novom zavjetu."
+        "name": "ČITANJE BIBLIJE",
+        "description": "Provedite vrijeme čitajući psalme, proroke ili odlomke o molitvi koji se nalaze u Novom zavjetu."
       },
       "ask": {
-        "name": "PITANJE",
+        "name": "ZAHTJEVI",
         "description": "Podnosite zahtjeve u svoje ime."
       },
       "intercession": {
-        "name": "POSREDOVANJE",
-        "description": "Podnosite zahtjeve u ime drugih."
+        "name": "POSREDNIŠTVO",
+        "description": "Tražite u ime drugih."
       },
       "pray_the_word": {
-        "name": "MOLITE RIJEČ",
-        "description": "Molite određene dijelove. Biblijske molitve, kao i brojni psalmi, dobro odgovaraju toj svrsi."
+        "name": "MOLITVA NA OSNOVU RIJEČI",
+        "description": "Molite određene stihove. Biblijske molitve, kao i brojni psalmi, odgovarat će ovoj svrsi."
       },
       "thank": {
-        "name": "ZAHVALNOST",
-        "description": "Zahvalite Gospodinu za stvari u vašem životu, u ime vaše obitelji i u ime vaše crkve."
+        "name": "ZAHVALJIVANJE",
+        "description": "Zahvaljujte Gospodinu za stvari u svom životu, u ime svoje obitelji i u ime svoje crkve."
       },
       "sing": {
         "name": "PJEVANJE",
@@ -47,11 +47,11 @@
       },
       "listen": {
         "name": "SLUŠANJE",
-        "description": "Provedite vrijeme povezujući ono što ste pročitali, ono što ste molili i ono što ste pjevali i pogledajte kako Gospod sve to spaja da bi vam govorio."
+        "description": "Provedite vrijeme povezujući ono što ste pročitali, ono što ste molili i ono što ste pjevali i pogledajte kako Gospodin sve to spaja kako bi vam govorio."
       },
       "praise_end": {
-        "name": "HVALA",
-        "description": "Hvalite Gospoda za vrijeme koje ste proveli s Njim i za dojmove koje vam je dao. Hvalite Ga za Njegove slavne atribute."
+        "name": "SLAVLJENJE",
+        "description": "Hvalite Gospodina za vrijeme koje ste mogli provesti s Njim i za dojmove koje ste stekli. Hvalite ga zbog njegovih slavnih osobina."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Spriječi zatamnjivanje ili gašenje zaslona tijekom sesija molitve",
       "not_supported": "Zaključavanje zaslona nije podržano u ovom pregledniku"
     },
-    "version": "Verzija"
+    "version": "Verzija",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

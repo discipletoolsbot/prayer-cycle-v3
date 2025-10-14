@@ -6,20 +6,20 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "LODE",
-        "description": "Comincia la tua ora di preghiera lodando il Signore. Lodalo per le cose che ti vengono in mente adesso. Lodalo per una cosa speciale che ha fatto nella tua vita la settimana passata. Lodalo per la sua bontà verso la tua famiglia."
+        "name": "LODARE",
+        "description": "Comincia la tua ora di preghiera lodando il Signore. Lodalo per le cose che ti vengono in mente adesso. Lodalo per una cosa speciale che ha fatto nella tua vita nell'ultima settimana. Lodalo per la sua bontà verso la tua famiglia."
       },
       "wait": {
-        "name": "ATTESA",
+        "name": "ASPETTARE",
         "description": "Trascorri del tempo aspettando il Signore. Sta' in silenzio e lascia che Lui porti delle riflessioni alla tua mente."
       },
       "confess": {
-        "name": "CONFESSIONE",
-        "description": "Chiedi allo Spirito Santo di mostrarti qualsiasi cosa che nella tua vita possa essere spiacevole per Lui. ChiediGli di farti notare le attitudini che sono sbagliate, e allo stesso tempo specifiche azioni per le quali non hai ancora fatto una preghiera di confessione. Adesso confessa questo al Signore affinché tu possa essere purificato."
+        "name": "CONFESSARE",
+        "description": "Chiedi allo Spirito Santo di mostrarti qualsiasi cosa che nella tua vita possa essere spiacevole per Lui. ChiediGli di farti notare le attitudini che sono sbagliate, e allo stesso tempo specifiche azioni per le quali non hai ancora fatto una preghiera di confessione. Adesso confessi tutto al Signore affinché tu possa essere purificato."
       },
       "read_the_word": {
         "name": "LEGGERE LA PAROLA",
-        "description": "Trascorri del tempo leggendo nei salmi, nei profeti e passi sulla preghiera che si trovano nel Nuovo Testamento."
+        "description": "Trascorri del tempo leggendo i Salmi, i profeti e i passi sulla preghiera che si trovano nel Nuovo Testamento."
       },
       "ask": {
         "name": "CHIEDERE",
@@ -30,28 +30,28 @@
         "description": "Fai delle richieste in favore degli altri."
       },
       "pray_the_word": {
-        "name": "PREGARE LA PAROLA",
-        "description": "Prega con passi ben precisi. Le preghiere scritturali come anche un numero di salmi si prestano bene a questo scopo."
+        "name": "PREGARE CON LA PAROLA",
+        "description": "Prega con passi ben precisi. Le preghiere scritturali e anche un numero di salmi si prestano bene a questo scopo."
       },
       "thank": {
         "name": "RINGRAZIARE",
-        "description": "Ringrazia il Signore per le cose nella tua vita, a riguardo della tua famiglia e in favore della tua chiesa."
+        "description": "Ringrazia il Signore per le cose nella tua vita, per conto della tua famiglia e per conto della tua chiesa."
       },
       "sing": {
         "name": "CANTARE",
-        "description": "Canta canzoni di lode e adorazione o altri inni o canzoni spirituali."
+        "description": "Canta canzoni di lode e adorazione o un inno o canzone spirituale."
       },
       "meditate": {
         "name": "MEDITARE",
-        "description": "Chiedi al Signore di parlarti. Tieni una penna e un foglio di carta pronti per poter annotare le impressioni che ti dà."
+        "description": "Chiedi al Signore di parlarti. Tieni una penna e un foglio pronti per poter annotare le impressioni che Gesù ti darà."
       },
       "listen": {
         "name": "ASCOLTARE",
-        "description": "Trascorri del tempo mettendo insieme ciò che hai letto, ciò che hai pregato e ciò che hai cantato e vedi come il Signore porta tutto insieme per parlarti."
+        "description": "Trascorri del tempo mettendo insieme tutto ciò che hai letto, ciò per cui hai pregato e ciò che hai cantato, e vedi come il Signore riporta tutto insieme per parlarti."
       },
       "praise_end": {
-        "name": "LODE",
-        "description": "Loda il Signore per il tempo che hai avuto per stare con Lui e per le impressioni che ti ha dato. Lodalo per i Suoi gloriosi attributi."
+        "name": "LODARE",
+        "description": "Loda il Signore per il tempo che hai trascorso con Lui e i segnali che ti ha dato. Lodalo per i Suoi gloriosi attributi."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Impedisci che lo schermo si attenui o si spenga durante le sessioni di preghiera",
       "not_supported": "Il blocco di attivazione dello schermo non è supportato in questo browser"
     },
-    "version": "Versione"
+    "version": "Versione",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

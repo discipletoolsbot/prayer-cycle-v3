@@ -7,7 +7,7 @@
     "steps": {
       "praise": {
         "name": "讚美",
-        "description": "以讚美主來開始你們的禱告時間，腦海裡面想到什麼讚美神的話，就針對那些來讚美祂。"
+        "description": "以讚美主來開始你們的禱告時間，腦海裡面想到什麼讚美神的話，就針對那些來讚美祂。想想在過去的一個星期神在你們生命中所做的哪件事應當讚美祂；或者讚美祂向你們家人所賜的厚恩。"
       },
       "wait": {
         "name": "等候",
@@ -39,19 +39,19 @@
       },
       "sing": {
         "name": "唱詩",
-        "description": "Sing praise songs."
+        "description": "唱讚美詩、敬拜讚美神。"
       },
       "meditate": {
         "name": "默想",
-        "description": "Meditate on God's word."
+        "description": "靜默禱告,求神對你們說話，準備好紙筆，把祂所給的感受寫下來。"
       },
       "listen": {
         "name": "聆聽",
-        "description": "Listen to God."
+        "description": "再花一些時間整理所讀到的、禱告過的、唱出來的，看神如何融合這一切對你們說話。"
       },
       "praise_end": {
         "name": "讚美",
-        "description": "Praise the Lord."
+        "description": "為有這段與祂親近共處的美好時光讚美神，也為祂當得的榮耀讚美祂。"
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "防止螢幕在禱告會話期間變暗或關閉",
       "not_supported": "此瀏覽器不支援螢幕喚醒鎖定"
     },
-    "version": "版本"
+    "version": "版本",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

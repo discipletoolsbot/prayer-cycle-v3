@@ -93,6 +93,13 @@
       "description": "Prevent screen from dimming or turning off during prayer sessions",
       "not_supported": "Screen wake lock is not supported in this browser"
     },
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    },
     "version": "Version"
   }
 }

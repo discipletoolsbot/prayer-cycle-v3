@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "PUJI",
-        "description": "Mulai doa Anda dengan Memuji Allah. Memuji Dia atas apa yang ada di pikiran Anda saat ini. Memuji Dia atas hal spesial yang telah Dia lakukan di hidup Anda sepanjang minggu ini. Puji Dia atas kebaikanNya bagi keluarga Anda."
+        "name": "PUJIAN",
+        "description": "Mulailah waktu doa Anda dengan memuji Allah. Pujilah Dia atas hal-hal yang ada dalam pikiran Anda saat ini. Pujilah Dia untuk satu hal istimewa yang telah Dia lakukan dalam hidup Anda dalam seminggu terakhir. Pujilah Dia atas kebaikan-Nya kepada keluarga Anda."
       },
       "wait": {
-        "name": "MENANTI",
-        "description": "Sediakan waktu untuk menantikan Allah. Berdiam dirilah dan biarkan Allah menyatakan renungan kepada Anda."
+        "name": "MENANTIKAN",
+        "description": "Sediakan waktu untuk menantikan Allah. Berdiamlah dan izinkan Dia memberi renungan untuk Anda."
       },
       "confess": {
-        "name": "MENGAKU",
-        "description": "Minta Roh Suci untuk menunjukan kepada Anda apa saja yang mungkin tidak menyenangkan hatiNya. Minta kepadaNya untuk menunjukan sikap-sikap yang salah, tindakan spesifik dimana Anda belum membuat pengakuan melalui doa. Lalu akui kepada Allah sehingga Anda dapat dibersihkan."
+        "name": "MENGAKUI",
+        "description": "Mintalah Roh Suci untuk menunjukkan apa pun dalam hidup Anda yang mungkin tidak menyenangkan Dia. Mintalah Dia untuk menunjukkan sikap yang salah, serta tindakan-tindakan spesifik yang belum Anda doakan. Sekarang akui hal itu kepada Allah agar Anda dapat disucikan."
       },
       "read_the_word": {
-        "name": "MEMBACA FIRMAN",
-        "description": "Sediakan waktu untuk membaca Mazmur, kitab-kitab para nabi, atau ayat-ayat doa yang ada di Perjanjian Baru."
+        "name": "BACA FIRMAN",
+        "description": "Luangkan waktu untuk membaca Mazmur, kitab para nabi, atau pasal tentang doa yang terdapat dalam Perjanjian Baru."
       },
       "ask": {
-        "name": "MEMINTA",
-        "description": "Buat permohonan bagi diri Anda."
+        "name": "MINTALAH",
+        "description": "Buat permohonan untuk diri Anda sendiri."
       },
       "intercession": {
-        "name": "PERANTARAAN",
-        "description": "Buatlah permohonan bagi orang lain."
+        "name": "DOA SYAFAAT",
+        "description": "Buatlah permohonan atas nama orang lain."
       },
       "pray_the_word": {
-        "name": "BERDOA FIRMAN",
-        "description": "Berdoa dari ayat yang spesifik. Berdoa berdasarkan ayat-ayat, dan beberapa Mazmur sangat baik untuk tujuan ini."
+        "name": "DOAKAN FIRMAN",
+        "description": "Doakan ayat-ayat tertentu. Doa Alkitabiah serta sejumlah Mazmur cocok untuk tujuan ini."
       },
       "thank": {
-        "name": "BERSYUKUR",
-        "description": "Mengucap syukur kepada Allah atas semua hal di hidup Anda, bagi keluarga Anda, dan bagi Jemaah Allah dimana Anda berada."
+        "name": "MENGUCAP SYUKUR",
+        "description": "Bersyukurlah kepada Allah atas hal-hal dalam hidup Anda, mewakili keluarga Anda, dan mewakili Jemaah Allah Anda."
       },
       "sing": {
         "name": "BERNYANYI",
-        "description": "Nyanyikan lagu pujian dan penyembahan atau himne lainnya atau lagu rohani."
+        "description": "Nyanyikan lagu pujian atau penyembahan atau himne atau lagu rohani lainnya."
       },
       "meditate": {
         "name": "MERENUNGKAN",
-        "description": "Minta kepada Allah untuk berbicara kepada Anda. Siapkan pena dan kertas untuk mencatat kesan yang Dia berikan kepada Anda."
+        "description": "Minta pada Allah untuk berbicara kepada Anda. Siapkan pulpen dan kertas untuk mencatat kesan-kesan yang Dia berikan kepada Anda."
       },
       "listen": {
         "name": "MENDENGARKAN",
-        "description": "Luangkan waktu menggabungkan hal-hal yang telah Anda baca, hal-hal yang telah Anda doakan dan hal-hal yang telah Anda nyanyikan dan lihat bagaimana Allah menggabungkan semuanya untuk berbicara kepada Anda."
+        "description": "Luangkan waktu untuk menggabungkan hal-hal yang telah Anda baca, hal-hal yang telah Anda doakan, dan hal yang telah Anda nyanyikan dan lihatlah bagaimana Allah menyatukan semuanya untuk berbicara kepada Anda."
       },
       "praise_end": {
-        "name": "PUJI",
-        "description": "Pujilah Allah atas waktu yang telah Anda habiskan dengan-Nya dan kesan-kesan yang telah Dia berikan kepada Anda. Pujilah Dia atas sifat-sifat-Nya yang mulia."
+        "name": "PUJIAN",
+        "description": "Pujilah Allah atas waktu yang Anda habiskan bersama Dia dan kesan yang Dia berikan kepada Anda. Pujilah Dia atas sifatNya yang mulia."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Cegah layar meredup atau mati selama sesi doa",
       "not_supported": "Kunci aktif layar tidak didukung di browser ini"
     },
-    "version": "Versi"
+    "version": "Versi",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "Ammaan",
-        "description": "Ku bilowda saacadaha tukashadaada adiga ammaanaya Rabbiga. Isaga ku ammaan waxyaalaha hadda maanka ku haya. Isaga ku ammaan hal gaar ah oo uu noloshadaada sameeyay todobaadkii la soo dhaafay. Isaga ku ammaan wanaagsanaantiisa qoyskiinna."
+        "name": "AMMAAN",
+        "description": "Saacadaha hore ee ducadaada waxaad ku bilowdaa ammaanta Rabbiga ama adoo Rabbiga u mahadnaqaya. Isaga hadda ku ammaan waxyaalaha maskaxdaada ku jira. Isaga ku ammaan hal wax oo gaar ah oo uu noloshaada kuu sameeyay Toddobaadkan la soo dhaafay. Isaga u mahadnaq wanaagga uu qoyskaaga u sameeyey."
       },
       "wait": {
-        "name": "Sug",
-        "description": "Waqti ku qaato adiga sugaya Rabbiga. Aamusnow oo u oggolow inuu fikirrada idinka u soo ururiyo."
+        "name": "SUG",
+        "description": "Wakhti qaado oo Rabbiga sug. Aamus oo u ogolow inuu kuu muujiyo waxa uu doonayo."
       },
       "confess": {
-        "name": "Qir",
-        "description": "Weydii Ruuxa Quduuska ah inuu ku tuso wax kasta oo noloshadaada ku jira oo isaga ka xumayn kara. Weydii inuu u fiiro geeyo dabeecadaha qaldan iyo ficillada gaarka ah oo aadan weli tukashada qirashada u samayn. Hadda Rabbiga u qir si aad u daahirnaato."
+        "name": "QIRO",
+        "description": "Ruuxa Quduuska ah weydii inuu kuu muujiyo waxyaabaha aan ka farxin ee noloshaada ka mid ah. Waydiiso inuu ku tuso dabeecadahaaga khaldan iyo khaladyo gaar ah oo aad wali ka toobadkeenin ama aadan dembi dhaaf weydiisan. Laakiinse, hadda Rabbiga hortiisa qiro si uu dembiyadaada kaaga daahiriyo."
       },
       "read_the_word": {
-        "name": "Akhri Erayga",
-        "description": "Waqti ku qaato adiga akhriya Sabuurrada, nebiyada, ama qaybo ku saabsan tukashada ee Axdiga Cusub."
+        "name": "AKHRISKA ERAYGIISA/KITAABKA",
+        "description": "Wakhti qaado oo akhriso Kitaabka Sabbuurradda, ama nebiyada ama farrimaha ku sugan Axdiga Cusub."
       },
       "ask": {
-        "name": "Weydiiso",
-        "description": "Codsiyada samee adiga daraaddaa."
+        "name": "WAYDII",
+        "description": "Codsi duco oo shaqsiyadaada ku saabsan samee."
       },
       "intercession": {
-        "name": "Dhexdhexaadin",
-        "description": "Codsiyada samee dadka kale daraaddood."
+        "name": "U SHAFEECO QAAD",
+        "description": "Codsi duco dadka kale u samee."
       },
       "pray_the_word": {
-        "name": "Tukasho Erayga",
-        "description": "Tukasho qaybo gaar ah. Tukashooyinka Kitaabka Quduuska ah iyo Sabuuro badan ayaa si fiican ugu habboon ujeedadan."
+        "name": "KU DUCEYSO EREYADAN",
+        "description": "Ku ducayso farriino ama qeybto gaar ah oo ka tirsan Kitaabka sida Sabuurka oo si fiican u qeexeysa arimahan."
       },
       "thank": {
-        "name": "Mahad",
-        "description": "Rabbiga ugu mahad naq waxyaalaha noloshadaada ku jira, qoyskiinna daraaddood, iyo kaniisaddiinna daraaddood."
+        "name": "MAHADNAQ",
+        "description": "Rabbiga ugu mahadnaq noloshaada adigoo matalaya qoyskaaga, iyo Kiniisaddadabe."
       },
       "sing": {
-        "name": "Gabay",
-        "description": "Heeso ammaan ama cibaadate ama gabayo kale ama gabayo ruuxi ah ku heeso."
+        "name": "QASIIDO",
+        "description": "Qaad qasiidooyin aad Rabbiga ku ammaanayso oo aad ku caabudayso."
       },
       "meditate": {
-        "name": "Ka Feker",
-        "description": "Rabbiga ka codso inuu kula hadlo. Qalin iyo warqad diyaar u haysato si aad u duubto aragtiyaha uu ku siiyo."
+        "name": "U FIIRSASHO",
+        "description": "Weydii inuu Rabbiga kula hadlo. Diyaarso qalin iyo bug aad ku qorto fariimihii uu ku siiyey."
       },
       "listen": {
-        "name": "Dhegayso",
-        "description": "Waqti ku qaato adiga isku daraya waxyaalaha aad akhriday, waxyaalaha aad u tukashooday iyo waxyaalaha aad heeseysay oo arag sida Rabbiga u wada keeno oo uu kula hadlo."
+        "name": "DHAGEYSI",
+        "description": "Wakhti qaado oo isku day inaad dhamaan isku wada keentid waxyaalihii aad akhriday, ka duceysatay, qasiidooyinkii aad qaaday si aad u fahamtid siyaabaha wada jirka ah ee uu Rabbigu kuula hadlayo."
       },
       "praise_end": {
-        "name": "Ammaan",
-        "description": "Rabbiga u ammaan waqtigii aad isaga la qaadatay iyo aragtiyihii uu ku siiyay. Isaga u ammaan sifooyinkiisa ammaanta leh."
+        "name": "AMAAN",
+        "description": "Rabbiga ammaan ama ugu mahadnaq wakhtiga qiimaha badan ee aad Isaga la qaadatay iyo fariimaha aad ka heshay. Rabbiga ku ammaan dabeecadihiisa sharafta iyo weynaanta leh."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Ka hor-tag shaashadda in ay mugnaato ama damiso inta ku dhex jirta shirarka salaadda",
       "not_supported": "Xirashada toosinta shaashadda looma taageero biraawsarkan"
     },
-    "version": "Nooca"
+    "version": "Nooca",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

@@ -93,6 +93,13 @@
       "description": "ປ້ອງກັນບໍ່ໃຫ້ໜ້າຈໍມືດລົງຫຼືປິດໃນລະຫວ່າງການອະທິຖານ",
       "not_supported": "ບ່ຣາວເຊີນີ້ບໍ່ຮອງຮັບການລັອກໜ້າຈໍໃຫ້ຕື່ນຢູ່"
     },
-    "version": "ເວີຊັນ"
+    "version": "ເວີຊັນ",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

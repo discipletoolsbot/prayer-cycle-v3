@@ -7,51 +7,51 @@
     "steps": {
       "praise": {
         "name": "NGỢI KHEN",
-        "description": "Bắt đầu giờ cầu nguyện của bạn bằng cách ca ngợi Chúa. Hãy ngợi khen Ngài vì những điều bạn đang nghĩ đến ngay lúc này. Hãy ngợi khen Ngài vì một điều đặc biệt mà Ngài đã làm trong cuộc đời bạn trong tuần qua. Hãy ca ngợi Ngài vì sự tốt lành của Ngài đối với gia đình bạn."
+        "description": "Bắt đầu giờ cầu nguyện bằng việc ngợi khen Chúa. Ngợi khen Ngài vì những điều đang ở trong tâm trí bạn. Ngợi khen Chúa vì điều đặc biệt Ngài đã làm trên đời sống bạn tuần vừa qua. Ngợi khen Chúa vì sự tốt lành của Ngài dành cho gia đình bạn."
       },
       "wait": {
         "name": "CHỜ ĐỢI",
-        "description": "Dành thời gian chờ đợi Chúa. Hãy im lặng và để Ngài sắp xếp những suy ngẫm cho bạn."
+        "description": "Dành thời gian chờ đợi Chúa. Im lặng và để Ngài vận hành trong tâm trí bạn."
       },
       "confess": {
         "name": "XƯNG NHẬN",
-        "description": "Hãy cầu xin Đức Thánh Linh chỉ cho bạn thấy bất cứ điều gì trong cuộc sống của bạn có thể làm Ngài buồn lòng. Hãy cầu xin Ngài chỉ ra những thái độ sai trái, cũng như những hành động cụ thể mà bạn chưa xưng nhận. Bây giờ hãy xưng nhận đó với Chúa để bạn được sạch."
+        "description": "Cầu xin Đức Thánh Linh chỉ cho bạn bất cứ điều gì trong cuộc sống của bạn có thể làm Ngài buồn lòng. Cầu xin Ngài chỉ ra những thái độ, cũng như những hành động sai trái mà bạn đã làm. Hãy xưng nhận với Chúa để bạn được sạch."
       },
       "read_the_word": {
-        "name": "ĐỌC LỜI CHÚA",
-        "description": "Dành thời gian đọc các Thi Thiên, các sách tiên tri hoặc các đoạn cầu nguyện trong Tân Ước."
+        "name": "ĐỌC KINH THÁNH",
+        "description": "Dành thời gian đọc sách Thi Thiên, các sách Tiên Tri hoặc các câu Kinh thánh về cầu nguyện trong Tân Ước."
       },
       "ask": {
-        "name": "THƯA XIN",
-        "description": "Hỏi Chúa về những nhu cầu của bạn."
+        "name": "CẦU NGUYỆN CÁ NHÂN",
+        "description": "Cầu nguyện cho bản thân"
       },
       "intercession": {
         "name": "CẦU THAY",
-        "description": "Cầu thay cho những nhu cầu của người khác."
+        "description": "Cầu nguyện cho người khác."
       },
       "pray_the_word": {
-        "name": "CẦU NGUYỆN LỜI CHÚA",
-        "description": "Cầu nguyện những đoạn cụ thể. Các lời cầu nguyện trong Kinh Thánh cũng như một số Thi Thiên rất thích hợp cho mục đích này."
+        "name": "CẦU NGUYỆN THEO KINH THÁNH",
+        "description": "Cầu nguyện bằng một đoạn Kinh thánh cụ thể. Các chương Thi Thiên rất phù hợp với mục đích này."
       },
       "thank": {
-        "name": "TẠ ƠN",
-        "description": "Tạ ơn Chúa về những điều trong cuộc sống của bạn, thay mặt gia đình bạn và thay mặt hội thánh của bạn."
+        "name": "CẢM TẠ",
+        "description": "Cảm tạ Đức Chúa Trời vì những điều đang diễn ra trên đời sống của bạn, gia đình của bạn và Hội thánh của bạn."
       },
       "sing": {
         "name": "HÁT",
-        "description": "Hát các bài ca ngợi khen hoặc thờ phượng hoặc thánh ca khác hoặc bài hát thiêng liêng."
+        "description": "Hát hoặc ngân nga những bài hát thánh ca."
       },
       "meditate": {
         "name": "SUY NGẪM",
-        "description": "Xin Chúa phán với bạn. Chuẩn bị sẵn bút và giấy để ghi lại những ấn tượng mà Ngài ban cho bạn."
+        "description": "Cầu xin Chúa phán dạy bạn. Chuẩn bị giấy bút để ghi lại những điều Chúa mặc khải."
       },
       "listen": {
         "name": "LẮNG NGHE",
-        "description": "Dành thời gian kết hợp những điều bạn đã đọc, những điều bạn đã cầu nguyện và những điều bạn đã hát và xem Chúa đưa tất cả lại với nhau như thế nào để phán với bạn."
+        "description": "Hãy dành thời gian kết hợp những điều bạn đã đọc, đã cầu nguyện và đã hát với nhau rồi xem Chúa dùng chúng để nói với bạn điều gì."
       },
       "praise_end": {
         "name": "NGỢI KHEN",
-        "description": "Ngợi khen Chúa vì thời gian bạn đã dành để ở với Ngài và những ấn tượng mà Ngài đã ban cho bạn. Ngợi khen Ngài vì những thuộc tính vinh hiển của Ngài."
+        "description": "Ngợi khen Chúa vì thời gian bạn đã trải qua với Ngài và những điều Ngài đã ban cho bạn. Hãy ca ngợi vinh quang của Ngài."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Ngăn màn hình bị tối hoặc tắt trong các phiên cầu nguyện",
       "not_supported": "Trình duyệt này không hỗ trợ khóa đánh thức màn hình"
     },
-    "version": "Phiên bản"
+    "version": "Phiên bản",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

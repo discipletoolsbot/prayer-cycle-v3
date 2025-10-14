@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "Sifa",
-        "description": "Anza saa yako ya maombi kwa kumsifu Bwana. Msife kwa mambo yaliyoko akilini mwako sasa. Msife kwa jambo moja maalum alilofanya katika maisha yako wiki iliyopita. Msife kwa wema wake kwa familia yako."
+        "name": "SIFA",
+        "description": "Anza saa yako ya maombi kwa kumsifu Bwana. Msifu kwa mambo ambayo yako akilini mwako sasa hivi. Msifu kwa jambo moja maalum ambalo amefanya katika maisha yako katika wiki iliyopita. Msifu kwa wema wake kwa familia yako."
       },
       "wait": {
-        "name": "Ngoja",
-        "description": "Tumia muda ukimngojea Bwana. Kuwa kimya na mwache akusanyie mawazo kwako."
+        "name": "SUBIRI",
+        "description": "Tumia muda kumngoja Bwana. Nyamaza na umruhusu akuvute tafakari."
       },
       "confess": {
-        "name": "Ungama",
-        "description": "Mwombe Roho Mtakatifu akuonyeshe chochote katika maisha yako kinachoweza kumchukiza. Mwombe aonyeshe mielekeo mibaya, pamoja na matendo maalum ambayo bado hujafanya maombi ya kuungama. Sasa ungama kwa Bwana ili upate kutakaswa."
+        "name": "UKIRI",
+        "description": "Mwombe Roho Mtakatifu akuonyeshe chochote katika maisha yako ambacho kinaweza kuwa hakimpendezi. Mwambie akuonyeshe mitazamo ambayo si sahihi, pamoja na matendo mahususi ambayo bado hujafanya maombi ya kuungama. Sasa ungameni hilo kwa Bwana ili mpate kutakaswa."
       },
       "read_the_word": {
-        "name": "Soma Neno",
-        "description": "Tumia muda kusoma katika Zaburi, manabii, au sehemu juu ya maombi zilizopo katika Agano Jipya."
+        "name": "SOMA NENO",
+        "description": "Tumia muda kusoma katika Zaburi, katika manabii, au vifungu vya maombi vilivyo katika Agano Jipya."
       },
       "ask": {
-        "name": "Omba",
-        "description": "Fanya maombi kwa ajili yako mwenyewe."
+        "name": "ULIZA",
+        "description": "Fanya maombi kwa niaba yako mwenyewe."
       },
       "intercession": {
-        "name": "Uombezi",
+        "name": "MAOMBI",
         "description": "Fanya maombi kwa niaba ya wengine."
       },
       "pray_the_word": {
-        "name": "Omba Neno",
-        "description": "Omba sehemu maalum. Maombi ya Maandiko pamoja na Zaburi nyingi yanafaa vizuri kwa kusudi hili."
+        "name": "OMBA NENO",
+        "description": "Omba vifungu maalum. Sala za Kimaandiko na vilevile Zaburi kadhaa hufaa kwa kusudi hilo."
       },
       "thank": {
-        "name": "Shukuru",
+        "name": "ASANTE",
         "description": "Mshukuru Bwana kwa mambo katika maisha yako, kwa niaba ya familia yako, na kwa niaba ya kanisa lako."
       },
       "sing": {
-        "name": "Imba",
-        "description": "Imba nyimbo za sifa au ibada au wimbo mwingine wa kiroho."
+        "name": "IMBA",
+        "description": "Imba nyimbo za sifa au kuabudu au wimbo mwingine au wimbo wa kiroho."
       },
       "meditate": {
-        "name": "Tafakari",
-        "description": "Mwombe Bwana azungumze nawe. Kuwa tayari na kalamu na karatasi kurekodi mawazo anayokupa."
+        "name": "TAFAKARI",
+        "description": "Mwombe Bwana aseme nawe. Kuwa na kalamu na karatasi tayari kurekodi hisia Anazokupa."
       },
       "listen": {
-        "name": "Sikiliza",
-        "description": "Tumia muda kuchanganya mambo uliyosoma, mambo uliyoomba na mambo uliyoimba na uone jinsi Bwana anavyovilete vyote pamoja kuzungumza nawe."
+        "name": "SIKILIZA",
+        "description": "Tumia muda kuunganisha mambo ambayo umesoma, mambo ambayo umeomba na mambo ambayo umeimba na uone jinsi Bwana anavyovileta pamoja ili kuzungumza nawe."
       },
       "praise_end": {
-        "name": "Sifa",
-        "description": "Msifi Bwana kwa wakati uliomtumikia naye na mawazo aliyokupa. Msife kwa sifa zake za utukufu."
+        "name": "SIFA",
+        "description": "Msifu Bwana kwa muda ambao umekuwa naye na hisia ambazo amekupa. Msifuni kwa sifa zake tukufu."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Zuia skrini kutoka kufifika au kuzima wakati wa vikao vya sala",
       "not_supported": "Kufungia skrini kuamka hakutumiki kwenye kivinjari hiki"
     },
-    "version": "Toleo"
+    "version": "Toleo",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

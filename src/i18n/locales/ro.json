@@ -7,51 +7,51 @@
     "steps": {
       "praise": {
         "name": "LAUDĂ",
-        "description": "Începe ora ta de rugăciune lăudându-L pe Domnul. Laudă-L pentru lucrurile care îți sunt în minte acum. Laudă-L pentru un lucru special pe care l-a făcut în viața ta în săptămâna trecută. Laudă-L pentru bunătatea Lui față de familia ta."
+        "description": "Începeți ora de rugăciune lăudându-L pe Domnul. Lăudați-L pentru lucrurile care vă sunt în minte acum. Lăudați-L pentru un lucru special pe care l-a făcut în viața voastră în ultima săptămână. Lăudați-L pentru bunătatea Lui față de familia voastră."
       },
       "wait": {
-        "name": "AȘTEPTARE",
-        "description": "Petrece timp așteptându-L pe Domnul. Fii tăcut și lasă-L să adune gânduri pentru tine."
+        "name": "AȘTEPTĂ",
+        "description": "Petreceți timp așteptând pe Domnul. Taci și lasă-L să-ți pună în inima ta gândurile Lui."
       },
       "confess": {
-        "name": "MĂRTURISIRE",
-        "description": "Cere-I Duhului Sfânt să îți arate orice din viața ta care ar putea să Îl displăsea. Roagă-L să îți arate atitudinile greșite, precum și faptele specifice pentru care nu ai făcut încă o rugăciune de mărturisire. Acum mărturisește aceasta Domnului pentru a fi curățat."
+        "name": "MĂRTURISIȚI",
+        "description": "Cereți Duhului Sfânt să vă arate orice din viața voastră care i-ar putea fi neplăcut. Rugați-L să vă atenționeze la atitudini greșite, precum și fapte sau păcate pe care încă nu le-ați mărturisit. Acum mărturisește asta Domnului, ca să fii curățit."
       },
       "read_the_word": {
         "name": "CITEȘTE CUVÂNTUL",
-        "description": "Petrece timp citind în Psalmi, în profeți sau pasaje despre rugăciune din Noul Testament."
+        "description": "Petreceți timp citind în Psalmi, în profeți sau pasaje despre rugăciune aflate în Noul Testament."
       },
       "ask": {
-        "name": "CERE",
-        "description": "Fă cereri în numele tău."
+        "name": "CERERE",
+        "description": "Faceți cereri în numele dvs."
       },
       "intercession": {
         "name": "MIJLOCIRE",
-        "description": "Fă cereri în numele altora."
+        "description": "Faceți cereri pentru alții."
       },
       "pray_the_word": {
-        "name": "ROAGĂ CUVÂNTUL",
-        "description": "Roagă pasaje specifice. Rugăciunile scripturale precum și mai mulți Psalmi se pretează bine pentru acest scop."
+        "name": "RUGAȚI-VĂ PE BAZA CUVÂNTULUI",
+        "description": "Rugați-vă conform anumitor pasaje. Rugăciunile scripturii, precum și o serie de psalmi vă vor fi de folos în acest scop."
       },
       "thank": {
-        "name": "MULȚUMEȘTE",
-        "description": "Mulțumește-I Domnului pentru lucrurile din viața ta, în numele familiei tale și în numele bisericii tale."
+        "name": "MULȚUMIRE",
+        "description": "Mulțumește Domnului pentru lucrurile din viața ta, în numele familiei tale și al bisericii tale."
       },
       "sing": {
-        "name": "CÂNTĂ",
-        "description": "Cântă cântări de laudă sau închinare sau un alt imn sau cântec spiritual."
+        "name": "CÂNTARE",
+        "description": "Cântați cântece de laudă sau de închinare sau un alt imn sau cântec spiritual."
       },
       "meditate": {
-        "name": "MEDITEAZĂ",
-        "description": "Cere-I Domnului să îți vorbească. Ai un pix și hârtie pregătite pentru a înregistra impresiile pe care ți le dă."
+        "name": "MEDITARE",
+        "description": "Cere-I Domnului să-ți vorbească. Pregătiți un pix și o hârtie pentru a înregistra impresiile pe care ți le dă El."
       },
       "listen": {
-        "name": "ASCULTĂ",
-        "description": "Petrece timp îmbinând lucrurile pe care le-ai citit, lucrurile pentru care te-ai rugat și lucrurile pe care le-ai cântat și vezi cum le aduce Domnul pe toate laolaltă pentru a-ți vorbi."
+        "name": "ASCULTARE",
+        "description": "Petreceți timp îmbinând lucrurile pe care le-ați citit, lucrurile pe care le-ați rugat și lucrurile pe care le-ați cântat și vedeți cum Domnul le aduce pe toate împreună pentru a vă vorbi."
       },
       "praise_end": {
         "name": "LAUDĂ",
-        "description": "Laudă-L pe Domnul pentru timpul pe care l-ai petrecut cu El și pentru impresiile pe care ți le-a dat. Laudă-L pentru atributele Lui glorioase."
+        "description": "Lăudați-L pe Domnul pentru timpul pe care l-ați petrecut cu El și pentru impresiile pe care vi le-a dat. Lăudați-L pentru atributele Sale glorioase."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Previne estomparea sau închiderea ecranului în timpul sesiunilor de rugăciune",
       "not_supported": "Blocarea de trezire a ecranului nu este suportată în acest browser"
     },
-    "version": "Versiune"
+    "version": "Versiune",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

@@ -6,52 +6,52 @@
   "prayer": {
     "steps": {
       "praise": {
-        "name": "HVALA",
-        "description": "Započnite svoj sat molitve slaveći Gospodina. Slavite Ga za stvari koje su vam trenutno na umu. Slavite ga za jednu posebnu stvar koju je učinio u vašem životu protekle sedmice. Hvalite ga za Njegovu dobrotu prema vašoj porodici."
+        "name": "SLAVLJENJE",
+        "description": "Započnite svoj molitveni sat slavljenjem Gospoda. Slavite Ga za stvari koje su vam trenutno na umu. Pohvalite Ga za jednu posebnu stvar koju je učinio u vašem životu u protekloj sedmici. Zahvaljujte Mu za Njegovu dobrotu prema vašoj porodici."
       },
       "wait": {
         "name": "ČEKANJE",
-        "description": "Provedite vrijeme čekajući Gospoda. Budite u tišini i dopustite Njemu da vas vodi."
+        "description": "Provedite vrijeme čekajući Gospoda. Šutite i dopustite mu da vam govori."
       },
       "confess": {
-        "name": "PRIZNANJE",
-        "description": "Zamolite Svetog Duha da vam pokaže bilo šta u vašem životu s čim On nije zadovoljan. Zamolite ga da ukaže na pogrešne stavove, kao i na određene postupke za koje još se još niste pokajali. Sada to priznajte Gospodinu da biste se mogli očistiti."
+        "name": "PRIZNAVANJE",
+        "description": "Zamolite Svetoga Duha da vam pokaže bilo šta u vašem životu s čim nije zadovoljan. Zamolite Ga da ukaže na pogrešne stavove, kao i na konkretna djela za koja se još niste pokajali. Sada priznajte to Gospodu da biste bili očišćeni."
       },
       "read_the_word": {
-        "name": "ČITANJE RIJEČI",
-        "description": "Provedite vrijeme čitajući Psalme, proroke ili odlomke iz molitvi koje se nalazi u Novom zavjetu."
+        "name": "ČITANJE BOŽJE RIJEČI",
+        "description": "Provedite vrijeme čitajući psalme, proroke ili odlomke o molitvi koji se nalaze u Novom zavjetu."
       },
       "ask": {
-        "name": "PITANJE",
+        "name": "ZAHTJEVANJE",
         "description": "Podnosite zahtjeve u svoje ime."
       },
       "intercession": {
         "name": "POSREDOVANJE",
-        "description": "Podnosite zahtjeve u ime drugih."
+        "description": "Zahtijevajte u ime drugih."
       },
       "pray_the_word": {
-        "name": "MOLITE RIJEČ",
-        "description": "Molite određene odlomke. Biblijske molitve, kao i brojni psalmi dobro odgovaraju ovoj svrsi."
+        "name": "MOLITVA NA OSNOVU RIJEČI",
+        "description": "Molite po primjeru na određene odlomke. Biblijske molitve kao i brojni psalami dobro se uklapaju u tu svrhu."
       },
       "thank": {
-        "name": "ZAHVALNOST",
-        "description": "Zahvalite Gospodu za stvari u vašem životu, u ime vaše porodice i u ime vaše crkve."
+        "name": "ZAHVALJIVANJE",
+        "description": "Zahvalite se Gospodu za stvari u vašem životu, u ime svoje porodice i u ime vaše crkve."
       },
       "sing": {
         "name": "PJEVANJE",
-        "description": "Pjevajte pjesme hvale ili obožavanja ili drugu duhovnu pjesmu."
+        "description": "Pjevajte pjesme hvale ili obožavanja ili neku drugu himnu ili duhovnu pjesmu."
       },
       "meditate": {
-        "name": "MEDITACIJA",
-        "description": "Zamolite Gospoda da vam govori. Pripremite olovku i papir za pisanje utisaka koje vam daje."
+        "name": "MEDITIACIJA",
+        "description": "Zamolite Gospodina da razgovara s vama. Pripremite olovku i papir da zabilježite utiske koje vam On daje."
       },
       "listen": {
         "name": "SLUŠANJE",
-        "description": "Provedite vrijeme povezujući ono što ste pročitali, ono što ste molili i ono što ste pjevali i pogledajte kako Gospod sve to spaja da bi vam govorio."
+        "description": "Provedite vrijeme povezujući stvari koje ste pročitali, stvari koje ste molili i stvari koje ste pjevali i pogledajte kako ih Gospod sve povezuje da vam govore."
       },
       "praise_end": {
-        "name": "HVALA",
-        "description": "Hvalite Gospoda za vrijeme koje ste proveli s Njim i za utiske koje vam je dao. Hvalite Ga za Njegove slavne atribute."
+        "name": "SLAVLJENJE",
+        "description": "Hvalite Gospoda za vreme koje ste morali da provedete sa Njim i utiske koje vam je dao. Hvalite Ga za Njegove veličanstvene osobine."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Spriječi zamračivanje ili gašenje ekrana tokom sesija molitve",
       "not_supported": "Zaključavanje ekrana nije podržano u ovom pretraživaču"
     },
-    "version": "Verzija"
+    "version": "Verzija",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

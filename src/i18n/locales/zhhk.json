@@ -7,19 +7,19 @@
     "steps": {
       "praise": {
         "name": "讚美",
-        "description": "以讚美主來開始你們的禱告時間，腦海中想到什麼讚美神的話，就用那些來讚美祂。"
+        "description": "以讚美主作開始。為你現在想到的事讚美祂，讚美祂過去一星期在你的生活中所做的一件特別的事情；讚美祂對你家人的仁慈。"
       },
       "wait": {
         "name": "等候",
-        "description": "花點時間安靜下來等候神，沉澱一下思緒。"
+        "description": "用這段時間等候主。讓祂為你整理思考，思想你前面的時刻以及你希望主在你生命中做的事情。"
       },
       "confess": {
         "name": "認罪",
-        "description": "求聖靈光照，看看在生活上有沒有任何不討神喜悅的事，不正確的態度..."
+        "description": "求聖靈向你顯明你生命中任何可能令祂不悅的事。求祂指出錯誤的態度，以及你尚未為之認罪的某些行徑。現在向主承認過錯，得主赦免潔淨。"
       },
       "read_the_word": {
         "name": "讀經",
-        "description": "花點時間閱讀聖經中的詩篇、先知書，以及新約裏有關禱告的經文。"
+        "description": "花時間閱讀詩篇、先知書中神的應許和新約中有關禱告的章節。"
       },
       "ask": {
         "name": "懇求",
@@ -27,31 +27,31 @@
       },
       "intercession": {
         "name": "代求",
-        "description": "為別人向神代求。"
+        "description": "為他人向神代求。"
       },
       "pray_the_word": {
         "name": "禱讀",
-        "description": "以神的話語來做回應禱告；如聖經中的禱文，特別在詩篇裏有許多禱告..."
+        "description": "用經文來禱告。如聖經中的禱詞，特別在詩篇裏有許多祈禱，都非常適合。"
       },
       "thank": {
-        "name": "感恩",
-        "description": "為自己生活上、家人、教會事工所蒙的恩向神獻上感謝。"
+        "name": "感謝",
+        "description": "感謝主為你生命中所作的；也為神在你的家人和你的教會所成就的事情感謝祂。"
       },
       "sing": {
         "name": "唱詩",
-        "description": "唱一首詩歌或聖詩去敬拜讚美神。"
+        "description": "唱讚美敬拜的歌、詩歌或靈歌去讚美神。"
       },
       "meditate": {
         "name": "默想",
-        "description": "靜默禱告並求神對你們說話。準備好紙筆，把祂所給的感受寫下來。"
+        "description": "求主對你說話。手邊準備好紙和筆，記述祂給你的啓示。"
       },
       "listen": {
         "name": "聆聽",
-        "description": "再花點時間整理所閱讀的、所禱告的、所唱的歌，看神如何融合這一切對你們說話。"
+        "description": "花時間把你從聖經中所讀到的內容、你所禱告的內容、以及你所唱詩歌的內容合併起來，看看主如何將它們整合一起向你說話。"
       },
       "praise_end": {
         "name": "讚美",
-        "description": "為time spent with God and impressions given, praising His attributes."
+        "description": "為有這段與祂親近共渡的美好時光、以及為祂給你的感觸，讚美主。也為祂當得的榮耀，讚美祂。"
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "防止屏幕在禱告會話期間變暗或關閉",
       "not_supported": "此瀏覽器不支援屏幕喚醒鎖定"
     },
-    "version": "版本"
+    "version": "版本",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

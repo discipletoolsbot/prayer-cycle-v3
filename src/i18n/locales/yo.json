@@ -7,51 +7,51 @@
     "steps": {
       "praise": {
         "name": "Ìyìn",
-        "description": "Bẹ̀rẹ̀ àkókò àdúrà rẹ nípa yíyin Olúwa. Yìn Ú fún àwọn ohun tí ó wà ní inú ọkàn rẹ báyìí. Yìn Ú fún nǹkan pàtàkì kan tí Ó ṣe ní ìgbésí ayé rẹ ní ọ̀sẹ̀ tó kọjá. Yìn Ú fún oore Rẹ̀ sí ẹbí rẹ."
+        "description": "bere wakati adura re nipa yinyin oluwa. Yin fun nkan to wa lokan re ni bayi. yin fun nkan kan to se pataki to se ninu igbesiaye re ni ose to koja. yin fun oore ofe re si ebi re."
       },
       "wait": {
         "name": "Dúró",
-        "description": "Lo àkókò láti dúró de Olúwa. Dákẹ́ kí O sì jẹ́ kí Ó kó àwọn èrò jọ fún ọ."
+        "description": "lo akoko lati duro de oluwa. se idakeje lati je ki o fa awon isaro papo fun o."
       },
       "confess": {
         "name": "Jẹ́wọ́",
-        "description": "Béèrè lọ́wọ́ Ẹ̀mí Mímọ́ láti fihàn ọ́ ohunkóhun nínú ìgbésí ayé rẹ tí ó lè mú inú Rẹ̀ bàjẹ́. Béèrè lọ́wọ́ Rẹ̀ láti tọ́ka sí àwọn ìhùwàsí tí kò tọ́, àti àwọn iṣẹ́ pàtàkì tí o kò tíì gbàdúrà ìjẹ́wọ́ fún. Báyìí jẹ́wọ́ fún Olúwa kí o lè di mímọ́."
+        "description": "beere fun emimimo lati ohunlohun han o ninu igbesi aye re ti o le ma mun inu bii. beere lowo re lati toka si awon iwa ti ko to, ati awon isesi kan pato ti iwo ko ti se adura ijewo fun. nisisiyin jewo re fun oluwa ki o le di mimo."
       },
       "read_the_word": {
         "name": "Ka Ọ̀rọ̀",
-        "description": "Lo àkókò láti ka nínú àwọn Saamu, àwọn Wòlíì, tàbí àwọn ìpínrọ̀ nípa àdúrà tí ó wà nínú Májẹ̀mú Tuntun."
+        "description": "lo akoko lati ka iwe Psalmu, ninu awon woli, tabi awon oro lori adura to wa ninu majemu titun."
       },
       "ask": {
         "name": "Béèrè",
-        "description": "Ṣe àwọn ìbéèrè lórí ara rẹ."
+        "description": "se awon ibeere fun ara re."
       },
       "intercession": {
         "name": "Àáríyànjiyàn",
-        "description": "Ṣe àwọn ìbéèrè lórí àwọn ẹlòmíràn."
+        "description": "se awon ibeere fun awon miran"
       },
       "pray_the_word": {
         "name": "Gbàdúrà Ọ̀rọ̀",
-        "description": "Gbàdúrà àwọn ìpínrọ̀ pàtàkì. Àwọn àdúrà Mímọ́ àti ọ̀pọ̀lọpọ̀ Saamu wúlò dáadáa fún ète yìí."
+        "description": "Gbadura esé kan pato, adura to ba iwe mimo mun, ati opo saamu fun idi yi."
       },
       "thank": {
         "name": "Dúpẹ́",
-        "description": "Dúpẹ́ lọ́wọ́ Olúwa fún àwọn nǹkan nínú ìgbésí ayé rẹ, lórí ẹbí rẹ, àti lórí ìjọ rẹ."
+        "description": "dupe lowow oluwa fun ohun ti o nse ninu aye re, lori awon ebi re, ati lori ile ijosin re."
       },
       "sing": {
         "name": "Kọrin",
-        "description": "Kọ àwọn orin ìyìn tàbí ìsìn tàbí orin ẹ̀mí mìíràn."
+        "description": "ko orin ope tabi iyin tabi orin iyin tabi orin emi."
       },
       "meditate": {
         "name": "Ṣàgbéyẹ̀wò",
-        "description": "Béèrè lọ́wọ́ Olúwa láti bá ọ sọ̀rọ̀. Mú kálámù àti ìwé ṣetán láti ṣe àkọsílẹ̀ àwọn ìmọ̀lára tí Ó fún ọ."
+        "description": "beere lowo oluwa ki o ba o soro. wa ikowe ati iwe sile lati se igbasileamin to fun o."
       },
       "listen": {
         "name": "Fetísílẹ̀",
-        "description": "Lo àkókò láti dàpọ̀ àwọn ohun tí o ti kà, àwọn ohun tí o ti gbàdúrà àti àwọn ohun tí o ti kọrin kí o sì wo bí Olúwa ṣe ń kó gbogbo wọn jọ láti bá ọ sọ̀rọ̀."
+        "description": "lo akoko lati se idapoohun ti o ti ka, ohun to gbadura fun ati awon ohun ti o ti ko ati ri bi oluwa se n mun gbogbo papo lati ba o soro."
       },
       "praise_end": {
         "name": "Ìyìn",
-        "description": "Yìn Olúwa fún àkókò tí o ti lò pẹ̀lú Rẹ̀ àti àwọn ìmọ̀lára tí Ó ti fún ọ. Yìn Ú fún àwọn àbùdá Rẹ̀ tí ó ní ògo."
+        "description": "dupe lowo oluwa fun akoko ti o lo pelu re ati awon ifihan ti o fun o. dupe lowo re fun awon ologo abuda."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Dènà ojú-ìwé láti di díndín tàbí pípa nígbà àwọn ìgbà àdúrà",
       "not_supported": "Tití ìjí ojú-ìwé kò ṣiṣẹ́ nínú aṣàwákiri yìí"
     },
-    "version": "Ẹ̀yà"
+    "version": "Ẹ̀yà",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

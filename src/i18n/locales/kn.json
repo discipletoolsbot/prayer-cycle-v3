@@ -93,6 +93,13 @@
       "description": "ಪ್ರಾರ್ಥನೆಯ ಸೆಷನ್‌ಗಳ ಸಮಯದಲ್ಲಿ ಪರದೆಯು ಮಂಕಾಗುವುದರಿಂದ ಅಥವಾ ಆಫ್ ಆಗುವುದರಿಂದ ತಡೆಯಿರಿ",
       "not_supported": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪರದೆ ವೇಕ್ ಲಾಕ್ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ"
     },
-    "version": "ಆವೃತ್ತಿ"
+    "version": "ಆವೃತ್ತಿ",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

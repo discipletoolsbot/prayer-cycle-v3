@@ -14,7 +14,7 @@
         "description": "Preživi čas v čakanju na Gospoda. Bodi tiho in mu dovoli, da on izbere, o čem razmišljaš."
       },
       "confess": {
-        "name": "PRIZNANJE",
+        "name": "PRIZNAVANJE GREHOV",
         "description": "Prosi Svetega Duha, naj ti pokaže, kaj v tvojem življenju mu ni po volji. Prosi ga, naj te opozori na napačne drže in na določena dejanja, za katera se še nisi spovedal v molitvi. Zdaj pa to priznaj Gospodu, da boš očiščen."
       },
       "read_the_word": {
@@ -26,15 +26,15 @@
         "description": "Prosi zase."
       },
       "intercession": {
-        "name": "POSREDOVANJE",
+        "name": "POSREDNIŠKA MOLITEV",
         "description": "Prosi za druge."
       },
       "pray_the_word": {
-        "name": "MOLI BESEDO",
+        "name": "MOLITEV BESEDE",
         "description": "Moli odlomke iz Svetega pisma. Za to so posebej primerne molitve iz Svetega pisma in številni psalmi."
       },
       "thank": {
-        "name": "ZAHVALNOST",
+        "name": "ZAHVALA",
         "description": "Zahvali se Gospodu za stvari v svojem življenju, v imenu svoje družine in v imenu svoje cerkve."
       },
       "sing": {
@@ -42,16 +42,16 @@
         "description": "Poj slavilne pesmi Bogu ali kakšno himno ali duhovno pesem."
       },
       "meditate": {
-        "name": "MEDITACIJA",
-        "description": "Prosi Gospoda, naj ti spregovori. Pripravi si papir in pisalo, da si lahko zapišeš, kar ti pove oz. pokaže."
+        "name": "PREMIŠLJEVANJE",
+        "description": "Prosi Gospoda, naj ti spregovori. Pripravi si papir in pisalo, da si lahko zapišeš, kaj ti pove oz. pokaže."
       },
       "listen": {
         "name": "POSLUŠANJE",
-        "description": "Preživi čas v razmišljanju o tem, kar si prebral, kar si molil, in kar si pel in poglej, kako Gospod vse to poveže, da bi ti govoril."
+        "description": "Preživi čas v razmišljanju o tem, kar si prebral, kar si molil, in kar si pel, ter opazuj, kako Gospod vse to poveže in ti tako spregovori."
       },
       "praise_end": {
         "name": "HVALNICA",
-        "description": "Hvali Gospoda za čas, ki si ga preživel z njim, in za vtise, ki ti jih je dal. Hvali ga za njegove veličastne lastnosti."
+        "description": "Hvali Gospoda za čas, ki si ga preživel z njim, in za vse, kar ti je povedal oz. pokazal. Hvali ga za njegove veličastne lastnosti."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Prepreči zatemnitev ali izklop zaslona med molitvenimi sejami",
       "not_supported": "Zaklepanje zaslona ni podprto v tem brskalniku"
     },
-    "version": "Različica"
+    "version": "Različica",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }

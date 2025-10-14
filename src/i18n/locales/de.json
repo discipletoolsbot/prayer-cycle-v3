@@ -7,7 +7,7 @@
     "steps": {
       "praise": {
         "name": "LOBE",
-        "description": "Beginne deine Gebetsstunde damit, dass du den Herrn lobst. Lobe ihn für die Dinge, die dir gerade jetzt durch den Kopf gehen. Lobe ihn für eine besondere Sache, die er in der vergangenen Woche in deinem Leben getan hat. Lobe ihn für seine Güte gegenüber deiner Familie."
+        "description": "Beginne deine Gebetsstunde damit, dass du den Herrn lobst. Lobe ihn für die Dinge, die dir gerade durch den Kopf gehen. Lobe ihn für eine besondere Sache, die er in der vergangenen Woche in deinem Leben getan hat. Lobe ihn für seine Güte gegenüber deiner Familie."
       },
       "wait": {
         "name": "WARTE",
@@ -51,7 +51,7 @@
       },
       "praise_end": {
         "name": "LOBE",
-        "description": "Lobe den Herrn für die Zeit, die du mit ihm verbringen durftest, und für die Eindrücke, die er dir gegeben hat. Lobe ihn für seine herrlichen Eigenschaften."
+        "description": "Lobe den Herrn für die Zeit, die du mit ihm verbringen konntest, und für die Eindrücke, die er dir vermittelt hat. Lobe ihn für seine herrlichen Eigenschaften."
       }
     },
     "timer": {
@@ -93,6 +93,13 @@
       "description": "Verhindern, dass der Bildschirm während der Gebetssitzungen abdunkelt oder sich ausschaltet",
       "not_supported": "Bildschirmsperre wird in diesem Browser nicht unterstützt"
     },
-    "version": "Version"
+    "version": "Version",
+    "theme": {
+      "title": "Theme",
+      "auto": "Auto",
+      "light": "Light",
+      "dark": "Dark",
+      "description": "Choose your preferred color theme"
+    }
   }
 }
