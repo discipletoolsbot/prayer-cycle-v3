@@ -236,13 +236,14 @@ function handleRestart(): void {
 
 .timer-controls__button--primary.timer-controls__button--active {
   background: var(--pc-warning);
-  color: var(--color-text);
+  color: var(--pc-black);
   border-color: #e6a800;
   box-shadow: var(--shadow-md);
 }
 
 .timer-controls__button--primary.timer-controls__button--active:hover:not(:disabled) {
   background: #e6a800;
+  color: var(--pc-black);
   border-color: #cc9900;
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
