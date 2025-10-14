@@ -95,11 +95,11 @@
     },
     "version": "ورژن",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "تھیم",
+      "auto": "خودکار",
+      "light": "ہلکا",
+      "dark": "گہرا",
+      "description": "اپنی پسندیدہ رنگ تھیم منتخب کریں"
     }
   }
 }

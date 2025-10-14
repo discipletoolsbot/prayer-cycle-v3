@@ -95,11 +95,11 @@
     },
     "version": "সংস্করণ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "থিম",
+      "auto": "স্বয়ংক্রিয়",
+      "light": "হালকা",
+      "dark": "গাঢ়",
+      "description": "আপনার পছন্দের রঙের থিম বেছে নিন"
     }
   }
 }

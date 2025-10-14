@@ -95,11 +95,11 @@
     },
     "version": "Nooca",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Qaab",
+      "auto": "Iswada",
+      "light": "Iftiinka",
+      "dark": "Mugdi",
+      "description": "Dooro qaabka midabka aad jeceshahay"
     }
   }
 }

@@ -95,11 +95,11 @@
     },
     "version": "Sigar",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Jigo",
+      "auto": "Atomatik",
+      "light": "Haske",
+      "dark": "Duhu",
+      "description": "Zaɓi jigon launi da kuka fi so"
     }
   }
 }

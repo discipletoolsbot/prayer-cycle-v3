@@ -95,11 +95,11 @@
     },
     "version": "ስሪት",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ገጽታ",
+      "auto": "ራስ-ሰር",
+      "light": "ብርሃን",
+      "dark": "ጨለማ",
+      "description": "የእርስዎን ተመራጭ የቀለም ገጽታ ይምረጡ"
     }
   }
 }

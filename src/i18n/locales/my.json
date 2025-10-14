@@ -95,11 +95,11 @@
     },
     "version": "ဗားရှင်း",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "အပြင်အဆင်",
+      "auto": "အလိုအလျောက်",
+      "light": "တောက်",
+      "dark": "မှောင်",
+      "description": "သင်နှစ်သက်သော အရောင် အပြင်အဆင်ကို ရွေးချယ်ပါ"
     }
   }
 }

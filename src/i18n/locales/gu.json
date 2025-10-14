@@ -95,11 +95,11 @@
     },
     "version": "આવૃત્તિ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "થીમ",
+      "auto": "સ્વતઃ",
+      "light": "હલકો",
+      "dark": "ઘેરો",
+      "description": "તમારી પસંદગીની રંગ થીમ પસંદ કરો"
     }
   }
 }

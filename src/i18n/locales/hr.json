@@ -95,11 +95,11 @@
     },
     "version": "Verzija",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Tema",
+      "auto": "Automatski",
+      "light": "Svijetla",
+      "dark": "Tamna",
+      "description": "Odaberite željenu temu boja"
     }
   }
 }

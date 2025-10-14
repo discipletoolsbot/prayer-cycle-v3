@@ -95,11 +95,11 @@
     },
     "version": "సంస్కరణ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "థీమ్",
+      "auto": "ఆటో",
+      "light": "లైట్",
+      "dark": "డార్క్",
+      "description": "మీకు నచ్చిన రంగు థీమ్‌ను ఎంచుకోండి"
     }
   }
 }

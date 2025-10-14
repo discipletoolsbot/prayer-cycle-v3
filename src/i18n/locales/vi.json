@@ -95,11 +95,11 @@
     },
     "version": "Phiên bản",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Chủ đề",
+      "auto": "Tự động",
+      "light": "Sáng",
+      "dark": "Tối",
+      "description": "Chọn chủ đề màu ưa thích của bạn"
     }
   }
 }

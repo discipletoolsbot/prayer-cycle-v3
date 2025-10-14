@@ -95,11 +95,11 @@
     },
     "version": "Version",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Thème",
+      "auto": "Automatique",
+      "light": "Clair",
+      "dark": "Sombre",
+      "description": "Choisissez votre thème de couleur préféré"
     }
   }
 }

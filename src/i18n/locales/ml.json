@@ -95,11 +95,11 @@
     },
     "version": "പതിപ്പ്",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "തീം",
+      "auto": "യാന്ത്രികം",
+      "light": "വെളിച്ചം",
+      "dark": "ഇരുണ്ടത്",
+      "description": "നിങ്ങളുടെ ഇഷ്ടപ്പെട്ട വർണ്ണ തീം തിരഞ്ഞെടുക്കുക"
     }
   }
 }

@@ -95,11 +95,11 @@
     },
     "version": "Toleo",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Mandhari",
+      "auto": "Kiotomatiki",
+      "light": "Nyepesi",
+      "dark": "Nyeusi",
+      "description": "Chagua mandhari ya rangi unayopendelea"
     }
   }
 }

@@ -95,11 +95,11 @@
     },
     "version": "संस्करण",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "थिम",
+      "auto": "स्वचालित",
+      "light": "हल्का",
+      "dark": "गाढा",
+      "description": "आफ्नो मनपर्ने रङ थिम छनोट गर्नुहोस्"
     }
   }
 }

@@ -95,11 +95,11 @@
     },
     "version": "เวอร์ชัน",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ธีม",
+      "auto": "อัตโนมัติ",
+      "light": "สว่าง",
+      "dark": "มืด",
+      "description": "เลือกธีมสีที่คุณต้องการ"
     }
   }
 }

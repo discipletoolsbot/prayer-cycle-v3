@@ -95,11 +95,11 @@
     },
     "version": "版本",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "主題",
+      "auto": "自動",
+      "light": "淺色",
+      "dark": "深色",
+      "description": "選擇您喜歡的顏色主題"
     }
   }
 }

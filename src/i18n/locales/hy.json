@@ -95,11 +95,11 @@
     },
     "version": "Տարբերակ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Թեմա",
+      "auto": "Ավտոմատ",
+      "light": "Բաց",
+      "dark": "Մուգ",
+      "description": "Ընտրեք ձեր նախընտրած գունային թեման"
     }
   }
 }

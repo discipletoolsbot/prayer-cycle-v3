@@ -95,11 +95,11 @@
     },
     "version": "ਸੰਸਕਰਣ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ਥੀਮ",
+      "auto": "ਸਵੈ",
+      "light": "ਹਲਕਾ",
+      "dark": "ਗੂੜ੍ਹਾ",
+      "description": "ਆਪਣੀ ਪਸੰਦੀਦਾ ਰੰਗ ਥੀਮ ਚੁਣੋ"
     }
   }
 }

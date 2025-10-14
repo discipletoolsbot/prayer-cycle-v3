@@ -95,11 +95,11 @@
     },
     "version": "ಆವೃತ್ತಿ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ಥೀಮ್",
+      "auto": "ಸ್ವಯಂ",
+      "light": "ತಿಳಿ",
+      "dark": "ಗಾಢ",
+      "description": "ನಿಮ್ಮ ಆದ್ಯತೆಯ ಬಣ್ಣದ ಥೀಮ್ ಆಯ್ಕೆಮಾಡಿ"
     }
   }
 }

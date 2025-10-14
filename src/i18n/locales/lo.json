@@ -95,11 +95,11 @@
     },
     "version": "ເວີຊັນ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ຮູບແບບ",
+      "auto": "ອັດຕະໂນມັດ",
+      "light": "ສະຫວ່າງ",
+      "dark": "ມືດ",
+      "description": "ເລືອກຮູບແບບສີທີ່ທ່ານມັກ"
     }
   }
 }

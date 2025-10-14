@@ -95,11 +95,11 @@
     },
     "version": "버전",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "테마",
+      "auto": "자동",
+      "light": "밝게",
+      "dark": "어둡게",
+      "description": "선호하는 색상 테마를 선택하세요"
     }
   }
 }

@@ -95,11 +95,11 @@
     },
     "version": "الإصدار",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "المظهر",
+      "auto": "تلقائي",
+      "light": "فاتح",
+      "dark": "داكن",
+      "description": "اختر المظهر اللوني المفضل لديك"
     }
   }
 }

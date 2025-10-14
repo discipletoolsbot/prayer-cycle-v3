@@ -95,11 +95,11 @@
     },
     "version": "نسخه",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "پوسته",
+      "auto": "خودکار",
+      "light": "روشن",
+      "dark": "تیره",
+      "description": "پوسته رنگی دلخواه خود را انتخاب کنید"
     }
   }
 }

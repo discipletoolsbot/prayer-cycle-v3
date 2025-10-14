@@ -95,11 +95,11 @@
     },
     "version": "Версия",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Тема",
+      "auto": "Авто",
+      "light": "Светлая",
+      "dark": "Тёмная",
+      "description": "Выберите предпочтительную цветовую тему"
     }
   }
 }

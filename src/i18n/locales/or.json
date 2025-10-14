@@ -95,11 +95,11 @@
     },
     "version": "ସଂସ୍କରଣ",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "ଥିମ୍",
+      "auto": "ସ୍ୱୟଂଚାଳିତ",
+      "light": "ହାଲକା",
+      "dark": "ଗାଢ଼",
+      "description": "ଆପଣଙ୍କର ପସନ୍ଦର ରଙ୍ଗ ଥିମ୍ ବାଛନ୍ତୁ"
     }
   }
 }

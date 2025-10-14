@@ -95,11 +95,11 @@
     },
     "version": "バージョン",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "テーマ",
+      "auto": "自動",
+      "light": "ライト",
+      "dark": "ダーク",
+      "description": "好みのカラーテーマを選択してください"
     }
   }
 }

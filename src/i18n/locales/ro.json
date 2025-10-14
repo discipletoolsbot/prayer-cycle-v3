@@ -95,11 +95,11 @@
     },
     "version": "Versiune",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "Temă",
+      "auto": "Automat",
+      "light": "Deschis",
+      "dark": "Întunecat",
+      "description": "Alege tema de culori preferată"
     }
   }
 }

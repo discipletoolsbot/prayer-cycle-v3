@@ -95,11 +95,11 @@
     },
     "version": "பதிப்பு",
     "theme": {
-      "title": "Theme",
-      "auto": "Auto",
-      "light": "Light",
-      "dark": "Dark",
-      "description": "Choose your preferred color theme"
+      "title": "தீம்",
+      "auto": "தானியங்கி",
+      "light": "வெளிர்",
+      "dark": "அடர்",
+      "description": "உங்களுக்கு விருப்பமான நிற தீம் தேர்ந்தெடுக்கவும்"
     }
   }
 }
