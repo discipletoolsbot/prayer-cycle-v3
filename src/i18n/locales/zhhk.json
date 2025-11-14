@@ -1,105 +1,105 @@
 {
-  "app": {
-    "title": "禱告週期",
-    "install": "安裝應用程式"
-  },
-  "prayer": {
-    "steps": {
-      "praise": {
-        "name": "讚美",
-        "description": "以讚美主作開始。為你現在想到的事讚美祂，讚美祂過去一星期在你的生活中所做的一件特別的事情；讚美祂對你家人的仁慈。"
-      },
-      "wait": {
-        "name": "等候",
-        "description": "用這段時間等候主。讓祂為你整理思考，思想你前面的時刻以及你希望主在你生命中做的事情。"
-      },
-      "confess": {
-        "name": "認罪",
-        "description": "求聖靈向你顯明你生命中任何可能令祂不悅的事。求祂指出錯誤的態度，以及你尚未為之認罪的某些行徑。現在向主承認過錯，得主赦免潔淨。"
-      },
-      "read_the_word": {
-        "name": "讀經",
-        "description": "花時間閱讀詩篇、先知書中神的應許和新約中有關禱告的章節。"
-      },
-      "ask": {
-        "name": "懇求",
-        "description": "為自己向神懇求。"
-      },
-      "intercession": {
-        "name": "代求",
-        "description": "為他人向神代求。"
-      },
-      "pray_the_word": {
-        "name": "禱讀",
-        "description": "用經文來禱告。如聖經中的禱詞，特別在詩篇裏有許多祈禱，都非常適合。"
-      },
-      "thank": {
-        "name": "感謝",
-        "description": "感謝主為你生命中所作的；也為神在你的家人和你的教會所成就的事情感謝祂。"
-      },
-      "sing": {
-        "name": "唱詩",
-        "description": "唱讚美敬拜的歌、詩歌或靈歌去讚美神。"
-      },
-      "meditate": {
-        "name": "默想",
-        "description": "求主對你說話。手邊準備好紙和筆，記述祂給你的啓示。"
-      },
-      "listen": {
-        "name": "聆聽",
-        "description": "花時間把你從聖經中所讀到的內容、你所禱告的內容、以及你所唱詩歌的內容合併起來，看看主如何將它們整合一起向你說話。"
-      },
-      "praise_end": {
-        "name": "讚美",
-        "description": "為有這段與祂親近共渡的美好時光、以及為祂給你的感觸，讚美主。也為祂當得的榮耀，讚美祂。"
-      }
+    "app": {
+        "title": "禱告輪",
+        "install": "安裝應用程式"
     },
-    "timer": {
-      "start": "開始",
-      "pause": "暫停",
-      "resume": "繼續",
-      "next": "下一步",
-      "reset": "重置",
-      "completed": "已完成",
-      "step": "步驟",
-      "of": "的",
-      "aria": {
-        "start_cycle": "開始禱告週期",
-        "pause_step": "暫停當前步驟",
-        "resume_step": "繼續當前步驟",
-        "cycle_completed": "禱告週期已完成",
-        "next_step": "跳至下一個禱告步驟",
-        "restart_cycle": "從頭重新開始禱告週期"
-      }
+    "prayer": {
+        "steps": {
+            "praise": {
+                "name": "讚美",
+                "description": "以讚美主作開始。為你現在想到的事讚美祂，讚美祂過去一星期在你的生活中所做的一件特別的事情；讚美祂對你家人的仁慈。"
+            },
+            "wait": {
+                "name": "等候",
+                "description": "用這段時間等候主。讓祂為你整理思考，思想你前面的時刻以及你希望主在你生命中做的事情。"
+            },
+            "confess": {
+                "name": "認罪",
+                "description": "求聖靈向你顯明你生命中任何可能令祂不悅的事。求祂指出錯誤的態度，以及你尚未為之認罪的某些行徑。現在向主承認過錯，得主赦免潔淨。"
+            },
+            "read_the_word": {
+                "name": "讀經",
+                "description": "花時間閱讀詩篇、先知書中神的應許和新約中有關禱告的章節。"
+            },
+            "ask": {
+                "name": "懇求",
+                "description": "為自己向神懇求。"
+            },
+            "intercession": {
+                "name": "代求",
+                "description": "為他人向神代求。"
+            },
+            "pray_the_word": {
+                "name": "禱讀",
+                "description": "用經文來禱告。如聖經中的禱詞，特別在詩篇裏有許多祈禱，都非常適合。"
+            },
+            "thank": {
+                "name": "感謝",
+                "description": "感謝主為你生命中所作的；也為神在你的家人和你的教會所成就的事情感謝祂。"
+            },
+            "sing": {
+                "name": "唱詩",
+                "description": "唱讚美敬拜的歌、詩歌或靈歌去讚美神。"
+            },
+            "meditate": {
+                "name": "默想",
+                "description": "求主對你說話。手邊準備好紙和筆，記述祂給你的啓示。"
+            },
+            "listen": {
+                "name": "聆聽",
+                "description": "花時間把你從聖經中所讀到的內容、你所禱告的內容、以及你所唱詩歌的內容合併起來，看看主如何將它們整合一起向你說話。"
+            },
+            "praise_end": {
+                "name": "讚美",
+                "description": "為有這段與祂親近共渡的美好時光、以及為祂給你的感觸，讚美主。也為祂當得的榮耀，讚美祂。"
+            }
+        },
+        "timer": {
+            "start": "開始",
+            "pause": "暫停",
+            "resume": "繼續",
+            "next": "下一步",
+            "reset": "重置",
+            "completed": "已完成",
+            "step": "步驟",
+            "of": "的",
+            "aria": {
+                "start_cycle": "開始禱告輪",
+                "pause_step": "暫停當前步驟",
+                "resume_step": "繼續當前步驟",
+                "cycle_completed": "禱告輪已完成",
+                "next_step": "跳至下一個禱告步驟",
+                "restart_cycle": "從頭重新開始禱告輪"
+            }
+        },
+        "progress": {
+            "total_progress": "總進度"
+        }
     },
-    "progress": {
-      "total_progress": "總進度"
+    "settings": {
+        "title": "設定",
+        "close": "關閉設定",
+        "language": {
+            "title": "語言"
+        },
+        "audio": {
+            "title": "聲音",
+            "enable": "啟用聲音通知",
+            "description": "在禱告步驟之間轉換時，播放柔和的聲音"
+        },
+        "screen": {
+            "title": "螢幕",
+            "keep_awake": "禱告期間保持螢幕喚醒狀態",
+            "description": "防止螢幕在禱告期間變暗或關閉",
+            "not_supported": "此瀏覽器不支援螢幕喚醒鎖定"
+        },
+        "version": "版本",
+        "theme": {
+            "title": "主題",
+            "auto": "自動",
+            "light": "淺色",
+            "dark": "深色",
+            "description": "選擇您喜歡的顏色主題"
+        }
     }
-  },
-  "settings": {
-    "title": "設定",
-    "close": "關閉設定",
-    "language": {
-      "title": "語言"
-    },
-    "audio": {
-      "title": "音訊",
-      "enable": "啟用音訊通知",
-      "description": "在禱告步驟之間轉換時播放柔和的聲音"
-    },
-    "screen": {
-      "title": "屏幕",
-      "keep_awake": "禱告期間保持屏幕喚醒",
-      "description": "防止屏幕在禱告會話期間變暗或關閉",
-      "not_supported": "此瀏覽器不支援屏幕喚醒鎖定"
-    },
-    "version": "版本",
-    "theme": {
-      "title": "主題",
-      "auto": "自動",
-      "light": "淺色",
-      "dark": "深色",
-      "description": "選擇您喜歡的顏色主題"
-    }
-  }
 }
